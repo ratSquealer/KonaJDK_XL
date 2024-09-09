@@ -1,0 +1,2118 @@
+#Test Results (version 2)
+#Sun Sep 08 21:45:29 CST 2024
+#-----testdescription-----
+$file=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1/TestMixedGCLiveThreshold.java
+$root=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg
+id=90percent
+keywords=driver
+library=/test/lib
+requires=vm.gc.G1
+run=USER_SPECIFIED build jdk.test.whitebox.WhiteBox\nUSER_SPECIFIED driver jdk.test.lib.helpers.ClassFileInstaller jdk.test.whitebox.WhiteBox\nUSER_SPECIFIED driver gc.g1.TestMixedGCLiveThreshold 90 true\n
+source=TestMixedGCLiveThreshold.java
+title=Test G1MixedGCLiveThresholdPercent\=90.
+
+#-----environment-----
+
+#-----testresult-----
+description=file\:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1/TestMixedGCLiveThreshold.java\#90percent
+elapsed=20297 0\:00\:20.297
+end=Sun Sep 08 21\:45\:29 CST 2024
+environment=regtest
+execStatus=Passed. Execution successful
+harnessLoaderMode=Classpath Loader
+harnessVariety=Full Bundle
+hostname=zkyj-4080-1
+javatestOS=Linux 6.5.0-44-generic (amd64)
+javatestVersion=6.0-ea+b24-2024-08-23-${BUILT_FROM_COMMIT}
+jtregVersion=jtreg 7.3.1 dev 0
+script=com.sun.javatest.regtest.exec.RegressionScript
+sections=script_messages build build driver build compile driver
+start=Sun Sep 08 21\:45\:09 CST 2024
+test=gc/g1/TestMixedGCLiveThreshold.java\#90percent
+testJDK=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk
+testJDK_OS=[name\:Linux,arch\:amd64,version\:6.5.0-44-generic,family\:linux,simple_arch\:x64,simple_version\:6.5,processors\:72,maxMemory\:134786752512,maxSwap\:2147479552]
+testJDK_os.arch=amd64
+testJDK_os.name=Linux
+testJDK_os.version=6.5.0-44-generic
+totalTime=20360
+user.name=cxl
+work=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/gc/g1
+
+#section:script_messages
+----------messages:(7/633)----------
+JDK under test: /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk
+openjdk version "17.0.11-internal" 2024-04-16
+OpenJDK Runtime Environment (build 17.0.11-internal+0-adhoc.cxl.TencentKona-17-TencentKona-17.0.11)
+OpenJDK 64-Bit Server VM (build 17.0.11-internal+0-adhoc.cxl.TencentKona-17-TencentKona-17.0.11, mixed mode, sharing)
+Library /test/lib; kind: packages
+   source directory: /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/lib
+   class directory: /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/test/lib
+
+#section:build
+----------messages:(5/216)----------
+command: build jdk.test.whitebox.WhiteBox
+reason: User specified action: run build jdk.test.whitebox.WhiteBox 
+started: Sun Sep 08 21:45:09 CST 2024
+finished: Sun Sep 08 21:45:09 CST 2024
+elapsed time (seconds): 0.0
+result: Passed. All files up to date
+
+#section:build
+----------messages:(5/199)----------
+command: build jdk.test.lib.helpers.ClassFileInstaller
+reason: Named class compiled on demand
+started: Sun Sep 08 21:45:09 CST 2024
+finished: Sun Sep 08 21:45:09 CST 2024
+elapsed time (seconds): 0.0
+result: Passed. All files up to date
+
+#section:driver
+----------messages:(6/314)----------
+command: driver jdk.test.lib.helpers.ClassFileInstaller jdk.test.whitebox.WhiteBox
+reason: User specified action: run driver jdk.test.lib.helpers.ClassFileInstaller jdk.test.whitebox.WhiteBox 
+started: Sun Sep 08 21:45:09 CST 2024
+Mode: othervm
+finished: Sun Sep 08 21:45:09 CST 2024
+elapsed time (seconds): 0.066
+----------configuration:(0/0)----------
+----------System.out:(0/0)----------
+----------System.err:(1/15)----------
+STATUS:Passed.
+----------rerun:(28/2730)*----------
+cd /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/scratch && \\
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/999/bus \\
+DISPLAY=localhost:10.0 \\
+HOME=/home/cxl \\
+LANG=zh_CN.UTF-8 \\
+PATH=/bin:/usr/bin:/usr/sbin \\
+XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop \\
+XDG_RUNTIME_DIR=/run/user/999 \\
+XDG_SESSION_CLASS=user \\
+XDG_SESSION_ID=2223 \\
+XDG_SESSION_TYPE=tty \\
+CLASSPATH=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestMixedGCLiveThreshold_90percent.d:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/test/lib:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/lib:/home/cxl/projects/TencentKona/tools/jtreg/lib/javatest.jar:/home/cxl/projects/TencentKona/tools/jtreg/lib/jtreg.jar \\
+    /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk/bin/java \\
+        -Dtest.vm.opts= \\
+        -Dtest.tool.vm.opts= \\
+        -Dtest.compiler.opts= \\
+        -Dtest.java.opts= \\
+        -Dtest.jdk=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk \\
+        -Dcompile.jdk=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk \\
+        -Dtest.timeout.factor=1.0 \\
+        -Dtest.root=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg \\
+        -Dtest.name=gc/g1/TestMixedGCLiveThreshold.java#90percent \\
+        -Dtest.file=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1/TestMixedGCLiveThreshold.java \\
+        -Dtest.src=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1 \\
+        -Dtest.src.path=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/lib \\
+        -Dtest.classes=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestMixedGCLiveThreshold_90percent.d \\
+        -Dtest.class.path=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestMixedGCLiveThreshold_90percent.d:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/test/lib \\
+        com.sun.javatest.regtest.agent.MainWrapper /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/gc/g1/TestMixedGCLiveThreshold_90percent.d/driver.0.jta jdk.test.whitebox.WhiteBox
+result: Passed. Execution successful
+
+#section:build
+----------messages:(7/250)----------
+command: build gc.g1.TestMixedGCLiveThreshold
+reason: Named class compiled on demand
+started: Sun Sep 08 21:45:09 CST 2024
+Test directory:
+  compile: gc.g1.TestMixedGCLiveThreshold
+finished: Sun Sep 08 21:45:10 CST 2024
+elapsed time (seconds): 0.633
+result: Passed. Build successful
+
+#section:compile
+----------messages:(6/308)----------
+command: compile /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1/TestMixedGCLiveThreshold.java
+reason: .class file out of date or does not exist
+started: Sun Sep 08 21:45:09 CST 2024
+Mode: othervm
+finished: Sun Sep 08 21:45:10 CST 2024
+elapsed time (seconds): 0.63
+----------configuration:(7/577)----------
+javac compilation environment
+  source path: /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1
+               /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/lib
+  class path:  /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1
+               /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestMixedGCLiveThreshold_90percent.d
+               /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/test/lib
+
+----------rerun:(29/2814)*----------
+cd /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/scratch && \\
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/999/bus \\
+DISPLAY=localhost:10.0 \\
+HOME=/home/cxl \\
+LANG=zh_CN.UTF-8 \\
+PATH=/bin:/usr/bin:/usr/sbin \\
+XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop \\
+XDG_RUNTIME_DIR=/run/user/999 \\
+XDG_SESSION_CLASS=user \\
+XDG_SESSION_ID=2223 \\
+XDG_SESSION_TYPE=tty \\
+    /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk/bin/javac \\
+        -J-Dtest.vm.opts= \\
+        -J-Dtest.tool.vm.opts= \\
+        -J-Dtest.compiler.opts= \\
+        -J-Dtest.java.opts= \\
+        -J-Dtest.jdk=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk \\
+        -J-Dcompile.jdk=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk \\
+        -J-Dtest.timeout.factor=1.0 \\
+        -J-Dtest.root=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg \\
+        -J-Dtest.name=gc/g1/TestMixedGCLiveThreshold.java#90percent \\
+        -J-Dtest.file=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1/TestMixedGCLiveThreshold.java \\
+        -J-Dtest.src=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1 \\
+        -J-Dtest.src.path=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/lib \\
+        -J-Dtest.classes=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestMixedGCLiveThreshold_90percent.d \\
+        -J-Dtest.class.path=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestMixedGCLiveThreshold_90percent.d:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/test/lib \\
+        -d /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestMixedGCLiveThreshold_90percent.d \\
+        -sourcepath /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/lib \\
+        -classpath /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestMixedGCLiveThreshold_90percent.d:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/test/lib /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1/TestMixedGCLiveThreshold.java
+----------System.out:(0/0)----------
+----------System.err:(0/0)----------
+result: Passed. Compilation successful
+
+#section:driver
+----------messages:(6/259)----------
+command: driver gc.g1.TestMixedGCLiveThreshold 90 true
+reason: User specified action: run driver gc.g1.TestMixedGCLiveThreshold 90 true 
+started: Sun Sep 08 21:45:10 CST 2024
+Mode: othervm
+finished: Sun Sep 08 21:45:29 CST 2024
+elapsed time (seconds): 19.594
+----------configuration:(0/0)----------
+----------System.out:(4/1398)----------
+Command line: [/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk/bin/java -cp /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestMixedGCLiveThreshold_90percent.d:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/test/lib:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/lib:/home/cxl/projects/TencentKona/tools/jtreg/lib/javatest.jar:/home/cxl/projects/TencentKona/tools/jtreg/lib/jtreg.jar -Xbootclasspath/a:. -XX:+UseG1GC -XX:+UnlockDiagnosticVMOptions -XX:+UnlockExperimentalVMOptions -XX:MaxGCPauseMillis=50 -XX:+WhiteBoxAPI -XX:G1HeapRegionSize=4m -XX:G1HeapWastePercent=0 -XX:G1ReservePercent=0 -Xlog:gc+remset+tracking=trace:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/G1GCRemset_90.log:time -Xlog:gc*:file=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/G1GC_90.log:time,level -Xms128M -Xmx128M -XX:G1MixedGCLiveThresholdPercent=90 gc.g1.TestMixedGCLiveThreshold$GCTest 90 ]
+[2024-09-08T13:45:10.447761735Z] Gathering output for process 154778
+[2024-09-08T13:45:29.929540072Z] Waiting for completion for process 154778
+[2024-09-08T13:45:29.929670061Z] Waiting for completion finished for process 154778
+----------System.err:(1898/94220)*----------
+ stdout: [--------------------------------------------------------------------------
+now liveThresholdPercent90
+Total regions: 32, Region size: 4194304
+--------------------------------------------------------------------------
+Before AllocateMemory:
+Current DateTime: 2024/09/08 21:45:10.521
+match Old Regions Count: 0
+Total Memory in Old Regions: 0
+Estimated Memory to Free in Old Regions: 0
+----------- Before Pause Young (Concurrent Start)  -----------------
+Current DateTime: 2024/09/08 21:45:10.565
+Region 0:Address: 0x796e18123bd0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 1:Address: 0x796e18124e70
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 2:Address: 0x796e18126110
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 3:Address: 0x796e181273b0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 4:Address: 0x796e18128650
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 5:Address: 0x796e181298f0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 6:Address: 0x796e1812ab90
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 7:Address: 0x796e1812be30
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 8:Address: 0x796e1812d0d0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 9:Address: 0x796e1812e370
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 10:Address: 0x796e1812f610
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 11:Address: 0x796e181308b0
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 12:Address: 0x796e18131b50
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 13:Address: 0x796e18132df0
+  Live bytes: 4193968  Total bytes: 4194304  Live percent: 99%
+Region 14:Address: 0x796e18134090
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 15:Address: 0x796e18135330
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 16:Address: 0x796e181365d0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 17:Address: 0x796e18137870
+  Live bytes: 3315200  Total bytes: 3315200  Live percent: 100%
+match Old Regions Count: 0
+Total Memory in Old Regions: 0
+Estimated Memory to Free in Old Regions: 0
+Current DateTime: 2024/09/08 21:45:10.580
+Region 0:Address: 0x796e18123bd0
+  Live bytes: 4170408  Total bytes: 4194304  Live percent: 99%
+Region 1:Address: 0x796e18124e70
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 2:Address: 0x796e18126110
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 3:Address: 0x796e181273b0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 4:Address: 0x796e18128650
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 5:Address: 0x796e181298f0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 6:Address: 0x796e1812ab90
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 7:Address: 0x796e1812be30
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 8:Address: 0x796e1812d0d0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 9:Address: 0x796e1812e370
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 10:Address: 0x796e1812f610
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 11:Address: 0x796e181308b0
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 12:Address: 0x796e18131b50
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 13:Address: 0x796e18132df0
+  Live bytes: 4193968  Total bytes: 4194304  Live percent: 99%
+Region 14:Address: 0x796e18134090
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 15:Address: 0x796e18135330
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 16:Address: 0x796e181365d0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 17:Address: 0x796e18137870
+  Live bytes: 3315200  Total bytes: 3315200  Live percent: 100%
+match Old Regions Count: 0
+Total Memory in Old Regions: 0
+Estimated Memory to Free in Old Regions: 0
+----------- Before Pause Young (Concurrent Start)  -----------------
+Current DateTime: 2024/09/08 21:45:10.591
+Region 0:Address: 0x796e18123bd0
+  Live bytes: 4170408  Total bytes: 4194304  Live percent: 99%
+Region 1:Address: 0x796e18124e70
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 2:Address: 0x796e18126110
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 3:Address: 0x796e181273b0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 4:Address: 0x796e18128650
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 5:Address: 0x796e181298f0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 6:Address: 0x796e1812ab90
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 7:Address: 0x796e1812be30
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 8:Address: 0x796e1812d0d0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 9:Address: 0x796e1812e370
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 10:Address: 0x796e1812f610
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 11:Address: 0x796e181308b0
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 12:Address: 0x796e18131b50
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 13:Address: 0x796e18132df0
+  Live bytes: 4193968  Total bytes: 4194304  Live percent: 99%
+Region 14:Address: 0x796e18134090
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 15:Address: 0x796e18135330
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 16:Address: 0x796e181365d0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 17:Address: 0x796e18137870
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 18:Address: 0x796e18138b10
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 19:Address: 0x796e18139db0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 20:Address: 0x796e1813b050
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 21:Address: 0x796e1813c2f0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 22:Address: 0x796e1813d590
+  Live bytes: 2937344  Total bytes: 2937344  Live percent: 100%
+match Old Regions Count: 0
+Total Memory in Old Regions: 0
+Estimated Memory to Free in Old Regions: 0
+----------- \u5927\u91cf\u5206\u914d\u5c0f\u5bf9\u8c61\uff0c\u664b\u5347old region\uff0c\u5bfc\u81f4\u81ea\u6211\u8c03\u914d \u73b0\u5728\u6b63\u5728\u6267\u884c\u56db\u4e2a\u9636\u6bb5\u4e2d-----------------
+----------- Pause Young (Concurrent Start) (G1 Preventive Collection) / Pause Young (Concurrent Start) (G1 Evacuation Pause)-----------------
+Current DateTime: 2024/09/08 21:45:11.593
+Region 0:Address: 0x796e18123bd0
+  Live bytes: 4167016  Total bytes: 4194304  Live percent: 99%
+Region 1:Address: 0x796e18124e70
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 2:Address: 0x796e18126110
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 3:Address: 0x796e181273b0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 4:Address: 0x796e18128650
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 5:Address: 0x796e181298f0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 6:Address: 0x796e1812ab90
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 7:Address: 0x796e1812be30
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 8:Address: 0x796e1812d0d0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 9:Address: 0x796e1812e370
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 10:Address: 0x796e1812f610
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 11:Address: 0x796e181308b0
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 12:Address: 0x796e18131b50
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 13:Address: 0x796e18132df0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 14:Address: 0x796e18134090
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 15:Address: 0x796e18135330
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 16:Address: 0x796e181365d0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 17:Address: 0x796e18137870
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 18:Address: 0x796e18138b10
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 19:Address: 0x796e18139db0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 20:Address: 0x796e1813b050
+  Live bytes: 4194136  Total bytes: 4194304  Live percent: 99%
+Region 21:Address: 0x796e1813c2f0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 22:Address: 0x796e1813d590
+  Live bytes: 2937344  Total bytes: 2937344  Live percent: 100%
+match Old Regions Count: 0
+Total Memory in Old Regions: 0
+Estimated Memory to Free in Old Regions: 0
+----------------------- in small xunhuan iter:0------------------------------
+ ------------ after 2500iters old region The 0 epoch---------
+Current DateTime: 2024/09/08 21:45:11.596
+Region 0:Address: 0x796e18123bd0
+  Live bytes: 4167016  Total bytes: 4194304  Live percent: 99%
+Region 1:Address: 0x796e18124e70
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 2:Address: 0x796e18126110
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 3:Address: 0x796e181273b0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 4:Address: 0x796e18128650
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 5:Address: 0x796e181298f0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 6:Address: 0x796e1812ab90
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 7:Address: 0x796e1812be30
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 8:Address: 0x796e1812d0d0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 9:Address: 0x796e1812e370
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 10:Address: 0x796e1812f610
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 11:Address: 0x796e181308b0
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 12:Address: 0x796e18131b50
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 13:Address: 0x796e18132df0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 14:Address: 0x796e18134090
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 15:Address: 0x796e18135330
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 16:Address: 0x796e181365d0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 17:Address: 0x796e18137870
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 18:Address: 0x796e18138b10
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 19:Address: 0x796e18139db0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 20:Address: 0x796e1813b050
+  Live bytes: 4194136  Total bytes: 4194304  Live percent: 99%
+Region 21:Address: 0x796e1813c2f0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 22:Address: 0x796e1813d590
+  Live bytes: 2937344  Total bytes: 2937344  Live percent: 100%
+match Old Regions Count: 0
+Total Memory in Old Regions: 0
+Estimated Memory to Free in Old Regions: 0
+----------- Before Pause Young (Concurrent Start) (G1 Humongous Allocation)  -----------------
+Current DateTime: 2024/09/08 21:45:11.605
+Region 0:Address: 0x796e18123bd0
+  Live bytes: 4167016  Total bytes: 4194304  Live percent: 99%
+Region 1:Address: 0x796e18124e70
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 2:Address: 0x796e18126110
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 3:Address: 0x796e181273b0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 4:Address: 0x796e18128650
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 5:Address: 0x796e181298f0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 6:Address: 0x796e1812ab90
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 7:Address: 0x796e1812be30
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 20:Address: 0x796e1813b050
+  Live bytes: 44208  Total bytes: 4194304  Live percent: 1%
+Region 22:Address: 0x796e1813d590
+  Live bytes: 1256960  Total bytes: 4194304  Live percent: 29%
+Region 23:Address: 0x796e1813e830
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 24:Address: 0x796e1813fad0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 25:Address: 0x796e18140d70
+  Live bytes: 2224128  Total bytes: 2224128  Live percent: 100%
+match Old Regions Count: 0
+Total Memory in Old Regions: 0
+Estimated Memory to Free in Old Regions: 0
+----------- \u5927\u91cf\u5206\u914d\u5c0f\u5bf9\u8c61\uff0c\u664b\u5347old region\uff0c\u5bfc\u81f4\u81ea\u6211\u8c03\u914d \u73b0\u5728\u6b63\u5728\u6267\u884c\u56db\u4e2a\u9636\u6bb5\u4e2d-----------------
+----------- After Pause Young (Concurrent Start) (G1 Humongous Allocation) -----------------
+Current DateTime: 2024/09/08 21:45:12.608
+Region 0:Address: 0x796e18123bd0
+  Live bytes: 1061952  Total bytes: 4194304  Live percent: 25%
+Region 20:Address: 0x796e1813b050
+  Live bytes: 44208  Total bytes: 4194304  Live percent: 1%
+Region 22:Address: 0x796e1813d590
+  Live bytes: 1256960  Total bytes: 4194304  Live percent: 29%
+Region 23:Address: 0x796e1813e830
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 24:Address: 0x796e1813fad0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 25:Address: 0x796e18140d70
+  Live bytes: 2224128  Total bytes: 2224128  Live percent: 100%
+match Old Regions Count: 3
+Total Memory in Old Regions: 12582912
+Estimated Memory to Free in Old Regions: 11476752
+--------------- After allocate Big Objects -----------------------
+Current DateTime: 2024/09/08 21:45:12.942
+Region 23:Address: 0x796e1813e830
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 24:Address: 0x796e1813fad0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 25:Address: 0x796e18140d70
+  Live bytes: 3352064  Total bytes: 3352064  Live percent: 100%
+match Old Regions Count: 0
+Total Memory in Old Regions: 0
+Estimated Memory to Free in Old Regions: 0
+----------- Before Pause Young (Concurrent Start)  -----------------
+Current DateTime: 2024/09/08 21:45:12.972
+Region 0:Address: 0x796e18123bd0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 1:Address: 0x796e18124e70
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 2:Address: 0x796e18126110
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 3:Address: 0x796e181273b0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 4:Address: 0x796e18128650
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 5:Address: 0x796e181298f0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 6:Address: 0x796e1812ab90
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 7:Address: 0x796e1812be30
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 8:Address: 0x796e1812d0d0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 9:Address: 0x796e1812e370
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 10:Address: 0x796e1812f610
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 11:Address: 0x796e181308b0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 12:Address: 0x796e18131b50
+  Live bytes: 3357184  Total bytes: 3357184  Live percent: 100%
+Region 23:Address: 0x796e1813e830
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 24:Address: 0x796e1813fad0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 25:Address: 0x796e18140d70
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+match Old Regions Count: 0
+Total Memory in Old Regions: 0
+Estimated Memory to Free in Old Regions: 0
+----------- \u5927\u91cf\u5206\u914d\u5c0f\u5bf9\u8c61\uff0c\u664b\u5347old region\uff0c\u5bfc\u81f4\u81ea\u6211\u8c03\u914d \u73b0\u5728\u6b63\u5728\u6267\u884c\u56db\u4e2a\u9636\u6bb5\u4e2d-----------------
+----------- Pause Young (Concurrent Start) (G1 Preventive Collection) / Pause Young (Concurrent Start) (G1 Evacuation Pause)-----------------
+Current DateTime: 2024/09/08 21:45:13.975
+Region 0:Address: 0x796e18123bd0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 1:Address: 0x796e18124e70
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 2:Address: 0x796e18126110
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 3:Address: 0x796e181273b0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 4:Address: 0x796e18128650
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 5:Address: 0x796e181298f0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 6:Address: 0x796e1812ab90
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 7:Address: 0x796e1812be30
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 8:Address: 0x796e1812d0d0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 9:Address: 0x796e1812e370
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 10:Address: 0x796e1812f610
+  Live bytes: 4193944  Total bytes: 4194304  Live percent: 99%
+Region 11:Address: 0x796e181308b0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 12:Address: 0x796e18131b50
+  Live bytes: 3357184  Total bytes: 3357184  Live percent: 100%
+Region 24:Address: 0x796e1813fad0
+  Live bytes: 1392  Total bytes: 4194304  Live percent: 0%
+Region 25:Address: 0x796e18140d70
+  Live bytes: 1945768  Total bytes: 4194304  Live percent: 46%
+match Old Regions Count: 2
+Total Memory in Old Regions: 8388608
+Estimated Memory to Free in Old Regions: 6441448
+----------- Before Pause Young (Concurrent Start)  -----------------
+Current DateTime: 2024/09/08 21:45:13.989
+Region 0:Address: 0x796e18123bd0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 1:Address: 0x796e18124e70
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 2:Address: 0x796e18126110
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 3:Address: 0x796e181273b0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 4:Address: 0x796e18128650
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 5:Address: 0x796e181298f0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 6:Address: 0x796e1812ab90
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 7:Address: 0x796e1812be30
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 8:Address: 0x796e1812d0d0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 9:Address: 0x796e1812e370
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 10:Address: 0x796e1812f610
+  Live bytes: 4193944  Total bytes: 4194304  Live percent: 99%
+Region 11:Address: 0x796e181308b0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 12:Address: 0x796e18131b50
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 13:Address: 0x796e18132df0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 14:Address: 0x796e18134090
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 15:Address: 0x796e18135330
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 16:Address: 0x796e181365d0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 17:Address: 0x796e18137870
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 18:Address: 0x796e18138b10
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 19:Address: 0x796e18139db0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 20:Address: 0x796e1813b050
+  Live bytes: 1049088  Total bytes: 1049088  Live percent: 100%
+match Old Regions Count: 0
+Total Memory in Old Regions: 0
+Estimated Memory to Free in Old Regions: 0
+----------- \u5927\u91cf\u5206\u914d\u5c0f\u5bf9\u8c61\uff0c\u664b\u5347old region\uff0c\u5bfc\u81f4\u81ea\u6211\u8c03\u914d \u73b0\u5728\u6b63\u5728\u6267\u884c\u56db\u4e2a\u9636\u6bb5\u4e2d-----------------
+----------- Pause Young (Concurrent Start) (G1 Preventive Collection) / Pause Young (Concurrent Start) (G1 Evacuation Pause)-----------------
+Current DateTime: 2024/09/08 21:45:14.992
+Region 0:Address: 0x796e18123bd0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 1:Address: 0x796e18124e70
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 2:Address: 0x796e18126110
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 3:Address: 0x796e181273b0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 4:Address: 0x796e18128650
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 5:Address: 0x796e181298f0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 6:Address: 0x796e1812ab90
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 7:Address: 0x796e1812be30
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 8:Address: 0x796e1812d0d0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 9:Address: 0x796e1812e370
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 10:Address: 0x796e1812f610
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 11:Address: 0x796e181308b0
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 12:Address: 0x796e18131b50
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 13:Address: 0x796e18132df0
+  Live bytes: 4155432  Total bytes: 4194304  Live percent: 99%
+Region 14:Address: 0x796e18134090
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 15:Address: 0x796e18135330
+  Live bytes: 4170704  Total bytes: 4194304  Live percent: 99%
+Region 16:Address: 0x796e181365d0
+  Live bytes: 4165552  Total bytes: 4194304  Live percent: 99%
+Region 17:Address: 0x796e18137870
+  Live bytes: 4170864  Total bytes: 4194304  Live percent: 99%
+Region 18:Address: 0x796e18138b10
+  Live bytes: 4192816  Total bytes: 4194304  Live percent: 99%
+Region 19:Address: 0x796e18139db0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 20:Address: 0x796e1813b050
+  Live bytes: 1049088  Total bytes: 1049088  Live percent: 100%
+match Old Regions Count: 0
+Total Memory in Old Regions: 0
+Estimated Memory to Free in Old Regions: 0
+----------- Before Pause Young (Concurrent Start)  -----------------
+Current DateTime: 2024/09/08 21:45:14.998
+Region 0:Address: 0x796e18123bd0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 1:Address: 0x796e18124e70
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 2:Address: 0x796e18126110
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 3:Address: 0x796e181273b0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 4:Address: 0x796e18128650
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 5:Address: 0x796e181298f0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 6:Address: 0x796e1812ab90
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 7:Address: 0x796e1812be30
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 8:Address: 0x796e1812d0d0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 9:Address: 0x796e1812e370
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 10:Address: 0x796e1812f610
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 11:Address: 0x796e181308b0
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 12:Address: 0x796e18131b50
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 13:Address: 0x796e18132df0
+  Live bytes: 4155432  Total bytes: 4194304  Live percent: 99%
+Region 14:Address: 0x796e18134090
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 15:Address: 0x796e18135330
+  Live bytes: 4170704  Total bytes: 4194304  Live percent: 99%
+Region 16:Address: 0x796e181365d0
+  Live bytes: 4165552  Total bytes: 4194304  Live percent: 99%
+Region 17:Address: 0x796e18137870
+  Live bytes: 4170864  Total bytes: 4194304  Live percent: 99%
+Region 18:Address: 0x796e18138b10
+  Live bytes: 4192816  Total bytes: 4194304  Live percent: 99%
+Region 19:Address: 0x796e18139db0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 20:Address: 0x796e1813b050
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 21:Address: 0x796e1813c2f0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 22:Address: 0x796e1813d590
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 23:Address: 0x796e1813e830
+  Live bytes: 965120  Total bytes: 965120  Live percent: 100%
+match Old Regions Count: 0
+Total Memory in Old Regions: 0
+Estimated Memory to Free in Old Regions: 0
+----------- \u5927\u91cf\u5206\u914d\u5c0f\u5bf9\u8c61\uff0c\u664b\u5347old region\uff0c\u5bfc\u81f4\u81ea\u6211\u8c03\u914d \u73b0\u5728\u6b63\u5728\u6267\u884c\u56db\u4e2a\u9636\u6bb5\u4e2d-----------------
+----------- Pause Young (Concurrent Start) (G1 Preventive Collection) / Pause Young (Concurrent Start) (G1 Evacuation Pause)-----------------
+Current DateTime: 2024/09/08 21:45:16.000
+Region 0:Address: 0x796e18123bd0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 1:Address: 0x796e18124e70
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 2:Address: 0x796e18126110
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 3:Address: 0x796e181273b0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 4:Address: 0x796e18128650
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 5:Address: 0x796e181298f0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 6:Address: 0x796e1812ab90
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 7:Address: 0x796e1812be30
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 8:Address: 0x796e1812d0d0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 9:Address: 0x796e1812e370
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 10:Address: 0x796e1812f610
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 11:Address: 0x796e181308b0
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 12:Address: 0x796e18131b50
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 13:Address: 0x796e18132df0
+  Live bytes: 4155432  Total bytes: 4194304  Live percent: 99%
+Region 14:Address: 0x796e18134090
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 15:Address: 0x796e18135330
+  Live bytes: 4170704  Total bytes: 4194304  Live percent: 99%
+Region 16:Address: 0x796e181365d0
+  Live bytes: 4165552  Total bytes: 4194304  Live percent: 99%
+Region 17:Address: 0x796e18137870
+  Live bytes: 4170864  Total bytes: 4194304  Live percent: 99%
+Region 18:Address: 0x796e18138b10
+  Live bytes: 4177728  Total bytes: 4194304  Live percent: 99%
+Region 19:Address: 0x796e18139db0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 20:Address: 0x796e1813b050
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 21:Address: 0x796e1813c2f0
+  Live bytes: 4194216  Total bytes: 4194304  Live percent: 99%
+Region 22:Address: 0x796e1813d590
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 23:Address: 0x796e1813e830
+  Live bytes: 965120  Total bytes: 965120  Live percent: 100%
+match Old Regions Count: 0
+Total Memory in Old Regions: 0
+Estimated Memory to Free in Old Regions: 0
+----------------------- in small xunhuan iter:1------------------------------
+ ------------ after 2500iters old region The 1 epoch---------
+Current DateTime: 2024/09/08 21:45:16.005
+Region 0:Address: 0x796e18123bd0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 1:Address: 0x796e18124e70
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 2:Address: 0x796e18126110
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 3:Address: 0x796e181273b0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 4:Address: 0x796e18128650
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 5:Address: 0x796e181298f0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 6:Address: 0x796e1812ab90
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 7:Address: 0x796e1812be30
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 8:Address: 0x796e1812d0d0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 9:Address: 0x796e1812e370
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 10:Address: 0x796e1812f610
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 11:Address: 0x796e181308b0
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 12:Address: 0x796e18131b50
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 13:Address: 0x796e18132df0
+  Live bytes: 4155432  Total bytes: 4194304  Live percent: 99%
+Region 14:Address: 0x796e18134090
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 15:Address: 0x796e18135330
+  Live bytes: 4170704  Total bytes: 4194304  Live percent: 99%
+Region 16:Address: 0x796e181365d0
+  Live bytes: 4165552  Total bytes: 4194304  Live percent: 99%
+Region 17:Address: 0x796e18137870
+  Live bytes: 4170864  Total bytes: 4194304  Live percent: 99%
+Region 18:Address: 0x796e18138b10
+  Live bytes: 4177728  Total bytes: 4194304  Live percent: 99%
+Region 19:Address: 0x796e18139db0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 20:Address: 0x796e1813b050
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 21:Address: 0x796e1813c2f0
+  Live bytes: 4194216  Total bytes: 4194304  Live percent: 99%
+Region 22:Address: 0x796e1813d590
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 23:Address: 0x796e1813e830
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 24:Address: 0x796e1813fad0
+  Live bytes: 965120  Total bytes: 965120  Live percent: 100%
+match Old Regions Count: 0
+Total Memory in Old Regions: 0
+Estimated Memory to Free in Old Regions: 0
+----------- Before Pause Young (Concurrent Start)  -----------------
+Current DateTime: 2024/09/08 21:45:16.019
+Region 0:Address: 0x796e18123bd0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 1:Address: 0x796e18124e70
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 2:Address: 0x796e18126110
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 3:Address: 0x796e181273b0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 4:Address: 0x796e18128650
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 5:Address: 0x796e181298f0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 6:Address: 0x796e1812ab90
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 7:Address: 0x796e1812be30
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 8:Address: 0x796e1812d0d0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 9:Address: 0x796e1812e370
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 10:Address: 0x796e1812f610
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 11:Address: 0x796e181308b0
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 12:Address: 0x796e18131b50
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 13:Address: 0x796e18132df0
+  Live bytes: 4155432  Total bytes: 4194304  Live percent: 99%
+Region 14:Address: 0x796e18134090
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 15:Address: 0x796e18135330
+  Live bytes: 4170704  Total bytes: 4194304  Live percent: 99%
+Region 16:Address: 0x796e181365d0
+  Live bytes: 4165552  Total bytes: 4194304  Live percent: 99%
+Region 17:Address: 0x796e18137870
+  Live bytes: 4170864  Total bytes: 4194304  Live percent: 99%
+Region 18:Address: 0x796e18138b10
+  Live bytes: 4177728  Total bytes: 4194304  Live percent: 99%
+Region 19:Address: 0x796e18139db0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 20:Address: 0x796e1813b050
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 21:Address: 0x796e1813c2f0
+  Live bytes: 4194216  Total bytes: 4194304  Live percent: 99%
+Region 22:Address: 0x796e1813d590
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 23:Address: 0x796e1813e830
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 24:Address: 0x796e1813fad0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 25:Address: 0x796e18140d70
+  Live bytes: 965120  Total bytes: 965120  Live percent: 100%
+match Old Regions Count: 0
+Total Memory in Old Regions: 0
+Estimated Memory to Free in Old Regions: 0
+----------- \u5927\u91cf\u5206\u914d\u5c0f\u5bf9\u8c61\uff0c\u664b\u5347old region\uff0c\u5bfc\u81f4\u81ea\u6211\u8c03\u914d \u73b0\u5728\u6b63\u5728\u6267\u884c\u56db\u4e2a\u9636\u6bb5\u4e2d-----------------
+----------- Pause Young (Concurrent Start) (G1 Preventive Collection) / Pause Young (Concurrent Start) (G1 Evacuation Pause)-----------------
+Current DateTime: 2024/09/08 21:45:17.020
+Region 13:Address: 0x796e18132df0
+  Live bytes: 1392  Total bytes: 4194304  Live percent: 0%
+Region 15:Address: 0x796e18135330
+  Live bytes: 58600  Total bytes: 4194304  Live percent: 1%
+Region 16:Address: 0x796e181365d0
+  Live bytes: 473072  Total bytes: 4194304  Live percent: 11%
+Region 17:Address: 0x796e18137870
+  Live bytes: 551184  Total bytes: 4194304  Live percent: 13%
+Region 18:Address: 0x796e18138b10
+  Live bytes: 23688  Total bytes: 4194304  Live percent: 0%
+Region 24:Address: 0x796e1813fad0
+  Live bytes: 3229184  Total bytes: 4194304  Live percent: 76%
+Region 25:Address: 0x796e18140d70
+  Live bytes: 965120  Total bytes: 965120  Live percent: 100%
+match Old Regions Count: 6
+Total Memory in Old Regions: 25165824
+Estimated Memory to Free in Old Regions: 24057888
+----------- Before Pause Young (Concurrent Start)  -----------------
+Current DateTime: 2024/09/08 21:45:17.042
+Region 0:Address: 0x796e18123bd0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 1:Address: 0x796e18124e70
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 2:Address: 0x796e18126110
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 3:Address: 0x796e181273b0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 4:Address: 0x796e18128650
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 5:Address: 0x796e181298f0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 6:Address: 0x796e1812ab90
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 7:Address: 0x796e1812be30
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 8:Address: 0x796e1812d0d0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 9:Address: 0x796e1812e370
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 10:Address: 0x796e1812f610
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 11:Address: 0x796e181308b0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 12:Address: 0x796e18131b50
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 13:Address: 0x796e18132df0
+  Live bytes: 671744  Total bytes: 671744  Live percent: 100%
+Region 25:Address: 0x796e18140d70
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+match Old Regions Count: 0
+Total Memory in Old Regions: 0
+Estimated Memory to Free in Old Regions: 0
+----------- \u5927\u91cf\u5206\u914d\u5c0f\u5bf9\u8c61\uff0c\u664b\u5347old region\uff0c\u5bfc\u81f4\u81ea\u6211\u8c03\u914d \u73b0\u5728\u6b63\u5728\u6267\u884c\u56db\u4e2a\u9636\u6bb5\u4e2d-----------------
+----------- Pause Young (Concurrent Start) (G1 Preventive Collection) / Pause Young (Concurrent Start) (G1 Evacuation Pause)-----------------
+Current DateTime: 2024/09/08 21:45:18.043
+Region 0:Address: 0x796e18123bd0
+  Live bytes: 4163240  Total bytes: 4194304  Live percent: 99%
+Region 1:Address: 0x796e18124e70
+  Live bytes: 4128720  Total bytes: 4194304  Live percent: 98%
+Region 2:Address: 0x796e18126110
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 3:Address: 0x796e181273b0
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 4:Address: 0x796e18128650
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 5:Address: 0x796e181298f0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 6:Address: 0x796e1812ab90
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 7:Address: 0x796e1812be30
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 8:Address: 0x796e1812d0d0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 9:Address: 0x796e1812e370
+  Live bytes: 4193920  Total bytes: 4194304  Live percent: 99%
+Region 10:Address: 0x796e1812f610
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 11:Address: 0x796e181308b0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 12:Address: 0x796e18131b50
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 13:Address: 0x796e18132df0
+  Live bytes: 671744  Total bytes: 671744  Live percent: 100%
+Region 25:Address: 0x796e18140d70
+  Live bytes: 3222080  Total bytes: 4194304  Live percent: 76%
+match Old Regions Count: 1
+Total Memory in Old Regions: 4194304
+Estimated Memory to Free in Old Regions: 972224
+----------- Before Pause Young (Concurrent Start)  -----------------
+Current DateTime: 2024/09/08 21:45:18.054
+Region 0:Address: 0x796e18123bd0
+  Live bytes: 4163240  Total bytes: 4194304  Live percent: 99%
+Region 1:Address: 0x796e18124e70
+  Live bytes: 4128720  Total bytes: 4194304  Live percent: 98%
+Region 2:Address: 0x796e18126110
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 3:Address: 0x796e181273b0
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 4:Address: 0x796e18128650
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 5:Address: 0x796e181298f0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 6:Address: 0x796e1812ab90
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 7:Address: 0x796e1812be30
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 8:Address: 0x796e1812d0d0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 9:Address: 0x796e1812e370
+  Live bytes: 4193920  Total bytes: 4194304  Live percent: 99%
+Region 10:Address: 0x796e1812f610
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 11:Address: 0x796e181308b0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 12:Address: 0x796e18131b50
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 13:Address: 0x796e18132df0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 14:Address: 0x796e18134090
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 15:Address: 0x796e18135330
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 16:Address: 0x796e181365d0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 17:Address: 0x796e18137870
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 18:Address: 0x796e18138b10
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 19:Address: 0x796e18139db0
+  Live bytes: 3860480  Total bytes: 3860480  Live percent: 100%
+match Old Regions Count: 0
+Total Memory in Old Regions: 0
+Estimated Memory to Free in Old Regions: 0
+----------- \u5927\u91cf\u5206\u914d\u5c0f\u5bf9\u8c61\uff0c\u664b\u5347old region\uff0c\u5bfc\u81f4\u81ea\u6211\u8c03\u914d \u73b0\u5728\u6b63\u5728\u6267\u884c\u56db\u4e2a\u9636\u6bb5\u4e2d-----------------
+----------- Pause Young (Concurrent Start) (G1 Preventive Collection) / Pause Young (Concurrent Start) (G1 Evacuation Pause)-----------------
+Current DateTime: 2024/09/08 21:45:19.055
+Region 0:Address: 0x796e18123bd0
+  Live bytes: 4163240  Total bytes: 4194304  Live percent: 99%
+Region 1:Address: 0x796e18124e70
+  Live bytes: 4128720  Total bytes: 4194304  Live percent: 98%
+Region 2:Address: 0x796e18126110
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 3:Address: 0x796e181273b0
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 4:Address: 0x796e18128650
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 5:Address: 0x796e181298f0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 6:Address: 0x796e1812ab90
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 7:Address: 0x796e1812be30
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 8:Address: 0x796e1812d0d0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 9:Address: 0x796e1812e370
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 10:Address: 0x796e1812f610
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 11:Address: 0x796e181308b0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 12:Address: 0x796e18131b50
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 13:Address: 0x796e18132df0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 14:Address: 0x796e18134090
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 15:Address: 0x796e18135330
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 16:Address: 0x796e181365d0
+  Live bytes: 4145200  Total bytes: 4194304  Live percent: 98%
+Region 17:Address: 0x796e18137870
+  Live bytes: 4194120  Total bytes: 4194304  Live percent: 99%
+Region 18:Address: 0x796e18138b10
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 19:Address: 0x796e18139db0
+  Live bytes: 3860480  Total bytes: 3860480  Live percent: 100%
+match Old Regions Count: 0
+Total Memory in Old Regions: 0
+Estimated Memory to Free in Old Regions: 0
+----------- Before Pause Young (Concurrent Start)  -----------------
+Current DateTime: 2024/09/08 21:45:19.061
+Region 0:Address: 0x796e18123bd0
+  Live bytes: 4163240  Total bytes: 4194304  Live percent: 99%
+Region 1:Address: 0x796e18124e70
+  Live bytes: 4128720  Total bytes: 4194304  Live percent: 98%
+Region 2:Address: 0x796e18126110
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 3:Address: 0x796e181273b0
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 4:Address: 0x796e18128650
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 5:Address: 0x796e181298f0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 6:Address: 0x796e1812ab90
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 7:Address: 0x796e1812be30
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 8:Address: 0x796e1812d0d0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 9:Address: 0x796e1812e370
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 10:Address: 0x796e1812f610
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 11:Address: 0x796e181308b0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 12:Address: 0x796e18131b50
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 13:Address: 0x796e18132df0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 14:Address: 0x796e18134090
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 15:Address: 0x796e18135330
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 16:Address: 0x796e181365d0
+  Live bytes: 4145200  Total bytes: 4194304  Live percent: 98%
+Region 17:Address: 0x796e18137870
+  Live bytes: 4194120  Total bytes: 4194304  Live percent: 99%
+Region 18:Address: 0x796e18138b10
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 19:Address: 0x796e18139db0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 20:Address: 0x796e1813b050
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 21:Address: 0x796e1813c2f0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 22:Address: 0x796e1813d590
+  Live bytes: 3860480  Total bytes: 3860480  Live percent: 100%
+match Old Regions Count: 0
+Total Memory in Old Regions: 0
+Estimated Memory to Free in Old Regions: 0
+----------- \u5927\u91cf\u5206\u914d\u5c0f\u5bf9\u8c61\uff0c\u664b\u5347old region\uff0c\u5bfc\u81f4\u81ea\u6211\u8c03\u914d \u73b0\u5728\u6b63\u5728\u6267\u884c\u56db\u4e2a\u9636\u6bb5\u4e2d-----------------
+----------- Pause Young (Concurrent Start) (G1 Preventive Collection) / Pause Young (Concurrent Start) (G1 Evacuation Pause)-----------------
+Current DateTime: 2024/09/08 21:45:20.062
+Region 0:Address: 0x796e18123bd0
+  Live bytes: 4163240  Total bytes: 4194304  Live percent: 99%
+Region 1:Address: 0x796e18124e70
+  Live bytes: 4128720  Total bytes: 4194304  Live percent: 98%
+Region 2:Address: 0x796e18126110
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 3:Address: 0x796e181273b0
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 4:Address: 0x796e18128650
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 5:Address: 0x796e181298f0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 6:Address: 0x796e1812ab90
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 7:Address: 0x796e1812be30
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 8:Address: 0x796e1812d0d0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 9:Address: 0x796e1812e370
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 10:Address: 0x796e1812f610
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 11:Address: 0x796e181308b0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 12:Address: 0x796e18131b50
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 13:Address: 0x796e18132df0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 14:Address: 0x796e18134090
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 15:Address: 0x796e18135330
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 16:Address: 0x796e181365d0
+  Live bytes: 4145200  Total bytes: 4194304  Live percent: 98%
+Region 17:Address: 0x796e18137870
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 18:Address: 0x796e18138b10
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 19:Address: 0x796e18139db0
+  Live bytes: 4165160  Total bytes: 4194304  Live percent: 99%
+Region 20:Address: 0x796e1813b050
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 21:Address: 0x796e1813c2f0
+  Live bytes: 4194144  Total bytes: 4194304  Live percent: 99%
+Region 22:Address: 0x796e1813d590
+  Live bytes: 3860480  Total bytes: 3860480  Live percent: 100%
+match Old Regions Count: 0
+Total Memory in Old Regions: 0
+Estimated Memory to Free in Old Regions: 0
+----------------------- in small xunhuan iter:2------------------------------
+ ------------ after 2500iters old region The 2 epoch---------
+Current DateTime: 2024/09/08 21:45:20.065
+Region 0:Address: 0x796e18123bd0
+  Live bytes: 4163240  Total bytes: 4194304  Live percent: 99%
+Region 1:Address: 0x796e18124e70
+  Live bytes: 4128720  Total bytes: 4194304  Live percent: 98%
+Region 2:Address: 0x796e18126110
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 3:Address: 0x796e181273b0
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 4:Address: 0x796e18128650
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 5:Address: 0x796e181298f0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 6:Address: 0x796e1812ab90
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 7:Address: 0x796e1812be30
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 8:Address: 0x796e1812d0d0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 9:Address: 0x796e1812e370
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 10:Address: 0x796e1812f610
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 11:Address: 0x796e181308b0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 12:Address: 0x796e18131b50
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 13:Address: 0x796e18132df0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 14:Address: 0x796e18134090
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 15:Address: 0x796e18135330
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 16:Address: 0x796e181365d0
+  Live bytes: 4145200  Total bytes: 4194304  Live percent: 98%
+Region 17:Address: 0x796e18137870
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 18:Address: 0x796e18138b10
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 19:Address: 0x796e18139db0
+  Live bytes: 4165160  Total bytes: 4194304  Live percent: 99%
+Region 20:Address: 0x796e1813b050
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 21:Address: 0x796e1813c2f0
+  Live bytes: 4194144  Total bytes: 4194304  Live percent: 99%
+Region 22:Address: 0x796e1813d590
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 23:Address: 0x796e1813e830
+  Live bytes: 3818496  Total bytes: 3818496  Live percent: 100%
+match Old Regions Count: 0
+Total Memory in Old Regions: 0
+Estimated Memory to Free in Old Regions: 0
+----------- Before Pause Young (Concurrent Start) (G1 Humongous Allocation)  -----------------
+Current DateTime: 2024/09/08 21:45:20.069
+Region 0:Address: 0x796e18123bd0
+  Live bytes: 4163240  Total bytes: 4194304  Live percent: 99%
+Region 1:Address: 0x796e18124e70
+  Live bytes: 4128720  Total bytes: 4194304  Live percent: 98%
+Region 2:Address: 0x796e18126110
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 3:Address: 0x796e181273b0
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 4:Address: 0x796e18128650
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 5:Address: 0x796e181298f0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 6:Address: 0x796e1812ab90
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 7:Address: 0x796e1812be30
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 8:Address: 0x796e1812d0d0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 9:Address: 0x796e1812e370
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 10:Address: 0x796e1812f610
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 11:Address: 0x796e181308b0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 12:Address: 0x796e18131b50
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 13:Address: 0x796e18132df0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 14:Address: 0x796e18134090
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 15:Address: 0x796e18135330
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 16:Address: 0x796e181365d0
+  Live bytes: 4145200  Total bytes: 4194304  Live percent: 98%
+Region 17:Address: 0x796e18137870
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 18:Address: 0x796e18138b10
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 19:Address: 0x796e18139db0
+  Live bytes: 4165160  Total bytes: 4194304  Live percent: 99%
+Region 20:Address: 0x796e1813b050
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 21:Address: 0x796e1813c2f0
+  Live bytes: 4194144  Total bytes: 4194304  Live percent: 99%
+Region 22:Address: 0x796e1813d590
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 23:Address: 0x796e1813e830
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 24:Address: 0x796e1813fad0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 25:Address: 0x796e18140d70
+  Live bytes: 2266112  Total bytes: 2266112  Live percent: 100%
+match Old Regions Count: 0
+Total Memory in Old Regions: 0
+Estimated Memory to Free in Old Regions: 0
+----------- \u5927\u91cf\u5206\u914d\u5c0f\u5bf9\u8c61\uff0c\u664b\u5347old region\uff0c\u5bfc\u81f4\u81ea\u6211\u8c03\u914d \u73b0\u5728\u6b63\u5728\u6267\u884c\u56db\u4e2a\u9636\u6bb5\u4e2d-----------------
+----------- After Pause Young (Concurrent Start) (G1 Humongous Allocation) -----------------
+Current DateTime: 2024/09/08 21:45:21.070
+Region 0:Address: 0x796e18123bd0
+  Live bytes: 680560  Total bytes: 4194304  Live percent: 16%
+Region 1:Address: 0x796e18124e70
+  Live bytes: 58600  Total bytes: 4194304  Live percent: 1%
+Region 16:Address: 0x796e181365d0
+  Live bytes: 368776  Total bytes: 4194304  Live percent: 8%
+Region 23:Address: 0x796e1813e830
+  Live bytes: 375808  Total bytes: 4194304  Live percent: 8%
+Region 24:Address: 0x796e1813fad0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 25:Address: 0x796e18140d70
+  Live bytes: 2266112  Total bytes: 2266112  Live percent: 100%
+match Old Regions Count: 4
+Total Memory in Old Regions: 16777216
+Estimated Memory to Free in Old Regions: 15669280
+--------------- After allocate Big Objects -----------------------
+Current DateTime: 2024/09/08 21:45:21.402
+Region 24:Address: 0x796e1813fad0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 25:Address: 0x796e18140d70
+  Live bytes: 3389440  Total bytes: 3389440  Live percent: 100%
+match Old Regions Count: 0
+Total Memory in Old Regions: 0
+Estimated Memory to Free in Old Regions: 0
+----------- Before Pause Young (Concurrent Start)  -----------------
+Current DateTime: 2024/09/08 21:45:21.440
+Region 0:Address: 0x796e18123bd0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 1:Address: 0x796e18124e70
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 2:Address: 0x796e18126110
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 3:Address: 0x796e181273b0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 4:Address: 0x796e18128650
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 5:Address: 0x796e181298f0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 6:Address: 0x796e1812ab90
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 7:Address: 0x796e1812be30
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 8:Address: 0x796e1812d0d0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 9:Address: 0x796e1812e370
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 10:Address: 0x796e1812f610
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 11:Address: 0x796e181308b0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 12:Address: 0x796e18131b50
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 13:Address: 0x796e18132df0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 14:Address: 0x796e18134090
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 15:Address: 0x796e18135330
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 16:Address: 0x796e181365d0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 17:Address: 0x796e18137870
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 18:Address: 0x796e18138b10
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 19:Address: 0x796e18139db0
+  Live bytes: 3441152  Total bytes: 3441152  Live percent: 100%
+Region 24:Address: 0x796e1813fad0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 25:Address: 0x796e18140d70
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+match Old Regions Count: 0
+Total Memory in Old Regions: 0
+Estimated Memory to Free in Old Regions: 0
+----------- \u5927\u91cf\u5206\u914d\u5c0f\u5bf9\u8c61\uff0c\u664b\u5347old region\uff0c\u5bfc\u81f4\u81ea\u6211\u8c03\u914d \u73b0\u5728\u6b63\u5728\u6267\u884c\u56db\u4e2a\u9636\u6bb5\u4e2d-----------------
+----------- Pause Young (Concurrent Start) (G1 Preventive Collection) / Pause Young (Concurrent Start) (G1 Evacuation Pause)-----------------
+Current DateTime: 2024/09/08 21:45:22.441
+Region 0:Address: 0x796e18123bd0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 1:Address: 0x796e18124e70
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 2:Address: 0x796e18126110
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 3:Address: 0x796e181273b0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 4:Address: 0x796e18128650
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 5:Address: 0x796e181298f0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 6:Address: 0x796e1812ab90
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 7:Address: 0x796e1812be30
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 8:Address: 0x796e1812d0d0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 9:Address: 0x796e1812e370
+  Live bytes: 4154064  Total bytes: 4194304  Live percent: 99%
+Region 10:Address: 0x796e1812f610
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 11:Address: 0x796e181308b0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 12:Address: 0x796e18131b50
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 13:Address: 0x796e18132df0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 14:Address: 0x796e18134090
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 15:Address: 0x796e18135330
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 16:Address: 0x796e181365d0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 17:Address: 0x796e18137870
+  Live bytes: 4151936  Total bytes: 4194304  Live percent: 98%
+Region 18:Address: 0x796e18138b10
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 19:Address: 0x796e18139db0
+  Live bytes: 3441152  Total bytes: 3441152  Live percent: 100%
+Region 25:Address: 0x796e18140d70
+  Live bytes: 1905176  Total bytes: 4194304  Live percent: 45%
+match Old Regions Count: 1
+Total Memory in Old Regions: 4194304
+Estimated Memory to Free in Old Regions: 2289128
+----------- Before Pause Young (Concurrent Start)  -----------------
+Current DateTime: 2024/09/08 21:45:22.451
+Region 0:Address: 0x796e18123bd0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 1:Address: 0x796e18124e70
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 2:Address: 0x796e18126110
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 3:Address: 0x796e181273b0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 4:Address: 0x796e18128650
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 5:Address: 0x796e181298f0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 6:Address: 0x796e1812ab90
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 7:Address: 0x796e1812be30
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 8:Address: 0x796e1812d0d0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 9:Address: 0x796e1812e370
+  Live bytes: 4154064  Total bytes: 4194304  Live percent: 99%
+Region 10:Address: 0x796e1812f610
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 11:Address: 0x796e181308b0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 12:Address: 0x796e18131b50
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 13:Address: 0x796e18132df0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 14:Address: 0x796e18134090
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 15:Address: 0x796e18135330
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 16:Address: 0x796e181365d0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 17:Address: 0x796e18137870
+  Live bytes: 4151936  Total bytes: 4194304  Live percent: 98%
+Region 18:Address: 0x796e18138b10
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 19:Address: 0x796e18139db0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 20:Address: 0x796e1813b050
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 21:Address: 0x796e1813c2f0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 22:Address: 0x796e1813d590
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 23:Address: 0x796e1813e830
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 24:Address: 0x796e1813fad0
+  Live bytes: 1175040  Total bytes: 1175040  Live percent: 100%
+match Old Regions Count: 0
+Total Memory in Old Regions: 0
+Estimated Memory to Free in Old Regions: 0
+----------- \u5927\u91cf\u5206\u914d\u5c0f\u5bf9\u8c61\uff0c\u664b\u5347old region\uff0c\u5bfc\u81f4\u81ea\u6211\u8c03\u914d \u73b0\u5728\u6b63\u5728\u6267\u884c\u56db\u4e2a\u9636\u6bb5\u4e2d-----------------
+----------- Pause Young (Concurrent Start) (G1 Preventive Collection) / Pause Young (Concurrent Start) (G1 Evacuation Pause)-----------------
+Current DateTime: 2024/09/08 21:45:23.452
+Region 0:Address: 0x796e18123bd0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 1:Address: 0x796e18124e70
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 2:Address: 0x796e18126110
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 3:Address: 0x796e181273b0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 4:Address: 0x796e18128650
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 5:Address: 0x796e181298f0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 6:Address: 0x796e1812ab90
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 7:Address: 0x796e1812be30
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 8:Address: 0x796e1812d0d0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 9:Address: 0x796e1812e370
+  Live bytes: 4154064  Total bytes: 4194304  Live percent: 99%
+Region 10:Address: 0x796e1812f610
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 11:Address: 0x796e181308b0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 12:Address: 0x796e18131b50
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 13:Address: 0x796e18132df0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 14:Address: 0x796e18134090
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 15:Address: 0x796e18135330
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 16:Address: 0x796e181365d0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 17:Address: 0x796e18137870
+  Live bytes: 4123200  Total bytes: 4194304  Live percent: 98%
+Region 18:Address: 0x796e18138b10
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 19:Address: 0x796e18139db0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 20:Address: 0x796e1813b050
+  Live bytes: 4073104  Total bytes: 4194304  Live percent: 97%
+Region 21:Address: 0x796e1813c2f0
+  Live bytes: 4168032  Total bytes: 4194304  Live percent: 99%
+Region 22:Address: 0x796e1813d590
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 23:Address: 0x796e1813e830
+  Live bytes: 4194120  Total bytes: 4194304  Live percent: 99%
+Region 24:Address: 0x796e1813fad0
+  Live bytes: 1175040  Total bytes: 1175040  Live percent: 100%
+match Old Regions Count: 0
+Total Memory in Old Regions: 0
+Estimated Memory to Free in Old Regions: 0
+----------------------- in small xunhuan iter:3------------------------------
+ ------------ after 2500iters old region The 3 epoch---------
+Current DateTime: 2024/09/08 21:45:23.453
+Region 0:Address: 0x796e18123bd0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 1:Address: 0x796e18124e70
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 2:Address: 0x796e18126110
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 3:Address: 0x796e181273b0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 4:Address: 0x796e18128650
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 5:Address: 0x796e181298f0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 6:Address: 0x796e1812ab90
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 7:Address: 0x796e1812be30
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 8:Address: 0x796e1812d0d0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 9:Address: 0x796e1812e370
+  Live bytes: 4154064  Total bytes: 4194304  Live percent: 99%
+Region 10:Address: 0x796e1812f610
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 11:Address: 0x796e181308b0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 12:Address: 0x796e18131b50
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 13:Address: 0x796e18132df0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 14:Address: 0x796e18134090
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 15:Address: 0x796e18135330
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 16:Address: 0x796e181365d0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 17:Address: 0x796e18137870
+  Live bytes: 4123200  Total bytes: 4194304  Live percent: 98%
+Region 18:Address: 0x796e18138b10
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 19:Address: 0x796e18139db0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 20:Address: 0x796e1813b050
+  Live bytes: 4073104  Total bytes: 4194304  Live percent: 97%
+Region 21:Address: 0x796e1813c2f0
+  Live bytes: 4168032  Total bytes: 4194304  Live percent: 99%
+Region 22:Address: 0x796e1813d590
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 23:Address: 0x796e1813e830
+  Live bytes: 4194120  Total bytes: 4194304  Live percent: 99%
+Region 24:Address: 0x796e1813fad0
+  Live bytes: 1175040  Total bytes: 1175040  Live percent: 100%
+match Old Regions Count: 0
+Total Memory in Old Regions: 0
+Estimated Memory to Free in Old Regions: 0
+----------- Before Pause Young (Concurrent Start)  -----------------
+Current DateTime: 2024/09/08 21:45:23.467
+Region 0:Address: 0x796e18123bd0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 1:Address: 0x796e18124e70
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 2:Address: 0x796e18126110
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 3:Address: 0x796e181273b0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 4:Address: 0x796e18128650
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 5:Address: 0x796e181298f0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 6:Address: 0x796e1812ab90
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 7:Address: 0x796e1812be30
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 8:Address: 0x796e1812d0d0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 9:Address: 0x796e1812e370
+  Live bytes: 4154064  Total bytes: 4194304  Live percent: 99%
+Region 10:Address: 0x796e1812f610
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 11:Address: 0x796e181308b0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 12:Address: 0x796e18131b50
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 13:Address: 0x796e18132df0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 14:Address: 0x796e18134090
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 15:Address: 0x796e18135330
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 16:Address: 0x796e181365d0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 17:Address: 0x796e18137870
+  Live bytes: 4123200  Total bytes: 4194304  Live percent: 98%
+Region 18:Address: 0x796e18138b10
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 19:Address: 0x796e18139db0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 20:Address: 0x796e1813b050
+  Live bytes: 4073104  Total bytes: 4194304  Live percent: 97%
+Region 21:Address: 0x796e1813c2f0
+  Live bytes: 4168032  Total bytes: 4194304  Live percent: 99%
+Region 22:Address: 0x796e1813d590
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 23:Address: 0x796e1813e830
+  Live bytes: 4194120  Total bytes: 4194304  Live percent: 99%
+Region 24:Address: 0x796e1813fad0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 25:Address: 0x796e18140d70
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 26:Address: 0x796e18142010
+  Live bytes: 1133056  Total bytes: 1133056  Live percent: 100%
+match Old Regions Count: 0
+Total Memory in Old Regions: 0
+Estimated Memory to Free in Old Regions: 0
+----------- \u5927\u91cf\u5206\u914d\u5c0f\u5bf9\u8c61\uff0c\u664b\u5347old region\uff0c\u5bfc\u81f4\u81ea\u6211\u8c03\u914d \u73b0\u5728\u6b63\u5728\u6267\u884c\u56db\u4e2a\u9636\u6bb5\u4e2d-----------------
+----------- Pause Young (Concurrent Start) (G1 Preventive Collection) / Pause Young (Concurrent Start) (G1 Evacuation Pause)-----------------
+Current DateTime: 2024/09/08 21:45:24.468
+Region 20:Address: 0x796e1813b050
+  Live bytes: 632384  Total bytes: 4194304  Live percent: 15%
+Region 21:Address: 0x796e1813c2f0
+  Live bytes: 475552  Total bytes: 4194304  Live percent: 11%
+Region 25:Address: 0x796e18140d70
+  Live bytes: 3019264  Total bytes: 4194304  Live percent: 71%
+Region 26:Address: 0x796e18142010
+  Live bytes: 1133056  Total bytes: 1133056  Live percent: 100%
+match Old Regions Count: 3
+Total Memory in Old Regions: 12582912
+Estimated Memory to Free in Old Regions: 11474976
+----------- Before Pause Young (Concurrent Start)  -----------------
+Current DateTime: 2024/09/08 21:45:24.501
+Region 0:Address: 0x796e18123bd0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 1:Address: 0x796e18124e70
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 2:Address: 0x796e18126110
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 3:Address: 0x796e181273b0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 4:Address: 0x796e18128650
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 5:Address: 0x796e181298f0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 6:Address: 0x796e1812ab90
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 7:Address: 0x796e1812be30
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 8:Address: 0x796e1812d0d0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 9:Address: 0x796e1812e370
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 10:Address: 0x796e1812f610
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 11:Address: 0x796e181308b0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 12:Address: 0x796e18131b50
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 13:Address: 0x796e18132df0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 14:Address: 0x796e18134090
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 15:Address: 0x796e18135330
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 16:Address: 0x796e181365d0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 17:Address: 0x796e18137870
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 18:Address: 0x796e18138b10
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 19:Address: 0x796e18139db0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 20:Address: 0x796e1813b050
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 21:Address: 0x796e1813c2f0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 22:Address: 0x796e1813d590
+  Live bytes: 3860480  Total bytes: 3860480  Live percent: 100%
+Region 26:Address: 0x796e18142010
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+match Old Regions Count: 0
+Total Memory in Old Regions: 0
+Estimated Memory to Free in Old Regions: 0
+----------- \u5927\u91cf\u5206\u914d\u5c0f\u5bf9\u8c61\uff0c\u664b\u5347old region\uff0c\u5bfc\u81f4\u81ea\u6211\u8c03\u914d \u73b0\u5728\u6b63\u5728\u6267\u884c\u56db\u4e2a\u9636\u6bb5\u4e2d-----------------
+----------- Pause Young (Concurrent Start) (G1 Preventive Collection) / Pause Young (Concurrent Start) (G1 Evacuation Pause)-----------------
+Current DateTime: 2024/09/08 21:45:25.503
+Region 0:Address: 0x796e18123bd0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 1:Address: 0x796e18124e70
+  Live bytes: 4171040  Total bytes: 4194304  Live percent: 99%
+Region 2:Address: 0x796e18126110
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 3:Address: 0x796e181273b0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 4:Address: 0x796e18128650
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 5:Address: 0x796e181298f0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 6:Address: 0x796e1812ab90
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 7:Address: 0x796e1812be30
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 8:Address: 0x796e1812d0d0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 9:Address: 0x796e1812e370
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 10:Address: 0x796e1812f610
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 11:Address: 0x796e181308b0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 12:Address: 0x796e18131b50
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 13:Address: 0x796e18132df0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 14:Address: 0x796e18134090
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 15:Address: 0x796e18135330
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 16:Address: 0x796e181365d0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 17:Address: 0x796e18137870
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 18:Address: 0x796e18138b10
+  Live bytes: 4165160  Total bytes: 4194304  Live percent: 99%
+Region 19:Address: 0x796e18139db0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 20:Address: 0x796e1813b050
+  Live bytes: 4194120  Total bytes: 4194304  Live percent: 99%
+Region 21:Address: 0x796e1813c2f0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 22:Address: 0x796e1813d590
+  Live bytes: 3860480  Total bytes: 3860480  Live percent: 100%
+Region 26:Address: 0x796e18142010
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+match Old Regions Count: 0
+Total Memory in Old Regions: 0
+Estimated Memory to Free in Old Regions: 0
+----------------------- in small xunhuan iter:4------------------------------
+ ------------ after 2500iters old region The 4 epoch---------
+Current DateTime: 2024/09/08 21:45:25.504
+Region 0:Address: 0x796e18123bd0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 1:Address: 0x796e18124e70
+  Live bytes: 4171040  Total bytes: 4194304  Live percent: 99%
+Region 2:Address: 0x796e18126110
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 3:Address: 0x796e181273b0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 4:Address: 0x796e18128650
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 5:Address: 0x796e181298f0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 6:Address: 0x796e1812ab90
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 7:Address: 0x796e1812be30
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 8:Address: 0x796e1812d0d0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 9:Address: 0x796e1812e370
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 10:Address: 0x796e1812f610
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 11:Address: 0x796e181308b0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 12:Address: 0x796e18131b50
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 13:Address: 0x796e18132df0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 14:Address: 0x796e18134090
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 15:Address: 0x796e18135330
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 16:Address: 0x796e181365d0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 17:Address: 0x796e18137870
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 18:Address: 0x796e18138b10
+  Live bytes: 4165160  Total bytes: 4194304  Live percent: 99%
+Region 19:Address: 0x796e18139db0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 20:Address: 0x796e1813b050
+  Live bytes: 4194120  Total bytes: 4194304  Live percent: 99%
+Region 21:Address: 0x796e1813c2f0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 22:Address: 0x796e1813d590
+  Live bytes: 3860480  Total bytes: 3860480  Live percent: 100%
+Region 26:Address: 0x796e18142010
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+match Old Regions Count: 0
+Total Memory in Old Regions: 0
+Estimated Memory to Free in Old Regions: 0
+----------- Before Pause Young (Concurrent Start) (G1 Humongous Allocation)  -----------------
+Current DateTime: 2024/09/08 21:45:25.508
+Region 0:Address: 0x796e18123bd0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 1:Address: 0x796e18124e70
+  Live bytes: 4171040  Total bytes: 4194304  Live percent: 99%
+Region 2:Address: 0x796e18126110
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 3:Address: 0x796e181273b0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 4:Address: 0x796e18128650
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 5:Address: 0x796e181298f0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 6:Address: 0x796e1812ab90
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 7:Address: 0x796e1812be30
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 8:Address: 0x796e1812d0d0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 9:Address: 0x796e1812e370
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 10:Address: 0x796e1812f610
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 11:Address: 0x796e181308b0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 12:Address: 0x796e18131b50
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 13:Address: 0x796e18132df0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 14:Address: 0x796e18134090
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 15:Address: 0x796e18135330
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 16:Address: 0x796e181365d0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 17:Address: 0x796e18137870
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 18:Address: 0x796e18138b10
+  Live bytes: 4165160  Total bytes: 4194304  Live percent: 99%
+Region 19:Address: 0x796e18139db0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 20:Address: 0x796e1813b050
+  Live bytes: 4194120  Total bytes: 4194304  Live percent: 99%
+Region 21:Address: 0x796e1813c2f0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 22:Address: 0x796e1813d590
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 23:Address: 0x796e1813e830
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 24:Address: 0x796e1813fad0
+  Live bytes: 2182144  Total bytes: 2182144  Live percent: 100%
+Region 26:Address: 0x796e18142010
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+match Old Regions Count: 0
+Total Memory in Old Regions: 0
+Estimated Memory to Free in Old Regions: 0
+----------- \u5927\u91cf\u5206\u914d\u5c0f\u5bf9\u8c61\uff0c\u664b\u5347old region\uff0c\u5bfc\u81f4\u81ea\u6211\u8c03\u914d \u73b0\u5728\u6b63\u5728\u6267\u884c\u56db\u4e2a\u9636\u6bb5\u4e2d-----------------
+----------- After Pause Young (Concurrent Start) (G1 Humongous Allocation) -----------------
+Current DateTime: 2024/09/08 21:45:26.509
+Region 1:Address: 0x796e18124e70
+  Live bytes: 1107936  Total bytes: 4194304  Live percent: 26%
+Region 22:Address: 0x796e1813d590
+  Live bytes: 333824  Total bytes: 4194304  Live percent: 7%
+Region 23:Address: 0x796e1813e830
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 24:Address: 0x796e1813fad0
+  Live bytes: 2182144  Total bytes: 2182144  Live percent: 100%
+match Old Regions Count: 2
+Total Memory in Old Regions: 8388608
+Estimated Memory to Free in Old Regions: 7280672
+--------------- After allocate Big Objects -----------------------
+Current DateTime: 2024/09/08 21:45:26.841
+Region 23:Address: 0x796e1813e830
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 24:Address: 0x796e1813fad0
+  Live bytes: 3305472  Total bytes: 3305472  Live percent: 100%
+match Old Regions Count: 0
+Total Memory in Old Regions: 0
+Estimated Memory to Free in Old Regions: 0
+----------- Before Pause Young (Concurrent Start)  -----------------
+Current DateTime: 2024/09/08 21:45:26.882
+Region 0:Address: 0x796e18123bd0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 1:Address: 0x796e18124e70
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 2:Address: 0x796e18126110
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 3:Address: 0x796e181273b0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 4:Address: 0x796e18128650
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 5:Address: 0x796e181298f0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 6:Address: 0x796e1812ab90
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 7:Address: 0x796e1812be30
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 8:Address: 0x796e1812d0d0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 9:Address: 0x796e1812e370
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 10:Address: 0x796e1812f610
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 11:Address: 0x796e181308b0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 12:Address: 0x796e18131b50
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 13:Address: 0x796e18132df0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 14:Address: 0x796e18134090
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 15:Address: 0x796e18135330
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 16:Address: 0x796e181365d0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 17:Address: 0x796e18137870
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 18:Address: 0x796e18138b10
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 19:Address: 0x796e18139db0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 20:Address: 0x796e1813b050
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 21:Address: 0x796e1813c2f0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 22:Address: 0x796e1813d590
+  Live bytes: 3357184  Total bytes: 3357184  Live percent: 100%
+Region 23:Address: 0x796e1813e830
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 24:Address: 0x796e1813fad0
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+match Old Regions Count: 0
+Total Memory in Old Regions: 0
+Estimated Memory to Free in Old Regions: 0
+----------- \u5927\u91cf\u5206\u914d\u5c0f\u5bf9\u8c61\uff0c\u664b\u5347old region\uff0c\u5bfc\u81f4\u81ea\u6211\u8c03\u914d \u73b0\u5728\u6b63\u5728\u6267\u884c\u56db\u4e2a\u9636\u6bb5\u4e2d-----------------
+----------- Pause Young (Concurrent Start) (G1 Preventive Collection) / Pause Young (Concurrent Start) (G1 Evacuation Pause)-----------------
+Current DateTime: 2024/09/08 21:45:27.883
+Region 0:Address: 0x796e18123bd0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 1:Address: 0x796e18124e70
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 2:Address: 0x796e18126110
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 3:Address: 0x796e181273b0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 4:Address: 0x796e18128650
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 5:Address: 0x796e181298f0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 6:Address: 0x796e1812ab90
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 7:Address: 0x796e1812be30
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 8:Address: 0x796e1812d0d0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 9:Address: 0x796e1812e370
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 10:Address: 0x796e1812f610
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 11:Address: 0x796e181308b0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 12:Address: 0x796e18131b50
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 13:Address: 0x796e18132df0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 14:Address: 0x796e18134090
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 15:Address: 0x796e18135330
+  Live bytes: 4154064  Total bytes: 4194304  Live percent: 99%
+Region 16:Address: 0x796e181365d0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 17:Address: 0x796e18137870
+  Live bytes: 4039280  Total bytes: 4194304  Live percent: 96%
+Region 18:Address: 0x796e18138b10
+  Live bytes: 4028160  Total bytes: 4194304  Live percent: 96%
+Region 19:Address: 0x796e18139db0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 20:Address: 0x796e1813b050
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 21:Address: 0x796e1813c2f0
+  Live bytes: 4193920  Total bytes: 4194304  Live percent: 99%
+Region 22:Address: 0x796e1813d590
+  Live bytes: 3357184  Total bytes: 3357184  Live percent: 100%
+Region 24:Address: 0x796e1813fad0
+  Live bytes: 1989096  Total bytes: 4194304  Live percent: 47%
+match Old Regions Count: 1
+Total Memory in Old Regions: 4194304
+Estimated Memory to Free in Old Regions: 2205208
+----------------------- in small xunhuan iter:5------------------------------
+ ------------ after 2500iters old region The 5 epoch---------
+Current DateTime: 2024/09/08 21:45:27.886
+Region 0:Address: 0x796e18123bd0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 1:Address: 0x796e18124e70
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 2:Address: 0x796e18126110
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 3:Address: 0x796e181273b0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 4:Address: 0x796e18128650
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 5:Address: 0x796e181298f0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 6:Address: 0x796e1812ab90
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 7:Address: 0x796e1812be30
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 8:Address: 0x796e1812d0d0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 9:Address: 0x796e1812e370
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 10:Address: 0x796e1812f610
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 11:Address: 0x796e181308b0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 12:Address: 0x796e18131b50
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 13:Address: 0x796e18132df0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 14:Address: 0x796e18134090
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 15:Address: 0x796e18135330
+  Live bytes: 4154064  Total bytes: 4194304  Live percent: 99%
+Region 16:Address: 0x796e181365d0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 17:Address: 0x796e18137870
+  Live bytes: 4039280  Total bytes: 4194304  Live percent: 96%
+Region 18:Address: 0x796e18138b10
+  Live bytes: 4028160  Total bytes: 4194304  Live percent: 96%
+Region 19:Address: 0x796e18139db0
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 20:Address: 0x796e1813b050
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 21:Address: 0x796e1813c2f0
+  Live bytes: 4193920  Total bytes: 4194304  Live percent: 99%
+Region 22:Address: 0x796e1813d590
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 23:Address: 0x796e1813e830
+  Live bytes: 3315200  Total bytes: 3315200  Live percent: 100%
+Region 24:Address: 0x796e1813fad0
+  Live bytes: 1989096  Total bytes: 4194304  Live percent: 47%
+match Old Regions Count: 1
+Total Memory in Old Regions: 4194304
+Estimated Memory to Free in Old Regions: 2205208
+----------------------- \u4e3b\u52a8\u89e6\u53d1 Start Concurrent Mark Cycle------------------------------
+check In Concurrent Mark Cycle: true
+check In Concurrent Mark Cycle after sleep 1000: false
+After Concurrent Mark Cycle:
+Current DateTime: 2024/09/08 21:45:28.898
+Region 23:Address: 0x796e1813e830
+  Live bytes: 879104  Total bytes: 4194304  Live percent: 20%
+Region 24:Address: 0x796e1813fad0
+  Live bytes: 1107936  Total bytes: 4194304  Live percent: 26%
+Region 25:Address: 0x796e18140d70
+  Live bytes: 3273216  Total bytes: 3273216  Live percent: 100%
+match Old Regions Count: 2
+Total Memory in Old Regions: 8388608
+Estimated Memory to Free in Old Regions: 7280672
+------------------ After AllocateMemory10 and and Before Concurrent Mark Cycle:------------------------
+Current DateTime: 2024/09/08 21:45:28.898
+Region 23:Address: 0x796e1813e830
+  Live bytes: 879104  Total bytes: 4194304  Live percent: 20%
+Region 24:Address: 0x796e1813fad0
+  Live bytes: 1107936  Total bytes: 4194304  Live percent: 26%
+Region 25:Address: 0x796e18140d70
+  Live bytes: 3273216  Total bytes: 3273216  Live percent: 100%
+match Old Regions Count: 2
+Total Memory in Old Regions: 8388608
+Estimated Memory to Free in Old Regions: 7280672
+check In Concurrent Mark Cycle: true
+check In Concurrent Mark Cycle after sleep 1000: false
+------------ After \u624b\u52a8 Concurrent Mark Cycle:------------------
+Current DateTime: 2024/09/08 21:45:29.901
+Region 24:Address: 0x796e1813fad0
+  Live bytes: 1107872  Total bytes: 4194304  Live percent: 26%
+match Old Regions Count: 1
+Total Memory in Old Regions: 4194304
+Estimated Memory to Free in Old Regions: 3086432
+];
+ stderr: []
+ exitValue = 0
+
+STATUS:Passed.
+----------rerun:(28/2711)*----------
+cd /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/scratch && \\
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/999/bus \\
+DISPLAY=localhost:10.0 \\
+HOME=/home/cxl \\
+LANG=zh_CN.UTF-8 \\
+PATH=/bin:/usr/bin:/usr/sbin \\
+XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop \\
+XDG_RUNTIME_DIR=/run/user/999 \\
+XDG_SESSION_CLASS=user \\
+XDG_SESSION_ID=2223 \\
+XDG_SESSION_TYPE=tty \\
+CLASSPATH=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestMixedGCLiveThreshold_90percent.d:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/test/lib:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/lib:/home/cxl/projects/TencentKona/tools/jtreg/lib/javatest.jar:/home/cxl/projects/TencentKona/tools/jtreg/lib/jtreg.jar \\
+    /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk/bin/java \\
+        -Dtest.vm.opts= \\
+        -Dtest.tool.vm.opts= \\
+        -Dtest.compiler.opts= \\
+        -Dtest.java.opts= \\
+        -Dtest.jdk=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk \\
+        -Dcompile.jdk=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk \\
+        -Dtest.timeout.factor=1.0 \\
+        -Dtest.root=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg \\
+        -Dtest.name=gc/g1/TestMixedGCLiveThreshold.java#90percent \\
+        -Dtest.file=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1/TestMixedGCLiveThreshold.java \\
+        -Dtest.src=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1 \\
+        -Dtest.src.path=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/lib \\
+        -Dtest.classes=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestMixedGCLiveThreshold_90percent.d \\
+        -Dtest.class.path=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestMixedGCLiveThreshold_90percent.d:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/test/lib \\
+        com.sun.javatest.regtest.agent.MainWrapper /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/gc/g1/TestMixedGCLiveThreshold_90percent.d/driver.1.jta 90 true
+result: Passed. Execution successful
+
+
+test result: Passed. Execution successful

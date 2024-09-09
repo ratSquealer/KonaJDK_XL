@@ -1,0 +1,6 @@
+ time,count
+  105,    2
+
+Mean               105.00s
+Standard deviation   0.00s
+Total elapsed time 3m 30s

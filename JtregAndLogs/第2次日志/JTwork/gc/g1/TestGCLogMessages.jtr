@@ -1,0 +1,401 @@
+#Test Results (version 2)
+#Fri Aug 30 09:51:48 CST 2024
+#-----testdescription-----
+$file=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1/TestGCLogMessages.java
+$root=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg
+keywords=bug8035406 bug8027295 bug8035398 bug8019342 bug8027959 bug8048179 bug8027962 bug8069330 bug8076463 bug8150630 bug8160055 bug8177059 bug8166191 othervm driver
+library=/test/lib
+modules=java.base/jdk.internal.misc java.management
+requires=vm.gc.G1
+run=USER_SPECIFIED build jdk.test.whitebox.WhiteBox\nUSER_SPECIFIED driver jdk.test.lib.helpers.ClassFileInstaller jdk.test.whitebox.WhiteBox\nUSER_SPECIFIED main/othervm -Xbootclasspath/a\:. -XX\:+UnlockDiagnosticVMOptions -XX\:+WhiteBoxAPI gc.g1.TestGCLogMessages\n
+source=TestGCLogMessages.java
+title=Ensure the output for a minor GC with G1 includes the expected necessary messages.
+
+#-----environment-----
+
+#-----testresult-----
+description=file\:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1/TestGCLogMessages.java
+elapsed=3261 0\:00\:03.261
+end=Fri Aug 30 09\:51\:48 CST 2024
+environment=regtest
+execStatus=Passed. Execution successful
+harnessLoaderMode=Classpath Loader
+harnessVariety=Full Bundle
+hostname=zkyj-4080-1
+javatestOS=Linux 6.5.0-44-generic (amd64)
+javatestVersion=6.0-ea+b24-2024-08-23-${BUILT_FROM_COMMIT}
+jtregVersion=jtreg 7.3.1 dev 0
+modules=java.base/jdk.internal.misc java.management
+script=com.sun.javatest.regtest.exec.RegressionScript
+sections=script_messages build compile build compile driver build compile main
+start=Fri Aug 30 09\:51\:45 CST 2024
+test=gc/g1/TestGCLogMessages.java
+testJDK=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk
+testJDK_OS=[name\:Linux,arch\:amd64,version\:6.5.0-44-generic,family\:linux,simple_arch\:x64,simple_version\:6.5,processors\:72,maxMemory\:134786752512,maxSwap\:2147479552]
+testJDK_os.arch=amd64
+testJDK_os.name=Linux
+testJDK_os.version=6.5.0-44-generic
+totalTime=3264
+user.name=cxl
+work=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/gc/g1
+
+#section:script_messages
+----------messages:(7/633)----------
+JDK under test: /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk
+openjdk version "17.0.11-internal" 2024-04-16
+OpenJDK Runtime Environment (build 17.0.11-internal+0-adhoc.cxl.TencentKona-17-TencentKona-17.0.11)
+OpenJDK 64-Bit Server VM (build 17.0.11-internal+0-adhoc.cxl.TencentKona-17-TencentKona-17.0.11, mixed mode, sharing)
+Library /test/lib; kind: packages
+   source directory: /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/lib
+   class directory: /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/test/lib
+
+#section:build
+----------messages:(7/275)----------
+command: build jdk.test.whitebox.WhiteBox
+reason: User specified action: run build jdk.test.whitebox.WhiteBox 
+started: Fri Aug 30 09:51:45 CST 2024
+Library /test/lib:
+  compile: jdk.test.whitebox.WhiteBox
+finished: Fri Aug 30 09:51:45 CST 2024
+elapsed time (seconds): 0.666
+result: Passed. Build successful
+
+#section:compile
+----------messages:(7/423)----------
+command: compile /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/lib/jdk/test/whitebox/WhiteBox.java
+reason: .class file out of date or does not exist
+started: Fri Aug 30 09:51:45 CST 2024
+Additional options from @modules: --add-modules java.base,java.management --add-exports java.base/jdk.internal.misc=ALL-UNNAMED
+Mode: othervm
+finished: Fri Aug 30 09:51:45 CST 2024
+elapsed time (seconds): 0.662
+----------configuration:(6/327)----------
+javac compilation environment
+  add modules: java.base java.management   
+  add exports: java.base/jdk.internal.misc ALL-UNNAMED
+  source path: /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/lib 
+  class path:  /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/test/lib 
+
+----------rerun:(36/2495)*----------
+cd /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/scratch && \\
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/999/bus,guid=57e4b8842fa58c33d0a364d866c852b7 \\
+DESKTOP_SESSION=ubuntu \\
+DISPLAY=:1 \\
+GDMSESSION=ubuntu \\
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated \\
+GNOME_SHELL_SESSION_MODE=ubuntu \\
+HOME=/home/cxl \\
+LANG=zh_CN.UTF-8 \\
+PATH=/bin:/usr/bin:/usr/sbin \\
+XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg \\
+XDG_CURRENT_DESKTOP=ubuntu:GNOME \\
+XDG_DATA_DIRS=/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop \\
+XDG_MENU_PREFIX=gnome- \\
+XDG_RUNTIME_DIR=/run/user/999 \\
+XDG_SESSION_CLASS=user \\
+XDG_SESSION_DESKTOP=ubuntu \\
+XDG_SESSION_TYPE=x11 \\
+XMODIFIERS=@im=ibus \\
+    /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk/bin/javac \\
+        -J-Dtest.vm.opts= \\
+        -J-Dtest.tool.vm.opts= \\
+        -J-Dtest.compiler.opts= \\
+        -J-Dtest.java.opts= \\
+        -J-Dtest.jdk=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk \\
+        -J-Dcompile.jdk=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk \\
+        -J-Dtest.timeout.factor=1.0 \\
+        -J-Dtest.root=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg \\
+        -J-Dtest.name=gc/g1/TestGCLogMessages.java \\
+        -J-Dtest.file=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1/TestGCLogMessages.java \\
+        -J-Dtest.src=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1 \\
+        -J-Dtest.src.path=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/lib \\
+        -J-Dtest.classes=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestGCLogMessages.d \\
+        -J-Dtest.class.path=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestGCLogMessages.d:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/test/lib \\
+        -J-Dtest.modules='java.base/jdk.internal.misc java.management' \\
+        @/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/gc/g1/TestGCLogMessages.d/compile.0.jta
+----------System.out:(0/0)----------
+----------System.err:(0/0)----------
+result: Passed. Compilation successful
+
+#section:build
+----------messages:(7/271)----------
+command: build jdk.test.lib.helpers.ClassFileInstaller
+reason: Named class compiled on demand
+started: Fri Aug 30 09:51:45 CST 2024
+Library /test/lib:
+  compile: jdk.test.lib.helpers.ClassFileInstaller
+finished: Fri Aug 30 09:51:46 CST 2024
+elapsed time (seconds): 0.562
+result: Passed. Build successful
+
+#section:compile
+----------messages:(7/436)----------
+command: compile /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/lib/jdk/test/lib/helpers/ClassFileInstaller.java
+reason: .class file out of date or does not exist
+started: Fri Aug 30 09:51:45 CST 2024
+Additional options from @modules: --add-modules java.base,java.management --add-exports java.base/jdk.internal.misc=ALL-UNNAMED
+Mode: othervm
+finished: Fri Aug 30 09:51:46 CST 2024
+elapsed time (seconds): 0.561
+----------configuration:(6/327)----------
+javac compilation environment
+  add modules: java.base java.management   
+  add exports: java.base/jdk.internal.misc ALL-UNNAMED
+  source path: /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/lib 
+  class path:  /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/test/lib 
+
+----------rerun:(36/2495)*----------
+cd /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/scratch && \\
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/999/bus,guid=57e4b8842fa58c33d0a364d866c852b7 \\
+DESKTOP_SESSION=ubuntu \\
+DISPLAY=:1 \\
+GDMSESSION=ubuntu \\
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated \\
+GNOME_SHELL_SESSION_MODE=ubuntu \\
+HOME=/home/cxl \\
+LANG=zh_CN.UTF-8 \\
+PATH=/bin:/usr/bin:/usr/sbin \\
+XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg \\
+XDG_CURRENT_DESKTOP=ubuntu:GNOME \\
+XDG_DATA_DIRS=/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop \\
+XDG_MENU_PREFIX=gnome- \\
+XDG_RUNTIME_DIR=/run/user/999 \\
+XDG_SESSION_CLASS=user \\
+XDG_SESSION_DESKTOP=ubuntu \\
+XDG_SESSION_TYPE=x11 \\
+XMODIFIERS=@im=ibus \\
+    /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk/bin/javac \\
+        -J-Dtest.vm.opts= \\
+        -J-Dtest.tool.vm.opts= \\
+        -J-Dtest.compiler.opts= \\
+        -J-Dtest.java.opts= \\
+        -J-Dtest.jdk=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk \\
+        -J-Dcompile.jdk=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk \\
+        -J-Dtest.timeout.factor=1.0 \\
+        -J-Dtest.root=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg \\
+        -J-Dtest.name=gc/g1/TestGCLogMessages.java \\
+        -J-Dtest.file=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1/TestGCLogMessages.java \\
+        -J-Dtest.src=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1 \\
+        -J-Dtest.src.path=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/lib \\
+        -J-Dtest.classes=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestGCLogMessages.d \\
+        -J-Dtest.class.path=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestGCLogMessages.d:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/test/lib \\
+        -J-Dtest.modules='java.base/jdk.internal.misc java.management' \\
+        @/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/gc/g1/TestGCLogMessages.d/compile.1.jta
+----------System.out:(0/0)----------
+----------System.err:(0/0)----------
+result: Passed. Compilation successful
+
+#section:driver
+----------messages:(7/442)----------
+command: driver jdk.test.lib.helpers.ClassFileInstaller jdk.test.whitebox.WhiteBox
+reason: User specified action: run driver jdk.test.lib.helpers.ClassFileInstaller jdk.test.whitebox.WhiteBox 
+started: Fri Aug 30 09:51:46 CST 2024
+Mode: othervm
+Additional options from @modules: --add-modules java.base,java.management --add-exports java.base/jdk.internal.misc=ALL-UNNAMED
+finished: Fri Aug 30 09:51:46 CST 2024
+elapsed time (seconds): 0.102
+----------configuration:(4/111)----------
+Boot Layer
+  add modules: java.base java.management   
+  add exports: java.base/jdk.internal.misc ALL-UNNAMED
+
+----------System.out:(0/0)----------
+----------System.err:(1/15)----------
+STATUS:Passed.
+----------rerun:(39/3034)*----------
+cd /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/scratch && \\
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/999/bus,guid=57e4b8842fa58c33d0a364d866c852b7 \\
+DESKTOP_SESSION=ubuntu \\
+DISPLAY=:1 \\
+GDMSESSION=ubuntu \\
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated \\
+GNOME_SHELL_SESSION_MODE=ubuntu \\
+HOME=/home/cxl \\
+LANG=zh_CN.UTF-8 \\
+PATH=/bin:/usr/bin:/usr/sbin \\
+XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg \\
+XDG_CURRENT_DESKTOP=ubuntu:GNOME \\
+XDG_DATA_DIRS=/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop \\
+XDG_MENU_PREFIX=gnome- \\
+XDG_RUNTIME_DIR=/run/user/999 \\
+XDG_SESSION_CLASS=user \\
+XDG_SESSION_DESKTOP=ubuntu \\
+XDG_SESSION_TYPE=x11 \\
+XMODIFIERS=@im=ibus \\
+CLASSPATH=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/test/lib:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/lib:/home/cxl/projects/TencentKona/tools/jtreg/lib/javatest.jar:/home/cxl/projects/TencentKona/tools/jtreg/lib/jtreg.jar \\
+    /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk/bin/java \\
+        -Dtest.vm.opts= \\
+        -Dtest.tool.vm.opts= \\
+        -Dtest.compiler.opts= \\
+        -Dtest.java.opts= \\
+        -Dtest.jdk=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk \\
+        -Dcompile.jdk=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk \\
+        -Dtest.timeout.factor=1.0 \\
+        -Dtest.root=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg \\
+        -Dtest.name=gc/g1/TestGCLogMessages.java \\
+        -Dtest.file=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1/TestGCLogMessages.java \\
+        -Dtest.src=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1 \\
+        -Dtest.src.path=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/lib \\
+        -Dtest.classes=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestGCLogMessages.d \\
+        -Dtest.class.path=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestGCLogMessages.d:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/test/lib \\
+        -Dtest.modules='java.base/jdk.internal.misc java.management' \\
+        --add-modules java.base,java.management \\
+        --add-exports java.base/jdk.internal.misc=ALL-UNNAMED \\
+        com.sun.javatest.regtest.agent.MainWrapper /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/gc/g1/TestGCLogMessages.d/driver.2.jta jdk.test.whitebox.WhiteBox
+result: Passed. Execution successful
+
+#section:build
+----------messages:(7/236)----------
+command: build gc.g1.TestGCLogMessages
+reason: Named class compiled on demand
+started: Fri Aug 30 09:51:46 CST 2024
+Test directory:
+  compile: gc.g1.TestGCLogMessages
+finished: Fri Aug 30 09:51:47 CST 2024
+elapsed time (seconds): 1.208
+result: Passed. Build successful
+
+#section:compile
+----------messages:(7/430)----------
+command: compile /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1/TestGCLogMessages.java
+reason: .class file out of date or does not exist
+started: Fri Aug 30 09:51:46 CST 2024
+Additional options from @modules: --add-modules java.base,java.management --add-exports java.base/jdk.internal.misc=ALL-UNNAMED
+Mode: othervm
+finished: Fri Aug 30 09:51:47 CST 2024
+elapsed time (seconds): 1.208
+----------configuration:(9/664)----------
+javac compilation environment
+  add modules: java.base java.management   
+  add exports: java.base/jdk.internal.misc ALL-UNNAMED
+  source path: /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1 
+               /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/lib 
+  class path:  /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1 
+               /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestGCLogMessages.d 
+               /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/test/lib 
+
+----------rerun:(36/2495)*----------
+cd /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/scratch && \\
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/999/bus,guid=57e4b8842fa58c33d0a364d866c852b7 \\
+DESKTOP_SESSION=ubuntu \\
+DISPLAY=:1 \\
+GDMSESSION=ubuntu \\
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated \\
+GNOME_SHELL_SESSION_MODE=ubuntu \\
+HOME=/home/cxl \\
+LANG=zh_CN.UTF-8 \\
+PATH=/bin:/usr/bin:/usr/sbin \\
+XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg \\
+XDG_CURRENT_DESKTOP=ubuntu:GNOME \\
+XDG_DATA_DIRS=/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop \\
+XDG_MENU_PREFIX=gnome- \\
+XDG_RUNTIME_DIR=/run/user/999 \\
+XDG_SESSION_CLASS=user \\
+XDG_SESSION_DESKTOP=ubuntu \\
+XDG_SESSION_TYPE=x11 \\
+XMODIFIERS=@im=ibus \\
+    /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk/bin/javac \\
+        -J-Dtest.vm.opts= \\
+        -J-Dtest.tool.vm.opts= \\
+        -J-Dtest.compiler.opts= \\
+        -J-Dtest.java.opts= \\
+        -J-Dtest.jdk=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk \\
+        -J-Dcompile.jdk=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk \\
+        -J-Dtest.timeout.factor=1.0 \\
+        -J-Dtest.root=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg \\
+        -J-Dtest.name=gc/g1/TestGCLogMessages.java \\
+        -J-Dtest.file=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1/TestGCLogMessages.java \\
+        -J-Dtest.src=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1 \\
+        -J-Dtest.src.path=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/lib \\
+        -J-Dtest.classes=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestGCLogMessages.d \\
+        -J-Dtest.class.path=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestGCLogMessages.d:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/test/lib \\
+        -J-Dtest.modules='java.base/jdk.internal.misc java.management' \\
+        @/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/gc/g1/TestGCLogMessages.d/compile.3.jta
+----------System.out:(0/0)----------
+----------System.err:(0/0)----------
+result: Passed. Compilation successful
+
+#section:main
+----------messages:(7/517)----------
+command: main -Xbootclasspath/a:. -XX:+UnlockDiagnosticVMOptions -XX:+WhiteBoxAPI gc.g1.TestGCLogMessages
+reason: User specified action: run main/othervm -Xbootclasspath/a:. -XX:+UnlockDiagnosticVMOptions -XX:+WhiteBoxAPI gc.g1.TestGCLogMessages 
+started: Fri Aug 30 09:51:47 CST 2024
+Mode: othervm [/othervm specified]
+Additional options from @modules: --add-modules java.base,java.management --add-exports java.base/jdk.internal.misc=ALL-UNNAMED
+finished: Fri Aug 30 09:51:48 CST 2024
+elapsed time (seconds): 0.651
+----------configuration:(4/111)----------
+Boot Layer
+  add modules: java.base java.management   
+  add exports: java.base/jdk.internal.misc ALL-UNNAMED
+
+----------System.out:(20/5382)----------
+Command line: [/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk/bin/java -cp /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestGCLogMessages.d:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/test/lib:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/lib:/home/cxl/projects/TencentKona/tools/jtreg/lib/javatest.jar:/home/cxl/projects/TencentKona/tools/jtreg/lib/jtreg.jar -XX:+UseG1GC -Xmx10M gc.g1.TestGCLogMessages$GCTest ]
+[2024-08-30T01:51:47.903011106Z] Gathering output for process 1217060
+[2024-08-30T01:51:47.948253012Z] Waiting for completion for process 1217060
+[2024-08-30T01:51:47.948399493Z] Waiting for completion finished for process 1217060
+Command line: [/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk/bin/java -cp /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestGCLogMessages.d:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/test/lib:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/lib:/home/cxl/projects/TencentKona/tools/jtreg/lib/javatest.jar:/home/cxl/projects/TencentKona/tools/jtreg/lib/jtreg.jar -XX:+UseG1GC -Xmx10M -Xlog:gc+phases=debug gc.g1.TestGCLogMessages$GCTest ]
+[2024-08-30T01:51:47.949967645Z] Gathering output for process 1217088
+Command line: [/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk/bin/java -cp /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestGCLogMessages.d:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/test/lib:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/lib:/home/cxl/projects/TencentKona/tools/jtreg/lib/javatest.jar:/home/cxl/projects/TencentKona/tools/jtreg/lib/jtreg.jar -XX:+UseG1GC -Xmx10M -Xlog:gc+phases=trace gc.g1.TestGCLogMessages$GCTest ]
+[2024-08-30T01:51:48.095847191Z] Gathering output for process 1217116
+[2024-08-30T01:51:48.239382654Z] Waiting for completion for process 1217116
+[2024-08-30T01:51:48.239591796Z] Waiting for completion finished for process 1217116
+Command line: [/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk/bin/java -cp /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestGCLogMessages.d:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/test/lib:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/lib:/home/cxl/projects/TencentKona/tools/jtreg/lib/javatest.jar:/home/cxl/projects/TencentKona/tools/jtreg/lib/jtreg.jar -XX:+UseG1GC -Xmx10M -Xlog:gc+refine+stats=debug gc.g1.TestGCLogMessages$GCTest ]
+[2024-08-30T01:51:48.241529044Z] Gathering output for process 1217161
+Command line: [/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk/bin/java -cp /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestGCLogMessages.d:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/test/lib:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/lib:/home/cxl/projects/TencentKona/tools/jtreg/lib/javatest.jar:/home/cxl/projects/TencentKona/tools/jtreg/lib/jtreg.jar -XX:+UseG1GC -Xmx10M -Xbootclasspath/a:. -Xlog:gc*=debug -XX:+UnlockDiagnosticVMOptions -XX:+WhiteBoxAPI gc.g1.TestGCLogMessages$GCTestWithConcurrentStart ]
+[2024-08-30T01:51:48.294419063Z] Gathering output for process 1217183
+[2024-08-30T01:51:48.352619637Z] Waiting for completion for process 1217183
+[2024-08-30T01:51:48.352802909Z] Waiting for completion finished for process 1217183
+Command line: [/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk/bin/java -cp /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestGCLogMessages.d:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/test/lib:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/lib:/home/cxl/projects/TencentKona/tools/jtreg/lib/javatest.jar:/home/cxl/projects/TencentKona/tools/jtreg/lib/jtreg.jar -XX:+UseG1GC -Xmx10M -Xbootclasspath/a:. -Xlog:gc+ergo+heap=debug -XX:+UnlockDiagnosticVMOptions -XX:+WhiteBoxAPI gc.g1.TestGCLogMessages$GCTest ]
+[2024-08-30T01:51:48.354272333Z] Gathering output for process 1217222
+[2024-08-30T01:51:48.423302981Z] Waiting for completion for process 1217222
+[2024-08-30T01:51:48.423496811Z] Waiting for completion finished for process 1217222
+----------System.err:(1/15)----------
+STATUS:Passed.
+----------rerun:(42/3213)*----------
+cd /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/scratch && \\
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/999/bus,guid=57e4b8842fa58c33d0a364d866c852b7 \\
+DESKTOP_SESSION=ubuntu \\
+DISPLAY=:1 \\
+GDMSESSION=ubuntu \\
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated \\
+GNOME_SHELL_SESSION_MODE=ubuntu \\
+HOME=/home/cxl \\
+LANG=zh_CN.UTF-8 \\
+PATH=/bin:/usr/bin:/usr/sbin \\
+XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg \\
+XDG_CURRENT_DESKTOP=ubuntu:GNOME \\
+XDG_DATA_DIRS=/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop \\
+XDG_MENU_PREFIX=gnome- \\
+XDG_RUNTIME_DIR=/run/user/999 \\
+XDG_SESSION_CLASS=user \\
+XDG_SESSION_DESKTOP=ubuntu \\
+XDG_SESSION_TYPE=x11 \\
+XMODIFIERS=@im=ibus \\
+CLASSPATH=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestGCLogMessages.d:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/test/lib:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/lib:/home/cxl/projects/TencentKona/tools/jtreg/lib/javatest.jar:/home/cxl/projects/TencentKona/tools/jtreg/lib/jtreg.jar \\
+    /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk/bin/java \\
+        -Dtest.vm.opts= \\
+        -Dtest.tool.vm.opts= \\
+        -Dtest.compiler.opts= \\
+        -Dtest.java.opts= \\
+        -Dtest.jdk=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk \\
+        -Dcompile.jdk=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk \\
+        -Dtest.timeout.factor=1.0 \\
+        -Dtest.root=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg \\
+        -Dtest.name=gc/g1/TestGCLogMessages.java \\
+        -Dtest.file=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1/TestGCLogMessages.java \\
+        -Dtest.src=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1 \\
+        -Dtest.src.path=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/lib \\
+        -Dtest.classes=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestGCLogMessages.d \\
+        -Dtest.class.path=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestGCLogMessages.d:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/test/lib \\
+        -Dtest.modules='java.base/jdk.internal.misc java.management' \\
+        --add-modules java.base,java.management \\
+        --add-exports java.base/jdk.internal.misc=ALL-UNNAMED \\
+        -Xbootclasspath/a:. \\
+        -XX:+UnlockDiagnosticVMOptions \\
+        -XX:+WhiteBoxAPI \\
+        com.sun.javatest.regtest.agent.MainWrapper /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/gc/g1/TestGCLogMessages.d/main.4.jta
+result: Passed. Execution successful
+
+
+test result: Passed. Execution successful

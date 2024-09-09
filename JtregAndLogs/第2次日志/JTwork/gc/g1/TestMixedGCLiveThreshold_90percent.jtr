@@ -1,0 +1,729 @@
+#Test Results (version 2)
+#Sun Sep 08 16:15:16 CST 2024
+#-----testdescription-----
+$file=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1/TestMixedGCLiveThreshold.java
+$root=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg
+id=90percent
+keywords=driver
+library=/test/lib
+requires=vm.gc.G1
+run=USER_SPECIFIED build jdk.test.whitebox.WhiteBox\nUSER_SPECIFIED driver jdk.test.lib.helpers.ClassFileInstaller jdk.test.whitebox.WhiteBox\nUSER_SPECIFIED driver gc.g1.TestMixedGCLiveThreshold 90 true\n
+source=TestMixedGCLiveThreshold.java
+title=Test G1MixedGCLiveThresholdPercent\=90.
+
+#-----environment-----
+
+#-----testresult-----
+description=file\:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1/TestMixedGCLiveThreshold.java\#90percent
+elapsed=105207 0\:01\:45.207
+end=Sun Sep 08 16\:15\:16 CST 2024
+environment=regtest
+execStatus=Passed. Execution successful
+harnessLoaderMode=Classpath Loader
+harnessVariety=Full Bundle
+hostname=zkyj-4080-1
+javatestOS=Linux 6.5.0-44-generic (amd64)
+javatestVersion=6.0-ea+b24-2024-08-23-${BUILT_FROM_COMMIT}
+jtregVersion=jtreg 7.3.1 dev 0
+script=com.sun.javatest.regtest.exec.RegressionScript
+sections=script_messages build build driver build compile driver
+start=Sun Sep 08 16\:13\:31 CST 2024
+test=gc/g1/TestMixedGCLiveThreshold.java\#90percent
+testJDK=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk
+testJDK_OS=[name\:Linux,arch\:amd64,version\:6.5.0-44-generic,family\:linux,simple_arch\:x64,simple_version\:6.5,processors\:72,maxMemory\:134786752512,maxSwap\:2147479552]
+testJDK_os.arch=amd64
+testJDK_os.name=Linux
+testJDK_os.version=6.5.0-44-generic
+totalTime=105301
+user.name=cxl
+work=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/gc/g1
+
+#section:script_messages
+----------messages:(7/633)----------
+JDK under test: /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk
+openjdk version "17.0.11-internal" 2024-04-16
+OpenJDK Runtime Environment (build 17.0.11-internal+0-adhoc.cxl.TencentKona-17-TencentKona-17.0.11)
+OpenJDK 64-Bit Server VM (build 17.0.11-internal+0-adhoc.cxl.TencentKona-17-TencentKona-17.0.11, mixed mode, sharing)
+Library /test/lib; kind: packages
+   source directory: /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/lib
+   class directory: /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/test/lib
+
+#section:build
+----------messages:(5/218)----------
+command: build jdk.test.whitebox.WhiteBox
+reason: User specified action: run build jdk.test.whitebox.WhiteBox 
+started: Sun Sep 08 16:13:31 CST 2024
+finished: Sun Sep 08 16:13:31 CST 2024
+elapsed time (seconds): 0.001
+result: Passed. All files up to date
+
+#section:build
+----------messages:(5/199)----------
+command: build jdk.test.lib.helpers.ClassFileInstaller
+reason: Named class compiled on demand
+started: Sun Sep 08 16:13:31 CST 2024
+finished: Sun Sep 08 16:13:31 CST 2024
+elapsed time (seconds): 0.0
+result: Passed. All files up to date
+
+#section:driver
+----------messages:(6/314)----------
+command: driver jdk.test.lib.helpers.ClassFileInstaller jdk.test.whitebox.WhiteBox
+reason: User specified action: run driver jdk.test.lib.helpers.ClassFileInstaller jdk.test.whitebox.WhiteBox 
+started: Sun Sep 08 16:13:31 CST 2024
+Mode: othervm
+finished: Sun Sep 08 16:13:31 CST 2024
+elapsed time (seconds): 0.067
+----------configuration:(0/0)----------
+----------System.out:(0/0)----------
+----------System.err:(1/15)----------
+STATUS:Passed.
+----------rerun:(28/2730)*----------
+cd /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/scratch && \\
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/999/bus \\
+DISPLAY=localhost:10.0 \\
+HOME=/home/cxl \\
+LANG=zh_CN.UTF-8 \\
+PATH=/bin:/usr/bin:/usr/sbin \\
+XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop \\
+XDG_RUNTIME_DIR=/run/user/999 \\
+XDG_SESSION_CLASS=user \\
+XDG_SESSION_ID=2223 \\
+XDG_SESSION_TYPE=tty \\
+CLASSPATH=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestMixedGCLiveThreshold_90percent.d:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/test/lib:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/lib:/home/cxl/projects/TencentKona/tools/jtreg/lib/javatest.jar:/home/cxl/projects/TencentKona/tools/jtreg/lib/jtreg.jar \\
+    /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk/bin/java \\
+        -Dtest.vm.opts= \\
+        -Dtest.tool.vm.opts= \\
+        -Dtest.compiler.opts= \\
+        -Dtest.java.opts= \\
+        -Dtest.jdk=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk \\
+        -Dcompile.jdk=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk \\
+        -Dtest.timeout.factor=1.0 \\
+        -Dtest.root=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg \\
+        -Dtest.name=gc/g1/TestMixedGCLiveThreshold.java#90percent \\
+        -Dtest.file=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1/TestMixedGCLiveThreshold.java \\
+        -Dtest.src=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1 \\
+        -Dtest.src.path=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/lib \\
+        -Dtest.classes=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestMixedGCLiveThreshold_90percent.d \\
+        -Dtest.class.path=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestMixedGCLiveThreshold_90percent.d:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/test/lib \\
+        com.sun.javatest.regtest.agent.MainWrapper /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/gc/g1/TestMixedGCLiveThreshold_90percent.d/driver.0.jta jdk.test.whitebox.WhiteBox
+result: Passed. Execution successful
+
+#section:build
+----------messages:(7/249)----------
+command: build gc.g1.TestMixedGCLiveThreshold
+reason: Named class compiled on demand
+started: Sun Sep 08 16:13:31 CST 2024
+Test directory:
+  compile: gc.g1.TestMixedGCLiveThreshold
+finished: Sun Sep 08 16:13:32 CST 2024
+elapsed time (seconds): 0.52
+result: Passed. Build successful
+
+#section:compile
+----------messages:(6/308)----------
+command: compile /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1/TestMixedGCLiveThreshold.java
+reason: .class file out of date or does not exist
+started: Sun Sep 08 16:13:31 CST 2024
+Mode: othervm
+finished: Sun Sep 08 16:13:32 CST 2024
+elapsed time (seconds): 0.52
+----------configuration:(7/577)----------
+javac compilation environment
+  source path: /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1
+               /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/lib
+  class path:  /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1
+               /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestMixedGCLiveThreshold_90percent.d
+               /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/test/lib
+
+----------rerun:(29/2814)*----------
+cd /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/scratch && \\
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/999/bus \\
+DISPLAY=localhost:10.0 \\
+HOME=/home/cxl \\
+LANG=zh_CN.UTF-8 \\
+PATH=/bin:/usr/bin:/usr/sbin \\
+XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop \\
+XDG_RUNTIME_DIR=/run/user/999 \\
+XDG_SESSION_CLASS=user \\
+XDG_SESSION_ID=2223 \\
+XDG_SESSION_TYPE=tty \\
+    /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk/bin/javac \\
+        -J-Dtest.vm.opts= \\
+        -J-Dtest.tool.vm.opts= \\
+        -J-Dtest.compiler.opts= \\
+        -J-Dtest.java.opts= \\
+        -J-Dtest.jdk=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk \\
+        -J-Dcompile.jdk=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk \\
+        -J-Dtest.timeout.factor=1.0 \\
+        -J-Dtest.root=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg \\
+        -J-Dtest.name=gc/g1/TestMixedGCLiveThreshold.java#90percent \\
+        -J-Dtest.file=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1/TestMixedGCLiveThreshold.java \\
+        -J-Dtest.src=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1 \\
+        -J-Dtest.src.path=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/lib \\
+        -J-Dtest.classes=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestMixedGCLiveThreshold_90percent.d \\
+        -J-Dtest.class.path=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestMixedGCLiveThreshold_90percent.d:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/test/lib \\
+        -d /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestMixedGCLiveThreshold_90percent.d \\
+        -sourcepath /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/lib \\
+        -classpath /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestMixedGCLiveThreshold_90percent.d:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/test/lib /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1/TestMixedGCLiveThreshold.java
+----------System.out:(0/0)----------
+----------System.err:(0/0)----------
+result: Passed. Compilation successful
+
+#section:driver
+----------messages:(6/260)----------
+command: driver gc.g1.TestMixedGCLiveThreshold 90 true
+reason: User specified action: run driver gc.g1.TestMixedGCLiveThreshold 90 true 
+started: Sun Sep 08 16:13:32 CST 2024
+Mode: othervm
+finished: Sun Sep 08 16:15:16 CST 2024
+elapsed time (seconds): 104.613
+----------configuration:(0/0)----------
+----------System.out:(4/1401)----------
+Command line: [/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk/bin/java -cp /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestMixedGCLiveThreshold_90percent.d:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/test/lib:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/lib:/home/cxl/projects/TencentKona/tools/jtreg/lib/javatest.jar:/home/cxl/projects/TencentKona/tools/jtreg/lib/jtreg.jar -Xbootclasspath/a:. -XX:+UseG1GC -XX:+UnlockDiagnosticVMOptions -XX:+UnlockExperimentalVMOptions -XX:MaxGCPauseMillis=50 -XX:+WhiteBoxAPI -XX:G1HeapRegionSize=4m -XX:G1HeapWastePercent=0 -XX:G1ReservePercent=0 -Xlog:gc+remset+tracking=trace:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/G1GCRemset_90.log:time -Xlog:gc*:file=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/G1GC_90.log:time,level -Xms128M -Xmx128M -XX:G1MixedGCLiveThresholdPercent=90 gc.g1.TestMixedGCLiveThreshold$GCTest 90 ]
+[2024-09-08T08:13:32.406332982Z] Gathering output for process 3951557
+[2024-09-08T08:15:16.891313709Z] Waiting for completion for process 3951557
+[2024-09-08T08:15:16.891455967Z] Waiting for completion finished for process 3951557
+----------System.err:(509/17945)----------
+ stdout: [now liveThresholdPercent90
+Total regions: 32, Region size: 4194304
+Before AllocateMemory:
+Current DateTime: 2024/09/08 16:13:32
+match Old Regions Count: 0
+Total Memory in Old Regions: 0
+Estimated Memory to Free in Old Regions: 0
+in small xunhuan:
+check In Concurrent Mark Cycle: false
+[B@72ea2f77
+[B@33c7353a
+[B@681a9515
+[B@3af49f1c
+[B@19469ea2
+[B@13221655
+[B@2f2c9b19
+[B@31befd9f
+[B@1c20c684
+[B@1fb3ebeb
+Current DateTime: 2024/09/08 16:13:42
+Region 0:
+  Live bytes: 1059672  Total bytes: 1059672  Live percent: 100%
+match Old Regions Count: 0
+Total Memory in Old Regions: 0
+Estimated Memory to Free in Old Regions: 0
+in small xunhuan:
+check In Concurrent Mark Cycle: false
+Current DateTime: 2024/09/08 16:13:53
+Region 0:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 1:
+  Live bytes: 4175864  Total bytes: 4194304  Live percent: 99%
+Region 2:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 3:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 4:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 5:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 6:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 7:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 8:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 9:
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 10:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 11:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 12:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 13:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 14:
+  Live bytes: 4183400  Total bytes: 4194304  Live percent: 99%
+Region 15:
+  Live bytes: 4176976  Total bytes: 4194304  Live percent: 99%
+Region 16:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 17:
+  Live bytes: 4194208  Total bytes: 4194304  Live percent: 99%
+Region 18:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 19:
+  Live bytes: 83968  Total bytes: 83968  Live percent: 100%
+match Old Regions Count: 0
+Total Memory in Old Regions: 0
+Estimated Memory to Free in Old Regions: 0
+in small xunhuan:
+check In Concurrent Mark Cycle: false
+Current DateTime: 2024/09/08 16:14:03
+Region 0:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 1:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 2:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 3:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 4:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 5:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 6:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 7:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 8:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 9:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 10:
+  Live bytes: 4193920  Total bytes: 4194304  Live percent: 99%
+Region 11:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 12:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 13:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 14:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 15:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 16:
+  Live bytes: 3399168  Total bytes: 3399168  Live percent: 100%
+Region 19:
+  Live bytes: 503520  Total bytes: 4194304  Live percent: 12%
+Region 20:
+  Live bytes: 3608560  Total bytes: 4194304  Live percent: 86%
+Region 21:
+  Live bytes: 4144240  Total bytes: 4194304  Live percent: 98%
+match Old Regions Count: 2
+Total Memory in Old Regions: 8388608
+Estimated Memory to Free in Old Regions: 4276528
+in small xunhuan:
+check In Concurrent Mark Cycle: false
+Current DateTime: 2024/09/08 16:14:13
+Region 0:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 1:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 2:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 3:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 4:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 5:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 6:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 7:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 8:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 9:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 10:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 11:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 12:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 13:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 14:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 15:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 16:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 17:
+  Live bytes: 125952  Total bytes: 125952  Live percent: 100%
+Region 19:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 20:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+match Old Regions Count: 0
+Total Memory in Old Regions: 0
+Estimated Memory to Free in Old Regions: 0
+in small xunhuan:
+check In Concurrent Mark Cycle: false
+Current DateTime: 2024/09/08 16:14:23
+Region 0:
+  Live bytes: 4163016  Total bytes: 4163016  Live percent: 100%
+Region 1:
+  Live bytes: 1342744  Total bytes: 1342744  Live percent: 100%
+Region 2:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 3:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 4:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 5:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 6:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 7:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 8:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 9:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 10:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 11:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 12:
+  Live bytes: 41984  Total bytes: 41984  Live percent: 100%
+Region 22:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 23:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 24:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 25:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 26:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 27:
+  Live bytes: 4112080  Total bytes: 4112080  Live percent: 100%
+Region 28:
+  Live bytes: 4112080  Total bytes: 4112080  Live percent: 100%
+Region 29:
+  Live bytes: 4152464  Total bytes: 4152464  Live percent: 100%
+match Old Regions Count: 0
+Total Memory in Old Regions: 0
+Estimated Memory to Free in Old Regions: 0
+in small xunhuan:
+check In Concurrent Mark Cycle: false
+[B@7229724f
+[B@4c873330
+[B@119d7047
+[B@776ec8df
+[B@4eec7777
+[B@3b07d329
+[B@41629346
+[B@404b9385
+[B@6d311334
+[B@682a0b20
+Current DateTime: 2024/09/08 16:14:34
+Region 0:
+  Live bytes: 1057976  Total bytes: 1057976  Live percent: 100%
+match Old Regions Count: 0
+Total Memory in Old Regions: 0
+Estimated Memory to Free in Old Regions: 0
+in small xunhuan:
+check In Concurrent Mark Cycle: false
+Current DateTime: 2024/09/08 16:14:44
+Region 0:
+  Live bytes: 1057976  Total bytes: 1057976  Live percent: 100%
+Region 15:
+  Live bytes: 4154040  Total bytes: 4154040  Live percent: 100%
+Region 16:
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 17:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 18:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 19:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 20:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 21:
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 22:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 23:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 24:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 25:
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 26:
+  Live bytes: 3398760  Total bytes: 4194304  Live percent: 81%
+Region 27:
+  Live bytes: 713320  Total bytes: 4194304  Live percent: 17%
+match Old Regions Count: 2
+Total Memory in Old Regions: 8388608
+Estimated Memory to Free in Old Regions: 4276528
+in small xunhuan:
+check In Concurrent Mark Cycle: false
+Current DateTime: 2024/09/08 16:14:54
+Region 0:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 1:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 2:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 3:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 4:
+  Live bytes: 4154040  Total bytes: 4154040  Live percent: 100%
+Region 5:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 6:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 7:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 8:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 9:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 10:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 11:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 12:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 13:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 14:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 15:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 16:
+  Live bytes: 4154368  Total bytes: 4154368  Live percent: 100%
+match Old Regions Count: 0
+Total Memory in Old Regions: 0
+Estimated Memory to Free in Old Regions: 0
+in small xunhuan:
+check In Concurrent Mark Cycle: false
+Current DateTime: 2024/09/08 16:15:04
+Region 0:
+  Live bytes: 3365800  Total bytes: 3365800  Live percent: 100%
+Region 1:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 2:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 3:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 4:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 5:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 6:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 7:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 8:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 9:
+  Live bytes: 41984  Total bytes: 41984  Live percent: 100%
+Region 21:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 22:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 23:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 24:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 25:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 26:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 27:
+  Live bytes: 4117032  Total bytes: 4117032  Live percent: 100%
+Region 28:
+  Live bytes: 4112080  Total bytes: 4112080  Live percent: 100%
+Region 29:
+  Live bytes: 4152480  Total bytes: 4152480  Live percent: 100%
+match Old Regions Count: 0
+Total Memory in Old Regions: 0
+Estimated Memory to Free in Old Regions: 0
+in small xunhuan:
+check In Concurrent Mark Cycle: false
+Current DateTime: 2024/09/08 16:15:14
+Region 0:
+  Live bytes: 4163040  Total bytes: 4163040  Live percent: 100%
+Region 1:
+  Live bytes: 1930160  Total bytes: 1930160  Live percent: 100%
+Region 2:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 3:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 4:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 5:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 6:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 7:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 8:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 9:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 10:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 11:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 12:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 13:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 14:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 15:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 16:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 17:
+  Live bytes: 4194304  Total bytes: 4194304  Live percent: 100%
+Region 18:
+  Live bytes: 4112080  Total bytes: 4112080  Live percent: 100%
+Region 19:
+  Live bytes: 83968  Total bytes: 83968  Live percent: 100%
+Region 20:
+  Live bytes: 4152440  Total bytes: 4152440  Live percent: 100%
+match Old Regions Count: 0
+Total Memory in Old Regions: 0
+Estimated Memory to Free in Old Regions: 0
+check In Concurrent Mark Cycle: true
+check In Concurrent Mark Cycle after sleep 1000: false
+After Concurrent Mark Cycle:
+Current DateTime: 2024/09/08 16:15:15
+Region 0:
+  Live bytes: 4163016  Total bytes: 4163040  Live percent: 99%
+Region 1:
+  Live bytes: 1930160  Total bytes: 1930160  Live percent: 100%
+Region 2:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 3:
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 4:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 5:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 6:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 7:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 8:
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 9:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 10:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 11:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 12:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 13:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 14:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 15:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 16:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 17:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 18:
+  Live bytes: 4112080  Total bytes: 4112080  Live percent: 100%
+Region 19:
+  Live bytes: 4194256  Total bytes: 4194304  Live percent: 99%
+Region 20:
+  Live bytes: 4112080  Total bytes: 4152440  Live percent: 99%
+Region 21:
+  Live bytes: 83968  Total bytes: 83968  Live percent: 100%
+match Old Regions Count: 0
+Total Memory in Old Regions: 0
+Estimated Memory to Free in Old Regions: 0
+After AllocateMemory50 and and Before Concurrent Mark Cycle:
+Current DateTime: 2024/09/08 16:15:15
+Region 0:
+  Live bytes: 4163016  Total bytes: 4163040  Live percent: 99%
+Region 1:
+  Live bytes: 1930160  Total bytes: 1930160  Live percent: 100%
+Region 2:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 3:
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 4:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 5:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 6:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 7:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 8:
+  Live bytes: 4112080  Total bytes: 4194304  Live percent: 98%
+Region 9:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 10:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 11:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 12:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 13:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 14:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 15:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 16:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 17:
+  Live bytes: 4154040  Total bytes: 4194304  Live percent: 99%
+Region 18:
+  Live bytes: 4112080  Total bytes: 4112080  Live percent: 100%
+Region 19:
+  Live bytes: 4194256  Total bytes: 4194304  Live percent: 99%
+Region 20:
+  Live bytes: 4112080  Total bytes: 4152440  Live percent: 99%
+Region 21:
+  Live bytes: 83968  Total bytes: 83968  Live percent: 100%
+match Old Regions Count: 0
+Total Memory in Old Regions: 0
+Estimated Memory to Free in Old Regions: 0
+check In Concurrent Mark Cycle: true
+check In Concurrent Mark Cycle after sleep 1000: false
+After Concurrent Mark Cycle:
+Current DateTime: 2024/09/08 16:15:16
+Region 0:
+  Live bytes: 1056928  Total bytes: 4163040  Live percent: 25%
+match Old Regions Count: 1
+Total Memory in Old Regions: 4163040
+Estimated Memory to Free in Old Regions: 0
+];
+ stderr: []
+ exitValue = 0
+
+STATUS:Passed.
+----------rerun:(28/2711)*----------
+cd /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/scratch && \\
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/999/bus \\
+DISPLAY=localhost:10.0 \\
+HOME=/home/cxl \\
+LANG=zh_CN.UTF-8 \\
+PATH=/bin:/usr/bin:/usr/sbin \\
+XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop \\
+XDG_RUNTIME_DIR=/run/user/999 \\
+XDG_SESSION_CLASS=user \\
+XDG_SESSION_ID=2223 \\
+XDG_SESSION_TYPE=tty \\
+CLASSPATH=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestMixedGCLiveThreshold_90percent.d:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/test/lib:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/lib:/home/cxl/projects/TencentKona/tools/jtreg/lib/javatest.jar:/home/cxl/projects/TencentKona/tools/jtreg/lib/jtreg.jar \\
+    /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk/bin/java \\
+        -Dtest.vm.opts= \\
+        -Dtest.tool.vm.opts= \\
+        -Dtest.compiler.opts= \\
+        -Dtest.java.opts= \\
+        -Dtest.jdk=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk \\
+        -Dcompile.jdk=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk \\
+        -Dtest.timeout.factor=1.0 \\
+        -Dtest.root=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg \\
+        -Dtest.name=gc/g1/TestMixedGCLiveThreshold.java#90percent \\
+        -Dtest.file=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1/TestMixedGCLiveThreshold.java \\
+        -Dtest.src=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1 \\
+        -Dtest.src.path=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/lib \\
+        -Dtest.classes=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestMixedGCLiveThreshold_90percent.d \\
+        -Dtest.class.path=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestMixedGCLiveThreshold_90percent.d:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/test/lib \\
+        com.sun.javatest.regtest.agent.MainWrapper /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/gc/g1/TestMixedGCLiveThreshold_90percent.d/driver.1.jta 90 true
+result: Passed. Execution successful
+
+
+test result: Passed. Execution successful

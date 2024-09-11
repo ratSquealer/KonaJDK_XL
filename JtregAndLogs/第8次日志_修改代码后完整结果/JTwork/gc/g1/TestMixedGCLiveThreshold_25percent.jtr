@@ -1,0 +1,370 @@
+#Test Results (version 2)
+#Wed Sep 11 15:39:53 CST 2024
+#-----testdescription-----
+$file=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1/TestMixedGCLiveThreshold.java
+$root=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg
+id=25percent
+keywords=driver
+library=/test/lib
+requires=vm.gc.G1
+run=USER_SPECIFIED build jdk.test.whitebox.WhiteBox\nUSER_SPECIFIED driver jdk.test.lib.helpers.ClassFileInstaller jdk.test.whitebox.WhiteBox\nUSER_SPECIFIED driver gc.g1.TestMixedGCLiveThreshold 25 false\n
+source=TestMixedGCLiveThreshold.java
+title=Test G1MixedGCLiveThresholdPercent\=25.
+
+#-----environment-----
+
+#-----testresult-----
+description=file\:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1/TestMixedGCLiveThreshold.java\#25percent
+elapsed=121068 0\:02\:01.068
+end=Wed Sep 11 15\:39\:53 CST 2024
+environment=regtest
+execStatus=Error. Program `/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk/bin/java' timed out (timeout set to 120000ms, elapsed time including timeout handling was 120251ms).
+harnessLoaderMode=Classpath Loader
+harnessVariety=Full Bundle
+hostname=zkyj-4080-1
+javatestOS=Linux 6.5.0-44-generic (amd64)
+javatestVersion=6.0-ea+b24-2024-08-23-${BUILT_FROM_COMMIT}
+jtregVersion=jtreg 7.3.1 dev 0
+script=com.sun.javatest.regtest.exec.RegressionScript
+sections=script_messages build build driver build compile driver
+start=Wed Sep 11 15\:37\:52 CST 2024
+test=gc/g1/TestMixedGCLiveThreshold.java\#25percent
+testJDK=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk
+testJDK_OS=[name\:Linux,arch\:amd64,version\:6.5.0-44-generic,family\:linux,simple_arch\:x64,simple_version\:6.5,processors\:72,maxMemory\:134786732032,maxSwap\:2147479552]
+testJDK_os.arch=amd64
+testJDK_os.name=Linux
+testJDK_os.version=6.5.0-44-generic
+totalTime=121071
+user.name=cxl
+work=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/gc/g1
+
+#section:script_messages
+----------messages:(7/633)----------
+JDK under test: /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk
+openjdk version "17.0.11-internal" 2024-04-16
+OpenJDK Runtime Environment (build 17.0.11-internal+0-adhoc.cxl.TencentKona-17-TencentKona-17.0.11)
+OpenJDK 64-Bit Server VM (build 17.0.11-internal+0-adhoc.cxl.TencentKona-17-TencentKona-17.0.11, mixed mode, sharing)
+Library /test/lib; kind: packages
+   source directory: /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/lib
+   class directory: /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/test/lib
+
+#section:build
+----------messages:(5/218)----------
+command: build jdk.test.whitebox.WhiteBox
+reason: User specified action: run build jdk.test.whitebox.WhiteBox 
+started: Wed Sep 11 15:37:52 CST 2024
+finished: Wed Sep 11 15:37:52 CST 2024
+elapsed time (seconds): 0.001
+result: Passed. All files up to date
+
+#section:build
+----------messages:(5/199)----------
+command: build jdk.test.lib.helpers.ClassFileInstaller
+reason: Named class compiled on demand
+started: Wed Sep 11 15:37:52 CST 2024
+finished: Wed Sep 11 15:37:52 CST 2024
+elapsed time (seconds): 0.0
+result: Passed. All files up to date
+
+#section:driver
+----------messages:(6/314)----------
+command: driver jdk.test.lib.helpers.ClassFileInstaller jdk.test.whitebox.WhiteBox
+reason: User specified action: run driver jdk.test.lib.helpers.ClassFileInstaller jdk.test.whitebox.WhiteBox 
+started: Wed Sep 11 15:37:52 CST 2024
+Mode: othervm
+finished: Wed Sep 11 15:37:52 CST 2024
+elapsed time (seconds): 0.077
+----------configuration:(0/0)----------
+----------System.out:(0/0)----------
+----------System.err:(1/15)----------
+STATUS:Passed.
+----------rerun:(28/2727)*----------
+cd /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/scratch && \\
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/999/bus \\
+DISPLAY=localhost:10.0 \\
+HOME=/home/cxl \\
+LANG=zh_CN.UTF-8 \\
+PATH=/bin:/usr/bin:/usr/sbin \\
+XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop \\
+XDG_RUNTIME_DIR=/run/user/999 \\
+XDG_SESSION_CLASS=user \\
+XDG_SESSION_ID=9 \\
+XDG_SESSION_TYPE=tty \\
+CLASSPATH=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestMixedGCLiveThreshold_25percent.d:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/test/lib:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/lib:/home/cxl/projects/TencentKona/tools/jtreg/lib/javatest.jar:/home/cxl/projects/TencentKona/tools/jtreg/lib/jtreg.jar \\
+    /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk/bin/java \\
+        -Dtest.vm.opts= \\
+        -Dtest.tool.vm.opts= \\
+        -Dtest.compiler.opts= \\
+        -Dtest.java.opts= \\
+        -Dtest.jdk=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk \\
+        -Dcompile.jdk=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk \\
+        -Dtest.timeout.factor=1.0 \\
+        -Dtest.root=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg \\
+        -Dtest.name=gc/g1/TestMixedGCLiveThreshold.java#25percent \\
+        -Dtest.file=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1/TestMixedGCLiveThreshold.java \\
+        -Dtest.src=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1 \\
+        -Dtest.src.path=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/lib \\
+        -Dtest.classes=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestMixedGCLiveThreshold_25percent.d \\
+        -Dtest.class.path=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestMixedGCLiveThreshold_25percent.d:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/test/lib \\
+        com.sun.javatest.regtest.agent.MainWrapper /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/gc/g1/TestMixedGCLiveThreshold_25percent.d/driver.0.jta jdk.test.whitebox.WhiteBox
+result: Passed. Execution successful
+
+#section:build
+----------messages:(7/250)----------
+command: build gc.g1.TestMixedGCLiveThreshold
+reason: Named class compiled on demand
+started: Wed Sep 11 15:37:52 CST 2024
+Test directory:
+  compile: gc.g1.TestMixedGCLiveThreshold
+finished: Wed Sep 11 15:37:53 CST 2024
+elapsed time (seconds): 0.644
+result: Passed. Build successful
+
+#section:compile
+----------messages:(6/309)----------
+command: compile /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1/TestMixedGCLiveThreshold.java
+reason: .class file out of date or does not exist
+started: Wed Sep 11 15:37:52 CST 2024
+Mode: othervm
+finished: Wed Sep 11 15:37:53 CST 2024
+elapsed time (seconds): 0.643
+----------configuration:(7/577)----------
+javac compilation environment
+  source path: /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1
+               /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/lib
+  class path:  /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1
+               /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestMixedGCLiveThreshold_25percent.d
+               /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/test/lib
+
+----------rerun:(29/2811)*----------
+cd /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/scratch && \\
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/999/bus \\
+DISPLAY=localhost:10.0 \\
+HOME=/home/cxl \\
+LANG=zh_CN.UTF-8 \\
+PATH=/bin:/usr/bin:/usr/sbin \\
+XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop \\
+XDG_RUNTIME_DIR=/run/user/999 \\
+XDG_SESSION_CLASS=user \\
+XDG_SESSION_ID=9 \\
+XDG_SESSION_TYPE=tty \\
+    /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk/bin/javac \\
+        -J-Dtest.vm.opts= \\
+        -J-Dtest.tool.vm.opts= \\
+        -J-Dtest.compiler.opts= \\
+        -J-Dtest.java.opts= \\
+        -J-Dtest.jdk=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk \\
+        -J-Dcompile.jdk=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk \\
+        -J-Dtest.timeout.factor=1.0 \\
+        -J-Dtest.root=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg \\
+        -J-Dtest.name=gc/g1/TestMixedGCLiveThreshold.java#25percent \\
+        -J-Dtest.file=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1/TestMixedGCLiveThreshold.java \\
+        -J-Dtest.src=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1 \\
+        -J-Dtest.src.path=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/lib \\
+        -J-Dtest.classes=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestMixedGCLiveThreshold_25percent.d \\
+        -J-Dtest.class.path=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestMixedGCLiveThreshold_25percent.d:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/test/lib \\
+        -d /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestMixedGCLiveThreshold_25percent.d \\
+        -sourcepath /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/lib \\
+        -classpath /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestMixedGCLiveThreshold_25percent.d:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/test/lib /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1/TestMixedGCLiveThreshold.java
+----------System.out:(0/0)----------
+----------System.err:(0/0)----------
+result: Passed. Compilation successful
+
+#section:driver
+----------messages:(157/10653)----------
+command: driver gc.g1.TestMixedGCLiveThreshold 25 false
+reason: User specified action: run driver gc.g1.TestMixedGCLiveThreshold 25 false 
+started: Wed Sep 11 15:37:53 CST 2024
+Mode: othervm
+Timeout information:
+Running jstack on process 15166
+2024-09-11 15:39:53
+Full thread dump OpenJDK 64-Bit Server VM (17.0.11-internal+0-adhoc.cxl.TencentKona-17-TencentKona-17.0.11 mixed mode, sharing):
+
+Threads class SMR info:
+_java_thread_list=0x0000718e300018a0, length=16, elements={
+0x0000718f08026f90, 0x0000718f0828ef40, 0x0000718f08290330, 0x0000718f08295960,
+0x0000718f08296d20, 0x0000718f08298140, 0x0000718f08299ba0, 0x0000718f0829b120,
+0x0000718f0829c5a0, 0x0000718f082a4230, 0x0000718f082a8140, 0x0000718f082c6400,
+0x0000718e08049b40, 0x0000718e080544f0, 0x0000718e08055910, 0x0000718e30000eb0
+}
+
+"main" #1 prio=5 os_prio=0 cpu=47.00ms elapsed=120.22s tid=0x0000718f08026f90 nid=0x3b41 in Object.wait()  [0x0000718f0c7fe000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(java.base@17.0.11-internal/Native Method)
+	- waiting on <0x00000000ff07e4a8> (a java.lang.Thread)
+	at java.lang.Thread.join(java.base@17.0.11-internal/Thread.java:1313)
+	- locked <0x00000000ff07e4a8> (a java.lang.Thread)
+	at java.lang.Thread.join(java.base@17.0.11-internal/Thread.java:1381)
+	at com.sun.javatest.regtest.agent.MainWrapper.main(MainWrapper.java:85)
+
+"Reference Handler" #2 daemon prio=10 os_prio=0 cpu=0.29ms elapsed=120.20s tid=0x0000718f0828ef40 nid=0x3b48 waiting on condition  [0x0000718e959ec000]
+   java.lang.Thread.State: RUNNABLE
+	at java.lang.ref.Reference.waitForReferencePendingList(java.base@17.0.11-internal/Native Method)
+	at java.lang.ref.Reference.processPendingReferences(java.base@17.0.11-internal/Reference.java:253)
+	at java.lang.ref.Reference$ReferenceHandler.run(java.base@17.0.11-internal/Reference.java:215)
+
+"Finalizer" #3 daemon prio=8 os_prio=0 cpu=0.51ms elapsed=120.20s tid=0x0000718f08290330 nid=0x3b49 in Object.wait()  [0x0000718e958ec000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(java.base@17.0.11-internal/Native Method)
+	- waiting on <0x00000000ff002f58> (a java.lang.ref.ReferenceQueue$Lock)
+	at java.lang.ref.ReferenceQueue.remove(java.base@17.0.11-internal/ReferenceQueue.java:155)
+	- locked <0x00000000ff002f58> (a java.lang.ref.ReferenceQueue$Lock)
+	at java.lang.ref.ReferenceQueue.remove(java.base@17.0.11-internal/ReferenceQueue.java:176)
+	at java.lang.ref.Finalizer$FinalizerThread.run(java.base@17.0.11-internal/Finalizer.java:172)
+
+"Signal Dispatcher" #4 daemon prio=9 os_prio=0 cpu=0.48ms elapsed=120.19s tid=0x0000718f08295960 nid=0x3b4a waiting on condition  [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"Service Thread" #5 daemon prio=9 os_prio=0 cpu=0.23ms elapsed=120.19s tid=0x0000718f08296d20 nid=0x3b4b runnable  [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"Monitor Deflation Thread" #6 daemon prio=9 os_prio=0 cpu=15.00ms elapsed=120.19s tid=0x0000718f08298140 nid=0x3b4c runnable  [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"C2 CompilerThread0" #7 daemon prio=9 os_prio=0 cpu=136.14ms elapsed=120.19s tid=0x0000718f08299ba0 nid=0x3b4d waiting on condition  [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+   No compile task
+
+"C1 CompilerThread0" #19 daemon prio=9 os_prio=0 cpu=45.18ms elapsed=120.19s tid=0x0000718f0829b120 nid=0x3b4e waiting on condition  [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+   No compile task
+
+"Sweeper thread" #25 daemon prio=9 os_prio=0 cpu=0.22ms elapsed=120.19s tid=0x0000718f0829c5a0 nid=0x3b4f runnable  [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"Notification Thread" #26 daemon prio=9 os_prio=0 cpu=0.28ms elapsed=120.19s tid=0x0000718f082a4230 nid=0x3b50 runnable  [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"Common-Cleaner" #27 daemon prio=8 os_prio=0 cpu=0.36ms elapsed=120.19s tid=0x0000718f082a8140 nid=0x3b52 in Object.wait()  [0x0000718e946fd000]
+   java.lang.Thread.State: TIMED_WAITING (on object monitor)
+	at java.lang.Object.wait(java.base@17.0.11-internal/Native Method)
+	- waiting on <0x00000000ff01e828> (a java.lang.ref.ReferenceQueue$Lock)
+	at java.lang.ref.ReferenceQueue.remove(java.base@17.0.11-internal/ReferenceQueue.java:155)
+	- locked <0x00000000ff01e828> (a java.lang.ref.ReferenceQueue$Lock)
+	at jdk.internal.ref.CleanerImpl.run(java.base@17.0.11-internal/CleanerImpl.java:140)
+	at java.lang.Thread.run(java.base@17.0.11-internal/Thread.java:840)
+	at jdk.internal.misc.InnocuousThread.run(java.base@17.0.11-internal/InnocuousThread.java:162)
+
+"MainThread" #28 prio=5 os_prio=0 cpu=55.96ms elapsed=120.18s tid=0x0000718f082c6400 nid=0x3b54 waiting on condition  [0x0000718e944fc000]
+   java.lang.Thread.State: WAITING (parking)
+	at jdk.internal.misc.Unsafe.park(java.base@17.0.11-internal/Native Method)
+	- parking to wait for  <0x00000000ff53df90> (a java.util.concurrent.FutureTask)
+	at java.util.concurrent.locks.LockSupport.park(java.base@17.0.11-internal/LockSupport.java:211)
+	at java.util.concurrent.FutureTask.awaitDone(java.base@17.0.11-internal/FutureTask.java:447)
+	at java.util.concurrent.FutureTask.get(java.base@17.0.11-internal/FutureTask.java:190)
+	at jdk.test.lib.process.OutputBuffer$LazyOutputBuffer$StreamTask.get(OutputBuffer.java:109)
+	at jdk.test.lib.process.OutputBuffer$LazyOutputBuffer.getStdout(OutputBuffer.java:139)
+	at jdk.test.lib.process.OutputAnalyzer.getStdout(OutputAnalyzer.java:563)
+	at jdk.test.lib.process.OutputAnalyzer.reportDiagnosticSummary(OutputAnalyzer.java:521)
+	at gc.g1.TestMixedGCLiveThreshold.main(TestMixedGCLiveThreshold.java:128)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(java.base@17.0.11-internal/Native Method)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(java.base@17.0.11-internal/NativeMethodAccessorImpl.java:77)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(java.base@17.0.11-internal/DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(java.base@17.0.11-internal/Method.java:568)
+	at com.sun.javatest.regtest.agent.MainWrapper$MainTask.run(MainWrapper.java:138)
+	at java.lang.Thread.run(java.base@17.0.11-internal/Thread.java:840)
+
+"process reaper (pid 15189)" #29 daemon prio=10 os_prio=0 cpu=0.31ms elapsed=120.13s tid=0x0000718e08049b40 nid=0x3b57 runnable  [0x0000718f0c029000]
+   java.lang.Thread.State: RUNNABLE
+	at java.lang.ProcessHandleImpl.waitForProcessExit0(java.base@17.0.11-internal/Native Method)
+	at java.lang.ProcessHandleImpl$1.run(java.base@17.0.11-internal/ProcessHandleImpl.java:150)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(java.base@17.0.11-internal/ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(java.base@17.0.11-internal/ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(java.base@17.0.11-internal/Thread.java:840)
+
+"Thread-1" #30 daemon prio=5 os_prio=0 cpu=123.88ms elapsed=120.12s tid=0x0000718e080544f0 nid=0x3b5e runnable  [0x0000718e942fd000]
+   java.lang.Thread.State: RUNNABLE
+	at java.io.FileInputStream.readBytes(java.base@17.0.11-internal/Native Method)
+	at java.io.FileInputStream.read(java.base@17.0.11-internal/FileInputStream.java:276)
+	at java.io.BufferedInputStream.read1(java.base@17.0.11-internal/BufferedInputStream.java:282)
+	at java.io.BufferedInputStream.read(java.base@17.0.11-internal/BufferedInputStream.java:343)
+	- locked <0x00000000ff4d80f0> (a java.lang.ProcessImpl$ProcessPipeInputStream)
+	at java.io.BufferedInputStream.fill(java.base@17.0.11-internal/BufferedInputStream.java:244)
+	at java.io.BufferedInputStream.read1(java.base@17.0.11-internal/BufferedInputStream.java:284)
+	at java.io.BufferedInputStream.read(java.base@17.0.11-internal/BufferedInputStream.java:343)
+	- locked <0x00000000ff999e58> (a java.io.BufferedInputStream)
+	at java.io.FilterInputStream.read(java.base@17.0.11-internal/FilterInputStream.java:106)
+	at jdk.test.lib.process.StreamPumper.run(StreamPumper.java:109)
+	at java.util.concurrent.Executors$RunnableAdapter.call(java.base@17.0.11-internal/Executors.java:539)
+	at java.util.concurrent.FutureTask.run(java.base@17.0.11-internal/FutureTask.java:264)
+	at java.lang.Thread.run(java.base@17.0.11-internal/Thread.java:840)
+
+"Thread-2" #31 daemon prio=5 os_prio=0 cpu=0.32ms elapsed=120.12s tid=0x0000718e08055910 nid=0x3b5f runnable  [0x0000718e941fd000]
+   java.lang.Thread.State: RUNNABLE
+	at java.io.FileInputStream.readBytes(java.base@17.0.11-internal/Native Method)
+	at java.io.FileInputStream.read(java.base@17.0.11-internal/FileInputStream.java:276)
+	at java.io.BufferedInputStream.read1(java.base@17.0.11-internal/BufferedInputStream.java:282)
+	at java.io.BufferedInputStream.read(java.base@17.0.11-internal/BufferedInputStream.java:343)
+	- locked <0x00000000ff4da210> (a java.lang.ProcessImpl$ProcessPipeInputStream)
+	at java.io.BufferedInputStream.fill(java.base@17.0.11-internal/BufferedInputStream.java:244)
+	at java.io.BufferedInputStream.read1(java.base@17.0.11-internal/BufferedInputStream.java:284)
+	at java.io.BufferedInputStream.read(java.base@17.0.11-internal/BufferedInputStream.java:343)
+	- locked <0x00000000ffb852c0> (a java.io.BufferedInputStream)
+	at java.io.FilterInputStream.read(java.base@17.0.11-internal/FilterInputStream.java:106)
+	at jdk.test.lib.process.StreamPumper.run(StreamPumper.java:109)
+	at java.util.concurrent.Executors$RunnableAdapter.call(java.base@17.0.11-internal/Executors.java:539)
+	at java.util.concurrent.FutureTask.run(java.base@17.0.11-internal/FutureTask.java:264)
+	at java.lang.Thread.run(java.base@17.0.11-internal/Thread.java:840)
+
+"Attach Listener" #32 daemon prio=9 os_prio=0 cpu=0.55ms elapsed=0.10s tid=0x0000718e30000eb0 nid=0x3b9c waiting on condition  [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"VM Thread" os_prio=0 cpu=4.75ms elapsed=120.20s tid=0x0000718f0828afb0 nid=0x3b47 runnable  
+
+"GC Thread#0" os_prio=0 cpu=0.17ms elapsed=120.22s tid=0x0000718f08062fa0 nid=0x3b42 runnable  
+
+"G1 Main Marker" os_prio=0 cpu=0.16ms elapsed=120.22s tid=0x0000718f080736b0 nid=0x3b43 runnable  
+
+"G1 Conc#0" os_prio=0 cpu=0.18ms elapsed=120.22s tid=0x0000718f08074670 nid=0x3b44 runnable  
+
+"G1 Refine#0" os_prio=0 cpu=0.18ms elapsed=120.22s tid=0x0000718f08253f90 nid=0x3b45 runnable  
+
+"G1 Service" os_prio=0 cpu=22.51ms elapsed=120.22s tid=0x0000718f08254e90 nid=0x3b46 runnable  
+
+"VM Periodic Task Thread" os_prio=0 cpu=79.17ms elapsed=120.19s tid=0x0000718f082a5f70 nid=0x3b51 waiting on condition  
+
+JNI global refs: 23, weak refs: 0
+
+--- Timeout information end.
+finished: Wed Sep 11 15:39:53 CST 2024
+elapsed time (seconds): 120.262
+----------configuration:(0/0)----------
+----------System.out:(3/1312)----------
+Command line: [/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk/bin/java -cp /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestMixedGCLiveThreshold_25percent.d:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/test/lib:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/lib:/home/cxl/projects/TencentKona/tools/jtreg/lib/javatest.jar:/home/cxl/projects/TencentKona/tools/jtreg/lib/jtreg.jar -Xbootclasspath/a:. -XX:+UseG1GC -XX:+UnlockDiagnosticVMOptions -XX:+UnlockExperimentalVMOptions -XX:MaxGCPauseMillis=50 -XX:+WhiteBoxAPI -XX:G1HeapRegionSize=4m -XX:InitiatingHeapOccupancyPercent=25 -XX:G1HeapWastePercent=0 -XX:G1ReservePercent=0 -Xlog:gc+remset+tracking=trace:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/G1GCRemset_25.log:time -Xlog:gc*:file=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/G1GC_25.log:time,level -Xms128M -Xmx128M -XX:G1MixedGCLiveThresholdPercent=25 gc.g1.TestMixedGCLiveThreshold$GCTest 25 ]
+[2024-09-11T07:37:53.636948053Z] Gathering output for process 15189
+Timeout signalled after 120 seconds
+----------System.err:(0/0)----------
+----------rerun:(28/2709)*----------
+cd /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/scratch && \\
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/999/bus \\
+DISPLAY=localhost:10.0 \\
+HOME=/home/cxl \\
+LANG=zh_CN.UTF-8 \\
+PATH=/bin:/usr/bin:/usr/sbin \\
+XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop \\
+XDG_RUNTIME_DIR=/run/user/999 \\
+XDG_SESSION_CLASS=user \\
+XDG_SESSION_ID=9 \\
+XDG_SESSION_TYPE=tty \\
+CLASSPATH=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestMixedGCLiveThreshold_25percent.d:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/test/lib:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/lib:/home/cxl/projects/TencentKona/tools/jtreg/lib/javatest.jar:/home/cxl/projects/TencentKona/tools/jtreg/lib/jtreg.jar \\
+    /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk/bin/java \\
+        -Dtest.vm.opts= \\
+        -Dtest.tool.vm.opts= \\
+        -Dtest.compiler.opts= \\
+        -Dtest.java.opts= \\
+        -Dtest.jdk=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk \\
+        -Dcompile.jdk=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk \\
+        -Dtest.timeout.factor=1.0 \\
+        -Dtest.root=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg \\
+        -Dtest.name=gc/g1/TestMixedGCLiveThreshold.java#25percent \\
+        -Dtest.file=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1/TestMixedGCLiveThreshold.java \\
+        -Dtest.src=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1 \\
+        -Dtest.src.path=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/hotspot/jtreg/gc/g1:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/test/lib \\
+        -Dtest.classes=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestMixedGCLiveThreshold_25percent.d \\
+        -Dtest.class.path=/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/gc/g1/TestMixedGCLiveThreshold_25percent.d:/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/classes/test/lib \\
+        com.sun.javatest.regtest.agent.MainWrapper /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/JTwork/gc/g1/TestMixedGCLiveThreshold_25percent.d/driver.1.jta 25 false
+result: Error. Program `/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk/bin/java' timed out (timeout set to 120000ms, elapsed time including timeout handling was 120251ms).
+
+
+test result: Error. Program `/home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/./build/linux-x86_64-server-release/images/jdk/bin/java' timed out (timeout set to 120000ms, elapsed time including timeout handling was 120251ms).

@@ -1,0 +1,13 @@
+# Trace file started at 2024-10-12T11:23:42+0800
+# JT Harness version 6.0
+# class directory: /home/cxl/projects/TencentKona/tools/jtreg/lib/javatest.jar
+# using java: /home/cxl/projects/TencentKona/TencentKona-17-TencentKona-17.0.11/build/linux-x86_64-server-release/images/jdk
+2024-10-12T11:23:42+0800 Starting tests.
+Test suite class: com.sun.javatest.regtest.config.RegressionTestSuite
+Test finder class: com.sun.javatest.regtest.config.RegressionTestFinder
+2024-10-12T11:23:42+0800 Starting: gc/g1/TestMixedGCLiveThreshold.java
+2024-10-12T11:24:49+0800 Finished: (1 minute 7 seconds) gc/g1/TestMixedGCLiveThreshold.java: Passed. Execution successful
+Below are the 1 slowest tests: 
+1 minute 7 seconds: gc/g1/TestMixedGCLiveThreshold.java
+2024-10-12T11:24:49+0800 Doing post-run cleanup
+2024-10-12T11:24:49+0800 Completed: All tests passed

@@ -1,0 +1,2 @@
+-jdk:./build/linux-x86_64-server-release/images/jdk
+test/hotspot/jtreg/gc/g1/TestMixedGCLiveThreshold.java

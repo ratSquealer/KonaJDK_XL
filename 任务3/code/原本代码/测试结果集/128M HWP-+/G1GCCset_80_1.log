@@ -1,0 +1,1102 @@
+[2024-10-12T10:37:15.184+0800][debug][gc,ergo,cset] GC(9) Pruned 8 regions out of 23, leaving 5807840 bytes waste (allowed 6710886)
+[2024-10-12T10:37:15.677+0800][debug][gc,ergo,cset] GC(11) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 40.79ms, optional threshold 8.16ms
+[2024-10-12T10:37:15.677+0800][debug][gc,ergo,cset] GC(11) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:15.677+0800][debug][gc,ergo,cset] GC(11) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 33.49
+[2024-10-12T10:37:15.785+0800][debug][gc,ergo,cset] GC(12) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 42.06ms, optional threshold 8.41ms
+[2024-10-12T10:37:15.785+0800][debug][gc,ergo,cset] GC(12) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:15.785+0800][debug][gc,ergo,cset] GC(12) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 32.84
+[2024-10-12T10:37:15.894+0800][debug][gc,ergo,cset] GC(13) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 43.38ms, optional threshold 8.68ms
+[2024-10-12T10:37:15.894+0800][debug][gc,ergo,cset] GC(13) Old candidate collection set empty.
+[2024-10-12T10:37:15.894+0800][debug][gc,ergo,cset] GC(13) Finish choosing collection set old regions. Initial: 1, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 42.17
+[2024-10-12T10:37:16.235+0800][debug][gc,ergo,cset] GC(15) Pruned 10 regions out of 25, leaving 6268152 bytes waste (allowed 6710886)
+[2024-10-12T10:37:16.613+0800][debug][gc,ergo,cset] GC(17) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 46.15ms, optional threshold 9.23ms
+[2024-10-12T10:37:16.613+0800][debug][gc,ergo,cset] GC(17) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:16.613+0800][debug][gc,ergo,cset] GC(17) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 41.97
+[2024-10-12T10:37:16.722+0800][debug][gc,ergo,cset] GC(18) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 45.98ms, optional threshold 9.20ms
+[2024-10-12T10:37:16.722+0800][debug][gc,ergo,cset] GC(18) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:16.722+0800][debug][gc,ergo,cset] GC(18) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 40.21
+[2024-10-12T10:37:16.829+0800][debug][gc,ergo,cset] GC(19) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 46.58ms, optional threshold 9.32ms
+[2024-10-12T10:37:16.829+0800][debug][gc,ergo,cset] GC(19) Old candidate collection set empty.
+[2024-10-12T10:37:16.829+0800][debug][gc,ergo,cset] GC(19) Finish choosing collection set old regions. Initial: 1, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 45.74
+[2024-10-12T10:37:17.068+0800][debug][gc,ergo,cset] GC(21) Pruned 9 regions out of 23, leaving 6015920 bytes waste (allowed 6710886)
+[2024-10-12T10:37:17.381+0800][debug][gc,ergo,cset] GC(23) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 47.68ms, optional threshold 9.54ms
+[2024-10-12T10:37:17.382+0800][debug][gc,ergo,cset] GC(23) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:17.382+0800][debug][gc,ergo,cset] GC(23) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 45.03
+[2024-10-12T10:37:17.488+0800][debug][gc,ergo,cset] GC(24) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 47.88ms, optional threshold 9.58ms
+[2024-10-12T10:37:17.488+0800][debug][gc,ergo,cset] GC(24) Old candidate collection set empty.
+[2024-10-12T10:37:17.488+0800][debug][gc,ergo,cset] GC(24) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 44.82
+[2024-10-12T10:37:17.811+0800][debug][gc,ergo,cset] GC(28) Pruned 10 regions out of 30, leaving 6117344 bytes waste (allowed 6710886)
+[2024-10-12T10:37:18.063+0800][debug][gc,ergo,cset] GC(30) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 48.58ms, optional threshold 9.72ms
+[2024-10-12T10:37:18.063+0800][debug][gc,ergo,cset] GC(30) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:18.063+0800][debug][gc,ergo,cset] GC(30) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.26
+[2024-10-12T10:37:18.168+0800][debug][gc,ergo,cset] GC(31) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 48.64ms, optional threshold 9.73ms
+[2024-10-12T10:37:18.168+0800][debug][gc,ergo,cset] GC(31) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:18.168+0800][debug][gc,ergo,cset] GC(31) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.05
+[2024-10-12T10:37:18.273+0800][debug][gc,ergo,cset] GC(32) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 48.71ms, optional threshold 9.74ms
+[2024-10-12T10:37:18.273+0800][debug][gc,ergo,cset] GC(32) Old candidate collection set empty.
+[2024-10-12T10:37:18.273+0800][debug][gc,ergo,cset] GC(32) Finish choosing collection set old regions. Initial: 6, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.18
+[2024-10-12T10:37:18.598+0800][debug][gc,ergo,cset] GC(36) Pruned 10 regions out of 31, leaving 6012952 bytes waste (allowed 6710886)
+[2024-10-12T10:37:18.849+0800][debug][gc,ergo,cset] GC(38) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 48.82ms, optional threshold 9.76ms
+[2024-10-12T10:37:18.849+0800][debug][gc,ergo,cset] GC(38) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:18.849+0800][debug][gc,ergo,cset] GC(38) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.75
+[2024-10-12T10:37:18.954+0800][debug][gc,ergo,cset] GC(39) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 48.67ms, optional threshold 9.73ms
+[2024-10-12T10:37:18.954+0800][debug][gc,ergo,cset] GC(39) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:18.954+0800][debug][gc,ergo,cset] GC(39) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.31
+[2024-10-12T10:37:19.059+0800][debug][gc,ergo,cset] GC(40) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 48.73ms, optional threshold 9.75ms
+[2024-10-12T10:37:19.059+0800][debug][gc,ergo,cset] GC(40) Old candidate collection set empty.
+[2024-10-12T10:37:19.059+0800][debug][gc,ergo,cset] GC(40) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.22
+[2024-10-12T10:37:19.382+0800][debug][gc,ergo,cset] GC(44) Pruned 17 regions out of 40, leaving 10300824 bytes waste (allowed 10737418)
+[2024-10-12T10:37:19.631+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 52 (Pred 1) Free 4 Alloc 1
+[2024-10-12T10:37:19.632+0800][debug][gc,ergo,cset] GC(46) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 48.90ms, optional threshold 9.78ms
+[2024-10-12T10:37:19.632+0800][debug][gc,ergo,cset] GC(46) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:19.632+0800][debug][gc,ergo,cset] GC(46) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.08
+[2024-10-12T10:37:19.695+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 53 (Pred 2) Free 4 Alloc 1
+[2024-10-12T10:37:19.695+0800][debug][gc,ergo,cset] GC(47) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.11ms, optional threshold 9.82ms
+[2024-10-12T10:37:19.695+0800][debug][gc,ergo,cset] GC(47) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:19.695+0800][debug][gc,ergo,cset] GC(47) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.10
+[2024-10-12T10:37:19.697+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 53 (Pred 2) Free 4 Alloc 1
+[2024-10-12T10:37:19.697+0800][debug][gc,ergo,cset] GC(48) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.12ms, optional threshold 9.82ms
+[2024-10-12T10:37:19.697+0800][debug][gc,ergo,cset] GC(48) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:19.697+0800][debug][gc,ergo,cset] GC(48) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.81
+[2024-10-12T10:37:19.699+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 0 (Pred 1). Curr Survivor 1 (Pred 1). Curr Old 55 (Pred 2) Free 2 Alloc 1
+[2024-10-12T10:37:19.699+0800][debug][gc,ergo,cset] GC(49) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.53ms, optional threshold 9.91ms
+[2024-10-12T10:37:19.699+0800][debug][gc,ergo,cset] GC(49) Old candidate collection set empty.
+[2024-10-12T10:37:19.699+0800][debug][gc,ergo,cset] GC(49) Finish choosing collection set old regions. Initial: 2, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 49.15
+[2024-10-12T10:37:19.762+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 2. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 55 (Pred 0) Free 2 Alloc 1
+[2024-10-12T10:37:19.773+0800][debug][gc,ergo,cset] GC(51) Pruned 22 regions out of 48, leaving 14296272 bytes waste (allowed 14763950)
+[2024-10-12T10:37:19.877+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 3. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 56 (Pred 0) Free 1 Alloc 1
+[2024-10-12T10:37:19.919+0800][debug][gc,ergo,cset] GC(53) Start adding old regions to collection set. Min 4 regions, max 7 regions, time remaining 49.11ms, optional threshold 9.82ms
+[2024-10-12T10:37:19.919+0800][debug][gc,ergo,cset] GC(53) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:19.919+0800][debug][gc,ergo,cset] GC(53) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.59
+[2024-10-12T10:37:19.983+0800][debug][gc,ergo,cset] GC(54) Start adding old regions to collection set. Min 4 regions, max 7 regions, time remaining 49.11ms, optional threshold 9.82ms
+[2024-10-12T10:37:19.983+0800][debug][gc,ergo,cset] GC(54) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:19.983+0800][debug][gc,ergo,cset] GC(54) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.47
+[2024-10-12T10:37:20.532+0800][debug][gc,ergo,cset] GC(60) Pruned 26 regions out of 30, leaving 22101128 bytes waste (allowed 22817013)
+[2024-10-12T10:37:20.782+0800][debug][gc,ergo,cset] GC(62) Start adding old regions to collection set. Min 1 regions, max 7 regions, time remaining 48.97ms, optional threshold 9.79ms
+[2024-10-12T10:37:20.782+0800][debug][gc,ergo,cset] GC(62) Old candidate collection set empty.
+[2024-10-12T10:37:20.782+0800][debug][gc,ergo,cset] GC(62) Finish choosing collection set old regions. Initial: 4, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.58
+[2024-10-12T10:37:21.001+0800][debug][gc,ergo,cset] GC(65) Pruned 19 regions out of 38, leaving 14577912 bytes waste (allowed 14763950)
+[2024-10-12T10:37:21.146+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 2). Curr Old 52 (Pred 0) Free 4 Alloc 1
+[2024-10-12T10:37:21.209+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 54 (Pred 1) Free 3 Alloc 1
+[2024-10-12T10:37:21.209+0800][debug][gc,ergo,cset] GC(67) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.16ms, optional threshold 9.83ms
+[2024-10-12T10:37:21.209+0800][debug][gc,ergo,cset] GC(67) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:21.209+0800][debug][gc,ergo,cset] GC(67) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.57
+[2024-10-12T10:37:21.313+0800][debug][gc,ergo,cset] GC(68) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 48.93ms, optional threshold 9.79ms
+[2024-10-12T10:37:21.313+0800][debug][gc,ergo,cset] GC(68) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:21.313+0800][debug][gc,ergo,cset] GC(68) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.79
+[2024-10-12T10:37:21.418+0800][debug][gc,ergo,cset] GC(69) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 48.86ms, optional threshold 9.77ms
+[2024-10-12T10:37:21.418+0800][debug][gc,ergo,cset] GC(69) Old candidate collection set empty.
+[2024-10-12T10:37:21.418+0800][debug][gc,ergo,cset] GC(69) Finish choosing collection set old regions. Initial: 5, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.01
+[2024-10-12T10:37:21.637+0800][debug][gc,ergo,cset] GC(72) Pruned 20 regions out of 37, leaving 14492416 bytes waste (allowed 14763950)
+[2024-10-12T10:37:21.845+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 53 (Pred 1) Free 4 Alloc 1
+[2024-10-12T10:37:21.846+0800][debug][gc,ergo,cset] GC(74) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.11ms, optional threshold 9.82ms
+[2024-10-12T10:37:21.846+0800][debug][gc,ergo,cset] GC(74) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:21.846+0800][debug][gc,ergo,cset] GC(74) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.42
+[2024-10-12T10:37:21.950+0800][debug][gc,ergo,cset] GC(75) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 48.78ms, optional threshold 9.76ms
+[2024-10-12T10:37:21.950+0800][debug][gc,ergo,cset] GC(75) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:21.950+0800][debug][gc,ergo,cset] GC(75) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.68
+[2024-10-12T10:37:22.055+0800][debug][gc,ergo,cset] GC(76) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 48.78ms, optional threshold 9.76ms
+[2024-10-12T10:37:22.055+0800][debug][gc,ergo,cset] GC(76) Old candidate collection set empty.
+[2024-10-12T10:37:22.055+0800][debug][gc,ergo,cset] GC(76) Finish choosing collection set old regions. Initial: 3, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.24
+[2024-10-12T10:37:22.378+0800][debug][gc,ergo,cset] GC(80) Pruned 20 regions out of 41, leaving 13992144 bytes waste (allowed 14763950)
+[2024-10-12T10:37:22.523+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 52 (Pred 0) Free 4 Alloc 1
+[2024-10-12T10:37:22.586+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 54 (Pred 1) Free 3 Alloc 1
+[2024-10-12T10:37:22.586+0800][debug][gc,ergo,cset] GC(82) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.16ms, optional threshold 9.83ms
+[2024-10-12T10:37:22.586+0800][debug][gc,ergo,cset] GC(82) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:22.586+0800][debug][gc,ergo,cset] GC(82) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.56
+[2024-10-12T10:37:22.690+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 6. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 51 (Pred 2) Free 5 Alloc 1
+[2024-10-12T10:37:22.690+0800][debug][gc,ergo,cset] GC(83) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 48.94ms, optional threshold 9.79ms
+[2024-10-12T10:37:22.690+0800][debug][gc,ergo,cset] GC(83) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:22.690+0800][debug][gc,ergo,cset] GC(83) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.05
+[2024-10-12T10:37:22.754+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 54 (Pred 2) Free 3 Alloc 1
+[2024-10-12T10:37:22.754+0800][debug][gc,ergo,cset] GC(84) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.13ms, optional threshold 9.83ms
+[2024-10-12T10:37:22.754+0800][debug][gc,ergo,cset] GC(84) Old candidate collection set empty.
+[2024-10-12T10:37:22.754+0800][debug][gc,ergo,cset] GC(84) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.04
+[2024-10-12T10:37:22.797+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 3. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 55 (Pred 0) Free 2 Alloc 1
+[2024-10-12T10:37:22.807+0800][debug][gc,ergo,cset] GC(86) Pruned 26 regions out of 46, leaving 18491872 bytes waste (allowed 18790481)
+[2024-10-12T10:37:22.911+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 3. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 55 (Pred 0) Free 2 Alloc 1
+[2024-10-12T10:37:22.954+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 56 (Pred 1) Free 1 Alloc 1
+[2024-10-12T10:37:22.954+0800][debug][gc,ergo,cset] GC(88) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.18ms, optional threshold 9.84ms
+[2024-10-12T10:37:22.954+0800][debug][gc,ergo,cset] GC(88) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:22.954+0800][debug][gc,ergo,cset] GC(88) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.70
+[2024-10-12T10:37:23.017+0800][debug][gc,ergo,cset] GC(89) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.18ms, optional threshold 9.84ms
+[2024-10-12T10:37:23.017+0800][debug][gc,ergo,cset] GC(89) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:23.017+0800][debug][gc,ergo,cset] GC(89) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.62
+[2024-10-12T10:37:23.731+0800][debug][gc,ergo,cset] GC(96) Pruned 25 regions out of 36, leaving 18709696 bytes waste (allowed 18790481)
+[2024-10-12T10:37:23.979+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 51 (Pred 1) Free 5 Alloc 1
+[2024-10-12T10:37:23.980+0800][debug][gc,ergo,cset] GC(98) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.98ms, optional threshold 9.80ms
+[2024-10-12T10:37:23.980+0800][debug][gc,ergo,cset] GC(98) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:23.980+0800][debug][gc,ergo,cset] GC(98) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.31
+[2024-10-12T10:37:24.084+0800][debug][gc,ergo,cset] GC(99) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.95ms, optional threshold 9.79ms
+[2024-10-12T10:37:24.084+0800][debug][gc,ergo,cset] GC(99) Old candidate collection set empty.
+[2024-10-12T10:37:24.084+0800][debug][gc,ergo,cset] GC(99) Finish choosing collection set old regions. Initial: 4, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.40
+[2024-10-12T10:37:24.282+0800][debug][gc,ergo,cset] GC(102) Pruned 22 regions out of 37, leaving 18247344 bytes waste (allowed 18790481)
+[2024-10-12T10:37:24.448+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 51 (Pred 0) Free 4 Alloc 1
+[2024-10-12T10:37:24.511+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 53 (Pred 1) Free 4 Alloc 1
+[2024-10-12T10:37:24.511+0800][debug][gc,ergo,cset] GC(104) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 49.15ms, optional threshold 9.83ms
+[2024-10-12T10:37:24.511+0800][debug][gc,ergo,cset] GC(104) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:24.511+0800][debug][gc,ergo,cset] GC(104) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.61
+[2024-10-12T10:37:24.616+0800][debug][gc,ergo,cset] GC(105) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.94ms, optional threshold 9.79ms
+[2024-10-12T10:37:24.616+0800][debug][gc,ergo,cset] GC(105) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:24.616+0800][debug][gc,ergo,cset] GC(105) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.02
+[2024-10-12T10:37:24.720+0800][debug][gc,ergo,cset] GC(106) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.91ms, optional threshold 9.78ms
+[2024-10-12T10:37:24.720+0800][debug][gc,ergo,cset] GC(106) Old candidate collection set empty.
+[2024-10-12T10:37:24.720+0800][debug][gc,ergo,cset] GC(106) Finish choosing collection set old regions. Initial: 1, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.76
+[2024-10-12T10:37:24.836+0800][debug][gc,ergo,cset] GC(108) Pruned 25 regions out of 38, leaving 17702184 bytes waste (allowed 18790481)
+[2024-10-12T10:37:25.083+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 52 (Pred 1) Free 4 Alloc 1
+[2024-10-12T10:37:25.084+0800][debug][gc,ergo,cset] GC(110) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.90ms, optional threshold 9.78ms
+[2024-10-12T10:37:25.084+0800][debug][gc,ergo,cset] GC(110) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:25.084+0800][debug][gc,ergo,cset] GC(110) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.72
+[2024-10-12T10:37:25.188+0800][debug][gc,ergo,cset] GC(111) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.90ms, optional threshold 9.78ms
+[2024-10-12T10:37:25.188+0800][debug][gc,ergo,cset] GC(111) Old candidate collection set empty.
+[2024-10-12T10:37:25.188+0800][debug][gc,ergo,cset] GC(111) Finish choosing collection set old regions. Initial: 6, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.83
+[2024-10-12T10:37:25.407+0800][debug][gc,ergo,cset] GC(114) Pruned 25 regions out of 38, leaving 18378312 bytes waste (allowed 18790481)
+[2024-10-12T10:37:25.615+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 53 (Pred 1) Free 4 Alloc 1
+[2024-10-12T10:37:25.615+0800][debug][gc,ergo,cset] GC(116) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 49.13ms, optional threshold 9.83ms
+[2024-10-12T10:37:25.615+0800][debug][gc,ergo,cset] GC(116) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:25.615+0800][debug][gc,ergo,cset] GC(116) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.41
+[2024-10-12T10:37:25.720+0800][debug][gc,ergo,cset] GC(117) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.83ms, optional threshold 9.77ms
+[2024-10-12T10:37:25.720+0800][debug][gc,ergo,cset] GC(117) Old candidate collection set empty.
+[2024-10-12T10:37:25.720+0800][debug][gc,ergo,cset] GC(117) Finish choosing collection set old regions. Initial: 6, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.85
+[2024-10-12T10:37:25.938+0800][debug][gc,ergo,cset] GC(120) Pruned 24 regions out of 39, leaving 17776504 bytes waste (allowed 18790481)
+[2024-10-12T10:37:26.145+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 53 (Pred 1) Free 4 Alloc 1
+[2024-10-12T10:37:26.145+0800][debug][gc,ergo,cset] GC(122) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 49.17ms, optional threshold 9.83ms
+[2024-10-12T10:37:26.145+0800][debug][gc,ergo,cset] GC(122) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:26.146+0800][debug][gc,ergo,cset] GC(122) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.47
+[2024-10-12T10:37:26.250+0800][debug][gc,ergo,cset] GC(123) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.97ms, optional threshold 9.79ms
+[2024-10-12T10:37:26.250+0800][debug][gc,ergo,cset] GC(123) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:26.250+0800][debug][gc,ergo,cset] GC(123) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.02
+[2024-10-12T10:37:26.354+0800][debug][gc,ergo,cset] GC(124) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.96ms, optional threshold 9.79ms
+[2024-10-12T10:37:26.354+0800][debug][gc,ergo,cset] GC(124) Old candidate collection set empty.
+[2024-10-12T10:37:26.354+0800][debug][gc,ergo,cset] GC(124) Finish choosing collection set old regions. Initial: 1, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.81
+[2024-10-12T10:37:26.468+0800][debug][gc,ergo,cset] GC(126) Pruned 24 regions out of 39, leaving 18078728 bytes waste (allowed 18790481)
+[2024-10-12T10:37:26.615+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 53 (Pred 1) Free 4 Alloc 1
+[2024-10-12T10:37:26.615+0800][debug][gc,ergo,cset] GC(128) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 49.20ms, optional threshold 9.84ms
+[2024-10-12T10:37:26.615+0800][debug][gc,ergo,cset] GC(128) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:26.615+0800][debug][gc,ergo,cset] GC(128) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.53
+[2024-10-12T10:37:26.739+0800][debug][gc,ergo,cset] GC(129) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 49.03ms, optional threshold 9.81ms
+[2024-10-12T10:37:26.739+0800][debug][gc,ergo,cset] GC(129) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:26.739+0800][debug][gc,ergo,cset] GC(129) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.88
+[2024-10-12T10:37:26.844+0800][debug][gc,ergo,cset] GC(130) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.95ms, optional threshold 9.79ms
+[2024-10-12T10:37:26.845+0800][debug][gc,ergo,cset] GC(130) Old candidate collection set empty.
+[2024-10-12T10:37:26.845+0800][debug][gc,ergo,cset] GC(130) Finish choosing collection set old regions. Initial: 1, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.78
+[2024-10-12T10:37:27.062+0800][debug][gc,ergo,cset] GC(133) Pruned 27 regions out of 43, leaving 18310776 bytes waste (allowed 18790481)
+[2024-10-12T10:37:27.207+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 2). Curr Old 52 (Pred 0) Free 4 Alloc 1
+[2024-10-12T10:37:27.269+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 54 (Pred 1) Free 3 Alloc 1
+[2024-10-12T10:37:27.270+0800][debug][gc,ergo,cset] GC(135) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 49.22ms, optional threshold 9.84ms
+[2024-10-12T10:37:27.270+0800][debug][gc,ergo,cset] GC(135) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:27.270+0800][debug][gc,ergo,cset] GC(135) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.50
+[2024-10-12T10:37:27.374+0800][debug][gc,ergo,cset] GC(136) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.99ms, optional threshold 9.80ms
+[2024-10-12T10:37:27.374+0800][debug][gc,ergo,cset] GC(136) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:27.374+0800][debug][gc,ergo,cset] GC(136) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.92
+[2024-10-12T10:37:27.478+0800][debug][gc,ergo,cset] GC(137) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.98ms, optional threshold 9.80ms
+[2024-10-12T10:37:27.478+0800][debug][gc,ergo,cset] GC(137) Old candidate collection set empty.
+[2024-10-12T10:37:27.478+0800][debug][gc,ergo,cset] GC(137) Finish choosing collection set old regions. Initial: 2, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.61
+[2024-10-12T10:37:27.696+0800][debug][gc,ergo,cset] GC(140) Pruned 26 regions out of 40, leaving 18077880 bytes waste (allowed 18790481)
+[2024-10-12T10:37:27.944+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 52 (Pred 1) Free 4 Alloc 1
+[2024-10-12T10:37:27.945+0800][debug][gc,ergo,cset] GC(142) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 49.01ms, optional threshold 9.80ms
+[2024-10-12T10:37:27.945+0800][debug][gc,ergo,cset] GC(142) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:27.945+0800][debug][gc,ergo,cset] GC(142) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.29
+[2024-10-12T10:37:28.008+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 53 (Pred 1) Free 4 Alloc 1
+[2024-10-12T10:37:28.009+0800][debug][gc,ergo,cset] GC(143) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 49.22ms, optional threshold 9.84ms
+[2024-10-12T10:37:28.009+0800][debug][gc,ergo,cset] GC(143) Old candidate collection set empty.
+[2024-10-12T10:37:28.009+0800][debug][gc,ergo,cset] GC(143) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.24
+[2024-10-12T10:37:28.051+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 3. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 54 (Pred 0) Free 3 Alloc 1
+[2024-10-12T10:37:28.062+0800][debug][gc,ergo,cset] GC(145) Pruned 27 regions out of 44, leaving 18769896 bytes waste (allowed 18790481)
+[2024-10-12T10:37:28.206+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 53 (Pred 0) Free 3 Alloc 1
+[2024-10-12T10:37:28.269+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 55 (Pred 1) Free 2 Alloc 1
+[2024-10-12T10:37:28.270+0800][debug][gc,ergo,cset] GC(147) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.21ms, optional threshold 9.84ms
+[2024-10-12T10:37:28.270+0800][debug][gc,ergo,cset] GC(147) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:28.270+0800][debug][gc,ergo,cset] GC(147) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.79
+[2024-10-12T10:37:28.373+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 6. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 51 (Pred 2) Free 5 Alloc 1
+[2024-10-12T10:37:28.373+0800][debug][gc,ergo,cset] GC(148) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 48.99ms, optional threshold 9.80ms
+[2024-10-12T10:37:28.373+0800][debug][gc,ergo,cset] GC(148) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:28.373+0800][debug][gc,ergo,cset] GC(148) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.86
+[2024-10-12T10:37:28.436+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 52 (Pred 2) Free 5 Alloc 1
+[2024-10-12T10:37:28.436+0800][debug][gc,ergo,cset] GC(149) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.21ms, optional threshold 9.84ms
+[2024-10-12T10:37:28.436+0800][debug][gc,ergo,cset] GC(149) Old candidate collection set empty.
+[2024-10-12T10:37:28.436+0800][debug][gc,ergo,cset] GC(149) Finish choosing collection set old regions. Initial: 3, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.73
+[2024-10-12T10:37:28.540+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 52 (Pred 0) Free 4 Alloc 1
+[2024-10-12T10:37:28.550+0800][debug][gc,ergo,cset] GC(151) Pruned 27 regions out of 41, leaving 18195976 bytes waste (allowed 18790481)
+[2024-10-12T10:37:28.759+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 53 (Pred 1) Free 4 Alloc 1
+[2024-10-12T10:37:28.760+0800][debug][gc,ergo,cset] GC(153) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 49.16ms, optional threshold 9.83ms
+[2024-10-12T10:37:28.760+0800][debug][gc,ergo,cset] GC(153) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:28.760+0800][debug][gc,ergo,cset] GC(153) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.56
+[2024-10-12T10:37:28.864+0800][debug][gc,ergo,cset] GC(154) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.93ms, optional threshold 9.79ms
+[2024-10-12T10:37:28.864+0800][debug][gc,ergo,cset] GC(154) Old candidate collection set empty.
+[2024-10-12T10:37:28.864+0800][debug][gc,ergo,cset] GC(154) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.76
+[2024-10-12T10:37:29.187+0800][debug][gc,ergo,cset] GC(158) Pruned 26 regions out of 43, leaving 18536088 bytes waste (allowed 18790481)
+[2024-10-12T10:37:29.331+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 52 (Pred 0) Free 4 Alloc 1
+[2024-10-12T10:37:29.395+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 54 (Pred 1) Free 3 Alloc 1
+[2024-10-12T10:37:29.395+0800][debug][gc,ergo,cset] GC(160) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.16ms, optional threshold 9.83ms
+[2024-10-12T10:37:29.395+0800][debug][gc,ergo,cset] GC(160) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:29.395+0800][debug][gc,ergo,cset] GC(160) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.59
+[2024-10-12T10:37:29.499+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 6. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 50 (Pred 2) Free 6 Alloc 1
+[2024-10-12T10:37:29.499+0800][debug][gc,ergo,cset] GC(161) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 48.94ms, optional threshold 9.79ms
+[2024-10-12T10:37:29.499+0800][debug][gc,ergo,cset] GC(161) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:29.499+0800][debug][gc,ergo,cset] GC(161) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.95
+[2024-10-12T10:37:29.562+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 52 (Pred 2) Free 5 Alloc 1
+[2024-10-12T10:37:29.563+0800][debug][gc,ergo,cset] GC(162) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.15ms, optional threshold 9.83ms
+[2024-10-12T10:37:29.563+0800][debug][gc,ergo,cset] GC(162) Old candidate collection set empty.
+[2024-10-12T10:37:29.563+0800][debug][gc,ergo,cset] GC(162) Finish choosing collection set old regions. Initial: 3, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.70
+[2024-10-12T10:37:29.667+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 52 (Pred 0) Free 4 Alloc 1
+[2024-10-12T10:37:29.677+0800][debug][gc,ergo,cset] GC(164) Pruned 24 regions out of 41, leaving 18103664 bytes waste (allowed 18790481)
+[2024-10-12T10:37:29.781+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 3. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 54 (Pred 0) Free 3 Alloc 1
+[2024-10-12T10:37:29.823+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 55 (Pred 1) Free 2 Alloc 1
+[2024-10-12T10:37:29.824+0800][debug][gc,ergo,cset] GC(166) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.13ms, optional threshold 9.83ms
+[2024-10-12T10:37:29.824+0800][debug][gc,ergo,cset] GC(166) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:29.824+0800][debug][gc,ergo,cset] GC(166) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.74
+[2024-10-12T10:37:29.887+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 55 (Pred 1) Free 2 Alloc 1
+[2024-10-12T10:37:29.887+0800][debug][gc,ergo,cset] GC(167) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.11ms, optional threshold 9.82ms
+[2024-10-12T10:37:29.887+0800][debug][gc,ergo,cset] GC(167) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:29.887+0800][debug][gc,ergo,cset] GC(167) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.40
+[2024-10-12T10:37:29.929+0800][debug][gc,ergo,cset] GC(168) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.10ms, optional threshold 9.82ms
+[2024-10-12T10:37:29.929+0800][debug][gc,ergo,cset] GC(168) Old candidate collection set empty.
+[2024-10-12T10:37:29.929+0800][debug][gc,ergo,cset] GC(168) Finish choosing collection set old regions. Initial: 3, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.61
+[2024-10-12T10:37:30.600+0800][debug][gc,ergo,cset] GC(175) Pruned 26 regions out of 39, leaving 17729168 bytes waste (allowed 18790481)
+[2024-10-12T10:37:30.847+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 51 (Pred 1) Free 5 Alloc 1
+[2024-10-12T10:37:30.848+0800][debug][gc,ergo,cset] GC(177) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.99ms, optional threshold 9.80ms
+[2024-10-12T10:37:30.848+0800][debug][gc,ergo,cset] GC(177) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:30.848+0800][debug][gc,ergo,cset] GC(177) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.10
+[2024-10-12T10:37:30.952+0800][debug][gc,ergo,cset] GC(178) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.92ms, optional threshold 9.78ms
+[2024-10-12T10:37:30.952+0800][debug][gc,ergo,cset] GC(178) Old candidate collection set empty.
+[2024-10-12T10:37:30.952+0800][debug][gc,ergo,cset] GC(178) Finish choosing collection set old regions. Initial: 6, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.89
+[2024-10-12T10:37:31.170+0800][debug][gc,ergo,cset] GC(181) Pruned 24 regions out of 39, leaving 18190536 bytes waste (allowed 18790481)
+[2024-10-12T10:37:31.314+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 52 (Pred 0) Free 3 Alloc 1
+[2024-10-12T10:37:31.377+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 53 (Pred 1) Free 4 Alloc 1
+[2024-10-12T10:37:31.377+0800][debug][gc,ergo,cset] GC(183) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 49.21ms, optional threshold 9.84ms
+[2024-10-12T10:37:31.377+0800][debug][gc,ergo,cset] GC(183) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:31.377+0800][debug][gc,ergo,cset] GC(183) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.69
+[2024-10-12T10:37:31.481+0800][debug][gc,ergo,cset] GC(184) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 49.01ms, optional threshold 9.80ms
+[2024-10-12T10:37:31.481+0800][debug][gc,ergo,cset] GC(184) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:31.481+0800][debug][gc,ergo,cset] GC(184) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.83
+[2024-10-12T10:37:31.586+0800][debug][gc,ergo,cset] GC(185) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.96ms, optional threshold 9.79ms
+[2024-10-12T10:37:31.586+0800][debug][gc,ergo,cset] GC(185) Old candidate collection set empty.
+[2024-10-12T10:37:31.586+0800][debug][gc,ergo,cset] GC(185) Finish choosing collection set old regions. Initial: 1, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.79
+[2024-10-12T10:37:31.804+0800][debug][gc,ergo,cset] GC(188) Pruned 24 regions out of 41, leaving 18509160 bytes waste (allowed 18790481)
+[2024-10-12T10:37:31.949+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 53 (Pred 0) Free 3 Alloc 1
+[2024-10-12T10:37:32.012+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 55 (Pred 1) Free 2 Alloc 1
+[2024-10-12T10:37:32.012+0800][debug][gc,ergo,cset] GC(190) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.15ms, optional threshold 9.83ms
+[2024-10-12T10:37:32.012+0800][debug][gc,ergo,cset] GC(190) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:32.012+0800][debug][gc,ergo,cset] GC(190) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.49
+[2024-10-12T10:37:32.054+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 54 (Pred 2) Free 3 Alloc 1
+[2024-10-12T10:37:32.055+0800][debug][gc,ergo,cset] GC(191) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.14ms, optional threshold 9.83ms
+[2024-10-12T10:37:32.055+0800][debug][gc,ergo,cset] GC(191) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:32.055+0800][debug][gc,ergo,cset] GC(191) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.13
+[2024-10-12T10:37:32.118+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 56 (Pred 2) Free 1 Alloc 1
+[2024-10-12T10:37:32.118+0800][debug][gc,ergo,cset] GC(192) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.14ms, optional threshold 9.83ms
+[2024-10-12T10:37:32.118+0800][debug][gc,ergo,cset] GC(192) Old candidate collection set empty.
+[2024-10-12T10:37:32.118+0800][debug][gc,ergo,cset] GC(192) Finish choosing collection set old regions. Initial: 3, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.64
+[2024-10-12T10:37:32.833+0800][debug][gc,ergo,cset] GC(201) Pruned 25 regions out of 36, leaving 18109840 bytes waste (allowed 18790481)
+[2024-10-12T10:37:33.081+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 51 (Pred 1) Free 5 Alloc 1
+[2024-10-12T10:37:33.081+0800][debug][gc,ergo,cset] GC(203) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.98ms, optional threshold 9.80ms
+[2024-10-12T10:37:33.082+0800][debug][gc,ergo,cset] GC(203) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:33.082+0800][debug][gc,ergo,cset] GC(203) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.18
+[2024-10-12T10:37:33.186+0800][debug][gc,ergo,cset] GC(204) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.95ms, optional threshold 9.79ms
+[2024-10-12T10:37:33.186+0800][debug][gc,ergo,cset] GC(204) Old candidate collection set empty.
+[2024-10-12T10:37:33.186+0800][debug][gc,ergo,cset] GC(204) Finish choosing collection set old regions. Initial: 4, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.22
+[2024-10-12T10:37:33.404+0800][debug][gc,ergo,cset] GC(207) Pruned 25 regions out of 37, leaving 18158208 bytes waste (allowed 18790481)
+[2024-10-12T10:37:33.652+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 51 (Pred 1) Free 5 Alloc 1
+[2024-10-12T10:37:33.653+0800][debug][gc,ergo,cset] GC(209) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 49.00ms, optional threshold 9.80ms
+[2024-10-12T10:37:33.653+0800][debug][gc,ergo,cset] GC(209) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:33.653+0800][debug][gc,ergo,cset] GC(209) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.30
+[2024-10-12T10:37:33.757+0800][debug][gc,ergo,cset] GC(210) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.96ms, optional threshold 9.79ms
+[2024-10-12T10:37:33.757+0800][debug][gc,ergo,cset] GC(210) Old candidate collection set empty.
+[2024-10-12T10:37:33.757+0800][debug][gc,ergo,cset] GC(210) Finish choosing collection set old regions. Initial: 5, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.13
+[2024-10-12T10:37:33.976+0800][debug][gc,ergo,cset] GC(213) Pruned 22 regions out of 36, leaving 17637200 bytes waste (allowed 18790481)
+[2024-10-12T10:37:34.120+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 52 (Pred 0) Free 4 Alloc 1
+[2024-10-12T10:37:34.183+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 54 (Pred 1) Free 3 Alloc 1
+[2024-10-12T10:37:34.183+0800][debug][gc,ergo,cset] GC(215) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 49.20ms, optional threshold 9.84ms
+[2024-10-12T10:37:34.183+0800][debug][gc,ergo,cset] GC(215) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:34.183+0800][debug][gc,ergo,cset] GC(215) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.58
+[2024-10-12T10:37:34.287+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 52 (Pred 1) Free 4 Alloc 1
+[2024-10-12T10:37:34.287+0800][debug][gc,ergo,cset] GC(216) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.98ms, optional threshold 9.80ms
+[2024-10-12T10:37:34.287+0800][debug][gc,ergo,cset] GC(216) Old candidate collection set empty.
+[2024-10-12T10:37:34.287+0800][debug][gc,ergo,cset] GC(216) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.99
+[2024-10-12T10:37:34.962+0800][debug][gc,ergo,cset] GC(224) Pruned 24 regions out of 34, leaving 18743008 bytes waste (allowed 18790481)
+[2024-10-12T10:37:35.210+0800][debug][gc,ergo,cset] GC(226) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.97ms, optional threshold 9.79ms
+[2024-10-12T10:37:35.210+0800][debug][gc,ergo,cset] GC(226) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:35.210+0800][debug][gc,ergo,cset] GC(226) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.14
+[2024-10-12T10:37:35.315+0800][debug][gc,ergo,cset] GC(227) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.91ms, optional threshold 9.78ms
+[2024-10-12T10:37:35.315+0800][debug][gc,ergo,cset] GC(227) Old candidate collection set empty.
+[2024-10-12T10:37:35.315+0800][debug][gc,ergo,cset] GC(227) Finish choosing collection set old regions. Initial: 3, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.44
+[2024-10-12T10:37:35.533+0800][debug][gc,ergo,cset] GC(230) Pruned 22 regions out of 38, leaving 17876608 bytes waste (allowed 18790481)
+[2024-10-12T10:37:35.677+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 52 (Pred 0) Free 4 Alloc 1
+[2024-10-12T10:37:35.719+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 54 (Pred 1) Free 3 Alloc 1
+[2024-10-12T10:37:35.720+0800][debug][gc,ergo,cset] GC(232) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 49.19ms, optional threshold 9.84ms
+[2024-10-12T10:37:35.720+0800][debug][gc,ergo,cset] GC(232) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:35.720+0800][debug][gc,ergo,cset] GC(232) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.53
+[2024-10-12T10:37:35.845+0800][debug][gc,ergo,cset] GC(233) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.97ms, optional threshold 9.79ms
+[2024-10-12T10:37:35.845+0800][debug][gc,ergo,cset] GC(233) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:35.845+0800][debug][gc,ergo,cset] GC(233) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.91
+[2024-10-12T10:37:35.950+0800][debug][gc,ergo,cset] GC(234) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.98ms, optional threshold 9.80ms
+[2024-10-12T10:37:35.950+0800][debug][gc,ergo,cset] GC(234) Old candidate collection set empty.
+[2024-10-12T10:37:35.950+0800][debug][gc,ergo,cset] GC(234) Finish choosing collection set old regions. Initial: 2, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.68
+[2024-10-12T10:37:36.064+0800][debug][gc,ergo,cset] GC(236) Pruned 26 regions out of 40, leaving 18164264 bytes waste (allowed 18790481)
+[2024-10-12T10:37:36.271+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 53 (Pred 1) Free 4 Alloc 1
+[2024-10-12T10:37:36.271+0800][debug][gc,ergo,cset] GC(238) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 49.15ms, optional threshold 9.83ms
+[2024-10-12T10:37:36.271+0800][debug][gc,ergo,cset] GC(238) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:36.271+0800][debug][gc,ergo,cset] GC(238) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.39
+[2024-10-12T10:37:36.375+0800][debug][gc,ergo,cset] GC(239) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.94ms, optional threshold 9.79ms
+[2024-10-12T10:37:36.375+0800][debug][gc,ergo,cset] GC(239) Old candidate collection set empty.
+[2024-10-12T10:37:36.375+0800][debug][gc,ergo,cset] GC(239) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.74
+[2024-10-12T10:37:36.698+0800][debug][gc,ergo,cset] GC(243) Pruned 24 regions out of 42, leaving 18694600 bytes waste (allowed 18790481)
+[2024-10-12T10:37:36.842+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 52 (Pred 0) Free 4 Alloc 1
+[2024-10-12T10:37:36.906+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 54 (Pred 1) Free 3 Alloc 1
+[2024-10-12T10:37:36.906+0800][debug][gc,ergo,cset] GC(245) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.16ms, optional threshold 9.83ms
+[2024-10-12T10:37:36.906+0800][debug][gc,ergo,cset] GC(245) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:36.906+0800][debug][gc,ergo,cset] GC(245) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.38
+[2024-10-12T10:37:36.949+0800][debug][gc,ergo,cset] GC(246) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 48.96ms, optional threshold 9.79ms
+[2024-10-12T10:37:36.949+0800][debug][gc,ergo,cset] GC(246) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:36.949+0800][debug][gc,ergo,cset] GC(246) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.66
+[2024-10-12T10:37:37.556+0800][debug][gc,ergo,cset] GC(253) Pruned 27 regions out of 39, leaving 18193936 bytes waste (allowed 18790481)
+[2024-10-12T10:37:37.804+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 51 (Pred 1) Free 5 Alloc 1
+[2024-10-12T10:37:37.804+0800][debug][gc,ergo,cset] GC(255) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 49.00ms, optional threshold 9.80ms
+[2024-10-12T10:37:37.804+0800][debug][gc,ergo,cset] GC(255) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:37.804+0800][debug][gc,ergo,cset] GC(255) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.39
+[2024-10-12T10:37:37.908+0800][debug][gc,ergo,cset] GC(256) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.95ms, optional threshold 9.79ms
+[2024-10-12T10:37:37.908+0800][debug][gc,ergo,cset] GC(256) Old candidate collection set empty.
+[2024-10-12T10:37:37.908+0800][debug][gc,ergo,cset] GC(256) Finish choosing collection set old regions. Initial: 5, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.14
+[2024-10-12T10:37:38.231+0800][debug][gc,ergo,cset] GC(260) Pruned 23 regions out of 38, leaving 18680744 bytes waste (allowed 18790481)
+[2024-10-12T10:37:38.376+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 53 (Pred 0) Free 3 Alloc 1
+[2024-10-12T10:37:38.438+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 55 (Pred 1) Free 2 Alloc 1
+[2024-10-12T10:37:38.439+0800][debug][gc,ergo,cset] GC(262) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 49.18ms, optional threshold 9.84ms
+[2024-10-12T10:37:38.439+0800][debug][gc,ergo,cset] GC(262) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:38.439+0800][debug][gc,ergo,cset] GC(262) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.65
+[2024-10-12T10:37:38.481+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 53 (Pred 1) Free 4 Alloc 1
+[2024-10-12T10:37:38.482+0800][debug][gc,ergo,cset] GC(263) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 49.16ms, optional threshold 9.83ms
+[2024-10-12T10:37:38.482+0800][debug][gc,ergo,cset] GC(263) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:38.482+0800][debug][gc,ergo,cset] GC(263) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.27
+[2024-10-12T10:37:38.586+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 52 (Pred 1) Free 4 Alloc 1
+[2024-10-12T10:37:38.586+0800][debug][gc,ergo,cset] GC(264) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.98ms, optional threshold 9.80ms
+[2024-10-12T10:37:38.586+0800][debug][gc,ergo,cset] GC(264) Old candidate collection set empty.
+[2024-10-12T10:37:38.586+0800][debug][gc,ergo,cset] GC(264) Finish choosing collection set old regions. Initial: 1, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.85
+[2024-10-12T10:37:38.649+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 3. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 54 (Pred 0) Free 3 Alloc 1
+[2024-10-12T10:37:38.660+0800][debug][gc,ergo,cset] GC(266) Pruned 26 regions out of 43, leaving 18573048 bytes waste (allowed 18790481)
+[2024-10-12T10:37:38.804+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 52 (Pred 0) Free 4 Alloc 1
+[2024-10-12T10:37:38.867+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 54 (Pred 1) Free 3 Alloc 1
+[2024-10-12T10:37:38.867+0800][debug][gc,ergo,cset] GC(268) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.14ms, optional threshold 9.83ms
+[2024-10-12T10:37:38.867+0800][debug][gc,ergo,cset] GC(268) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:38.867+0800][debug][gc,ergo,cset] GC(268) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.41
+[2024-10-12T10:37:38.910+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 52 (Pred 2) Free 5 Alloc 1
+[2024-10-12T10:37:38.910+0800][debug][gc,ergo,cset] GC(269) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.13ms, optional threshold 9.83ms
+[2024-10-12T10:37:38.910+0800][debug][gc,ergo,cset] GC(269) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:38.910+0800][debug][gc,ergo,cset] GC(269) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.96
+[2024-10-12T10:37:39.015+0800][debug][gc,ergo,cset] GC(270) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 48.92ms, optional threshold 9.78ms
+[2024-10-12T10:37:39.015+0800][debug][gc,ergo,cset] GC(270) Old candidate collection set empty.
+[2024-10-12T10:37:39.015+0800][debug][gc,ergo,cset] GC(270) Finish choosing collection set old regions. Initial: 3, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.42
+[2024-10-12T10:37:39.130+0800][debug][gc,ergo,cset] GC(272) Pruned 25 regions out of 44, leaving 17044456 bytes waste (allowed 18790481)
+[2024-10-12T10:37:39.273+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 52 (Pred 0) Free 4 Alloc 1
+[2024-10-12T10:37:39.336+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 54 (Pred 1) Free 3 Alloc 1
+[2024-10-12T10:37:39.336+0800][debug][gc,ergo,cset] GC(274) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.13ms, optional threshold 9.83ms
+[2024-10-12T10:37:39.337+0800][debug][gc,ergo,cset] GC(274) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:39.337+0800][debug][gc,ergo,cset] GC(274) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.39
+[2024-10-12T10:37:39.379+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 54 (Pred 2) Free 3 Alloc 1
+[2024-10-12T10:37:39.379+0800][debug][gc,ergo,cset] GC(275) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.10ms, optional threshold 9.82ms
+[2024-10-12T10:37:39.379+0800][debug][gc,ergo,cset] GC(275) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:39.379+0800][debug][gc,ergo,cset] GC(275) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.75
+[2024-10-12T10:37:39.443+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 56 (Pred 2) Free 1 Alloc 1
+[2024-10-12T10:37:39.443+0800][debug][gc,ergo,cset] GC(276) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 48.96ms, optional threshold 9.79ms
+[2024-10-12T10:37:39.443+0800][debug][gc,ergo,cset] GC(276) Old candidate collection set empty.
+[2024-10-12T10:37:39.443+0800][debug][gc,ergo,cset] GC(276) Finish choosing collection set old regions. Initial: 5, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.70
+[2024-10-12T10:37:40.053+0800][debug][gc,ergo,cset] GC(284) Pruned 25 regions out of 36, leaving 18083464 bytes waste (allowed 18790481)
+[2024-10-12T10:37:40.301+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 50 (Pred 1) Free 5 Alloc 1
+[2024-10-12T10:37:40.302+0800][debug][gc,ergo,cset] GC(286) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.95ms, optional threshold 9.79ms
+[2024-10-12T10:37:40.302+0800][debug][gc,ergo,cset] GC(286) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:40.302+0800][debug][gc,ergo,cset] GC(286) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.16
+[2024-10-12T10:37:40.406+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 6. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 51 (Pred 2) Free 5 Alloc 1
+[2024-10-12T10:37:40.406+0800][debug][gc,ergo,cset] GC(287) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.94ms, optional threshold 9.79ms
+[2024-10-12T10:37:40.406+0800][debug][gc,ergo,cset] GC(287) Old candidate collection set empty.
+[2024-10-12T10:37:40.406+0800][debug][gc,ergo,cset] GC(287) Finish choosing collection set old regions. Initial: 4, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.31
+[2024-10-12T10:37:40.510+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 52 (Pred 0) Free 4 Alloc 1
+[2024-10-12T10:37:40.521+0800][debug][gc,ergo,cset] GC(289) Pruned 26 regions out of 42, leaving 18305512 bytes waste (allowed 18790481)
+[2024-10-12T10:37:40.665+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 52 (Pred 0) Free 4 Alloc 1
+[2024-10-12T10:37:40.728+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 54 (Pred 1) Free 3 Alloc 1
+[2024-10-12T10:37:40.728+0800][debug][gc,ergo,cset] GC(291) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 49.14ms, optional threshold 9.83ms
+[2024-10-12T10:37:40.728+0800][debug][gc,ergo,cset] GC(291) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:40.728+0800][debug][gc,ergo,cset] GC(291) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.59
+[2024-10-12T10:37:40.832+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 52 (Pred 1) Free 4 Alloc 1
+[2024-10-12T10:37:40.833+0800][debug][gc,ergo,cset] GC(292) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.92ms, optional threshold 9.78ms
+[2024-10-12T10:37:40.833+0800][debug][gc,ergo,cset] GC(292) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:40.833+0800][debug][gc,ergo,cset] GC(292) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.74
+[2024-10-12T10:37:40.896+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 54 (Pred 1) Free 3 Alloc 1
+[2024-10-12T10:37:40.896+0800][debug][gc,ergo,cset] GC(293) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 49.11ms, optional threshold 9.82ms
+[2024-10-12T10:37:40.896+0800][debug][gc,ergo,cset] GC(293) Old candidate collection set empty.
+[2024-10-12T10:37:40.896+0800][debug][gc,ergo,cset] GC(293) Finish choosing collection set old regions. Initial: 2, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.61
+[2024-10-12T10:37:40.938+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 3. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 54 (Pred 0) Free 3 Alloc 1
+[2024-10-12T10:37:40.949+0800][debug][gc,ergo,cset] GC(295) Pruned 23 regions out of 40, leaving 18780024 bytes waste (allowed 18790481)
+[2024-10-12T10:37:41.053+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 3. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 54 (Pred 0) Free 3 Alloc 1
+[2024-10-12T10:37:41.095+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 55 (Pred 1) Free 2 Alloc 1
+[2024-10-12T10:37:41.095+0800][debug][gc,ergo,cset] GC(297) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.16ms, optional threshold 9.83ms
+[2024-10-12T10:37:41.095+0800][debug][gc,ergo,cset] GC(297) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:41.095+0800][debug][gc,ergo,cset] GC(297) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.69
+[2024-10-12T10:37:41.158+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 53 (Pred 1) Free 4 Alloc 1
+[2024-10-12T10:37:41.158+0800][debug][gc,ergo,cset] GC(298) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.15ms, optional threshold 9.83ms
+[2024-10-12T10:37:41.158+0800][debug][gc,ergo,cset] GC(298) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:41.158+0800][debug][gc,ergo,cset] GC(298) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.25
+[2024-10-12T10:37:41.262+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 6. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 50 (Pred 2) Free 6 Alloc 1
+[2024-10-12T10:37:41.263+0800][debug][gc,ergo,cset] GC(299) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 48.95ms, optional threshold 9.79ms
+[2024-10-12T10:37:41.263+0800][debug][gc,ergo,cset] GC(299) Old candidate collection set empty.
+[2024-10-12T10:37:41.263+0800][debug][gc,ergo,cset] GC(299) Finish choosing collection set old regions. Initial: 3, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.44
+[2024-10-12T10:37:41.377+0800][debug][gc,ergo,cset] GC(301) Pruned 21 regions out of 38, leaving 18098840 bytes waste (allowed 18790481)
+[2024-10-12T10:37:41.521+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 52 (Pred 0) Free 4 Alloc 1
+[2024-10-12T10:37:41.584+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 54 (Pred 1) Free 3 Alloc 1
+[2024-10-12T10:37:41.584+0800][debug][gc,ergo,cset] GC(303) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.19ms, optional threshold 9.84ms
+[2024-10-12T10:37:41.584+0800][debug][gc,ergo,cset] GC(303) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:41.584+0800][debug][gc,ergo,cset] GC(303) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.55
+[2024-10-12T10:37:41.688+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 6. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 51 (Pred 2) Free 5 Alloc 1
+[2024-10-12T10:37:41.688+0800][debug][gc,ergo,cset] GC(304) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 48.98ms, optional threshold 9.80ms
+[2024-10-12T10:37:41.688+0800][debug][gc,ergo,cset] GC(304) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:41.688+0800][debug][gc,ergo,cset] GC(304) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.00
+[2024-10-12T10:37:41.752+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 53 (Pred 2) Free 4 Alloc 1
+[2024-10-12T10:37:41.752+0800][debug][gc,ergo,cset] GC(305) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.17ms, optional threshold 9.83ms
+[2024-10-12T10:37:41.752+0800][debug][gc,ergo,cset] GC(305) Old candidate collection set empty.
+[2024-10-12T10:37:41.752+0800][debug][gc,ergo,cset] GC(305) Finish choosing collection set old regions. Initial: 3, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.69
+[2024-10-12T10:37:41.794+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 3. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 54 (Pred 0) Free 3 Alloc 1
+[2024-10-12T10:37:41.805+0800][debug][gc,ergo,cset] GC(307) Pruned 24 regions out of 43, leaving 18198512 bytes waste (allowed 18790481)
+[2024-10-12T10:37:41.908+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 3. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 54 (Pred 0) Free 3 Alloc 1
+[2024-10-12T10:37:41.950+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 55 (Pred 1) Free 2 Alloc 1
+[2024-10-12T10:37:41.951+0800][debug][gc,ergo,cset] GC(309) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.17ms, optional threshold 9.83ms
+[2024-10-12T10:37:41.951+0800][debug][gc,ergo,cset] GC(309) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:41.951+0800][debug][gc,ergo,cset] GC(309) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.78
+[2024-10-12T10:37:42.014+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 54 (Pred 2) Free 3 Alloc 1
+[2024-10-12T10:37:42.014+0800][debug][gc,ergo,cset] GC(310) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.16ms, optional threshold 9.83ms
+[2024-10-12T10:37:42.014+0800][debug][gc,ergo,cset] GC(310) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:42.014+0800][debug][gc,ergo,cset] GC(310) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.32
+[2024-10-12T10:37:42.056+0800][debug][gc,ergo,cset] GC(311) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.15ms, optional threshold 9.83ms
+[2024-10-12T10:37:42.056+0800][debug][gc,ergo,cset] GC(311) Old candidate collection set empty.
+[2024-10-12T10:37:42.056+0800][debug][gc,ergo,cset] GC(311) Finish choosing collection set old regions. Initial: 5, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.92
+[2024-10-12T10:37:42.601+0800][debug][gc,ergo,cset] GC(317) Pruned 28 regions out of 38, leaving 17940480 bytes waste (allowed 18790481)
+[2024-10-12T10:37:42.870+0800][debug][gc,ergo,cset] GC(319) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 49.02ms, optional threshold 9.80ms
+[2024-10-12T10:37:42.870+0800][debug][gc,ergo,cset] GC(319) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:42.870+0800][debug][gc,ergo,cset] GC(319) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.16
+[2024-10-12T10:37:42.975+0800][debug][gc,ergo,cset] GC(320) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.98ms, optional threshold 9.80ms
+[2024-10-12T10:37:42.975+0800][debug][gc,ergo,cset] GC(320) Old candidate collection set empty.
+[2024-10-12T10:37:42.975+0800][debug][gc,ergo,cset] GC(320) Finish choosing collection set old regions. Initial: 3, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.52
+[2024-10-12T10:37:43.297+0800][debug][gc,ergo,cset] GC(324) Pruned 23 regions out of 41, leaving 18403376 bytes waste (allowed 18790481)
+[2024-10-12T10:37:43.441+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 52 (Pred 0) Free 4 Alloc 1
+[2024-10-12T10:37:43.504+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 54 (Pred 1) Free 3 Alloc 1
+[2024-10-12T10:37:43.504+0800][debug][gc,ergo,cset] GC(326) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.17ms, optional threshold 9.83ms
+[2024-10-12T10:37:43.504+0800][debug][gc,ergo,cset] GC(326) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:43.504+0800][debug][gc,ergo,cset] GC(326) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.51
+[2024-10-12T10:37:43.547+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 53 (Pred 2) Free 4 Alloc 1
+[2024-10-12T10:37:43.547+0800][debug][gc,ergo,cset] GC(327) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.15ms, optional threshold 9.83ms
+[2024-10-12T10:37:43.547+0800][debug][gc,ergo,cset] GC(327) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:43.547+0800][debug][gc,ergo,cset] GC(327) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.21
+[2024-10-12T10:37:43.610+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 55 (Pred 2) Free 2 Alloc 1
+[2024-10-12T10:37:43.610+0800][debug][gc,ergo,cset] GC(328) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.14ms, optional threshold 9.83ms
+[2024-10-12T10:37:43.610+0800][debug][gc,ergo,cset] GC(328) Old candidate collection set empty.
+[2024-10-12T10:37:43.610+0800][debug][gc,ergo,cset] GC(328) Finish choosing collection set old regions. Initial: 4, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.55
+[2024-10-12T10:37:44.382+0800][debug][gc,ergo,cset] GC(337) Pruned 21 regions out of 33, leaving 18064144 bytes waste (allowed 18790481)
+[2024-10-12T10:37:44.631+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 2 (Pred 4). Curr Survivor 1 (Pred 1). Curr Old 52 (Pred 1) Free 4 Alloc 1
+[2024-10-12T10:37:44.631+0800][debug][gc,ergo,cset] GC(339) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.94ms, optional threshold 9.79ms
+[2024-10-12T10:37:44.631+0800][debug][gc,ergo,cset] GC(339) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:44.631+0800][debug][gc,ergo,cset] GC(339) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.25
+[2024-10-12T10:37:44.736+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 51 (Pred 1) Free 5 Alloc 1
+[2024-10-12T10:37:44.736+0800][debug][gc,ergo,cset] GC(340) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.92ms, optional threshold 9.78ms
+[2024-10-12T10:37:44.736+0800][debug][gc,ergo,cset] GC(340) Old candidate collection set empty.
+[2024-10-12T10:37:44.736+0800][debug][gc,ergo,cset] GC(340) Finish choosing collection set old regions. Initial: 5, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.15
+[2024-10-12T10:37:44.840+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 52 (Pred 0) Free 4 Alloc 1
+[2024-10-12T10:37:44.842+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 3. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 54 (Pred 0) Free 3 Alloc 1
+[2024-10-12T10:37:44.851+0800][debug][gc,ergo,cset] GC(342) Pruned 24 regions out of 43, leaving 18284592 bytes waste (allowed 18790481)
+[2024-10-12T10:37:44.956+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 2. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 54 (Pred 0) Free 2 Alloc 1
+[2024-10-12T10:37:45.018+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 54 (Pred 1) Free 3 Alloc 1
+[2024-10-12T10:37:45.018+0800][debug][gc,ergo,cset] GC(345) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.23ms, optional threshold 9.85ms
+[2024-10-12T10:37:45.018+0800][debug][gc,ergo,cset] GC(345) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:45.018+0800][debug][gc,ergo,cset] GC(345) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.73
+[2024-10-12T10:37:45.122+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 6. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 51 (Pred 2) Free 5 Alloc 1
+[2024-10-12T10:37:45.122+0800][debug][gc,ergo,cset] GC(346) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 48.99ms, optional threshold 9.80ms
+[2024-10-12T10:37:45.122+0800][debug][gc,ergo,cset] GC(346) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:45.122+0800][debug][gc,ergo,cset] GC(346) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.02
+[2024-10-12T10:37:45.186+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 55 (Pred 2) Free 2 Alloc 1
+[2024-10-12T10:37:45.186+0800][debug][gc,ergo,cset] GC(347) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.18ms, optional threshold 9.84ms
+[2024-10-12T10:37:45.186+0800][debug][gc,ergo,cset] GC(347) Old candidate collection set empty.
+[2024-10-12T10:37:45.186+0800][debug][gc,ergo,cset] GC(347) Finish choosing collection set old regions. Initial: 5, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.32
+[2024-10-12T10:37:45.734+0800][debug][gc,ergo,cset] GC(355) Pruned 27 regions out of 36, leaving 18477488 bytes waste (allowed 18790481)
+[2024-10-12T10:37:45.982+0800][debug][gc,ergo,cset] GC(357) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.98ms, optional threshold 9.80ms
+[2024-10-12T10:37:45.982+0800][debug][gc,ergo,cset] GC(357) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:45.982+0800][debug][gc,ergo,cset] GC(357) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.26
+[2024-10-12T10:37:46.086+0800][debug][gc,ergo,cset] GC(358) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.93ms, optional threshold 9.79ms
+[2024-10-12T10:37:46.086+0800][debug][gc,ergo,cset] GC(358) Old candidate collection set empty.
+[2024-10-12T10:37:46.086+0800][debug][gc,ergo,cset] GC(358) Finish choosing collection set old regions. Initial: 2, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.63
+[2024-10-12T10:37:46.200+0800][debug][gc,ergo,cset] GC(360) Pruned 22 regions out of 45, leaving 14289096 bytes waste (allowed 14763950)
+[2024-10-12T10:37:46.408+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 2). Curr Old 53 (Pred 1) Free 4 Alloc 1
+[2024-10-12T10:37:46.408+0800][debug][gc,ergo,cset] GC(362) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.14ms, optional threshold 9.83ms
+[2024-10-12T10:37:46.408+0800][debug][gc,ergo,cset] GC(362) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:46.408+0800][debug][gc,ergo,cset] GC(362) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.32
+[2024-10-12T10:37:46.513+0800][debug][gc,ergo,cset] GC(363) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 48.91ms, optional threshold 9.78ms
+[2024-10-12T10:37:46.513+0800][debug][gc,ergo,cset] GC(363) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:46.513+0800][debug][gc,ergo,cset] GC(363) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.93
+[2024-10-12T10:37:46.617+0800][debug][gc,ergo,cset] GC(364) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 48.87ms, optional threshold 9.77ms
+[2024-10-12T10:37:46.617+0800][debug][gc,ergo,cset] GC(364) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:46.617+0800][debug][gc,ergo,cset] GC(364) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.65
+[2024-10-12T10:37:46.722+0800][debug][gc,ergo,cset] GC(365) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 48.88ms, optional threshold 9.78ms
+[2024-10-12T10:37:46.722+0800][debug][gc,ergo,cset] GC(365) Old candidate collection set empty.
+[2024-10-12T10:37:46.722+0800][debug][gc,ergo,cset] GC(365) Finish choosing collection set old regions. Initial: 2, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.52
+[2024-10-12T10:37:46.940+0800][debug][gc,ergo,cset] GC(368) Pruned 23 regions out of 36, leaving 18242416 bytes waste (allowed 18790481)
+[2024-10-12T10:37:47.147+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 52 (Pred 1) Free 4 Alloc 1
+[2024-10-12T10:37:47.147+0800][debug][gc,ergo,cset] GC(370) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.95ms, optional threshold 9.79ms
+[2024-10-12T10:37:47.147+0800][debug][gc,ergo,cset] GC(370) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:47.147+0800][debug][gc,ergo,cset] GC(370) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.37
+[2024-10-12T10:37:47.272+0800][debug][gc,ergo,cset] GC(371) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.95ms, optional threshold 9.79ms
+[2024-10-12T10:37:47.272+0800][debug][gc,ergo,cset] GC(371) Old candidate collection set empty.
+[2024-10-12T10:37:47.272+0800][debug][gc,ergo,cset] GC(371) Finish choosing collection set old regions. Initial: 6, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.15
+[2024-10-12T10:37:47.491+0800][debug][gc,ergo,cset] GC(374) Pruned 23 regions out of 39, leaving 18767640 bytes waste (allowed 18790481)
+[2024-10-12T10:37:47.698+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 53 (Pred 1) Free 4 Alloc 1
+[2024-10-12T10:37:47.699+0800][debug][gc,ergo,cset] GC(376) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 49.14ms, optional threshold 9.83ms
+[2024-10-12T10:37:47.699+0800][debug][gc,ergo,cset] GC(376) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:47.699+0800][debug][gc,ergo,cset] GC(376) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.37
+[2024-10-12T10:37:47.802+0800][debug][gc,ergo,cset] GC(377) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.92ms, optional threshold 9.78ms
+[2024-10-12T10:37:47.802+0800][debug][gc,ergo,cset] GC(377) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:47.803+0800][debug][gc,ergo,cset] GC(377) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.91
+[2024-10-12T10:37:47.907+0800][debug][gc,ergo,cset] GC(378) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.89ms, optional threshold 9.78ms
+[2024-10-12T10:37:47.907+0800][debug][gc,ergo,cset] GC(378) Old candidate collection set empty.
+[2024-10-12T10:37:47.907+0800][debug][gc,ergo,cset] GC(378) Finish choosing collection set old regions. Initial: 2, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.44
+[2024-10-12T10:37:48.022+0800][debug][gc,ergo,cset] GC(380) Pruned 25 regions out of 40, leaving 18725600 bytes waste (allowed 18790481)
+[2024-10-12T10:37:48.270+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 52 (Pred 1) Free 4 Alloc 1
+[2024-10-12T10:37:48.270+0800][debug][gc,ergo,cset] GC(382) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.82ms, optional threshold 9.76ms
+[2024-10-12T10:37:48.270+0800][debug][gc,ergo,cset] GC(382) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:48.270+0800][debug][gc,ergo,cset] GC(382) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.93
+[2024-10-12T10:37:48.334+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 56 (Pred 1) Free 1 Alloc 1
+[2024-10-12T10:37:48.334+0800][debug][gc,ergo,cset] GC(383) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 49.06ms, optional threshold 9.81ms
+[2024-10-12T10:37:48.334+0800][debug][gc,ergo,cset] GC(383) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:48.334+0800][debug][gc,ergo,cset] GC(383) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.77
+[2024-10-12T10:37:48.377+0800][debug][gc,ergo,cset] GC(384) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.89ms, optional threshold 9.78ms
+[2024-10-12T10:37:48.377+0800][debug][gc,ergo,cset] GC(384) Old candidate collection set empty.
+[2024-10-12T10:37:48.377+0800][debug][gc,ergo,cset] GC(384) Finish choosing collection set old regions. Initial: 1, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.71
+[2024-10-12T10:37:49.050+0800][debug][gc,ergo,cset] GC(391) Pruned 26 regions out of 36, leaving 17739288 bytes waste (allowed 18790481)
+[2024-10-12T10:37:49.298+0800][debug][gc,ergo,cset] GC(393) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.97ms, optional threshold 9.79ms
+[2024-10-12T10:37:49.298+0800][debug][gc,ergo,cset] GC(393) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:49.298+0800][debug][gc,ergo,cset] GC(393) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.27
+[2024-10-12T10:37:49.402+0800][debug][gc,ergo,cset] GC(394) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.97ms, optional threshold 9.79ms
+[2024-10-12T10:37:49.402+0800][debug][gc,ergo,cset] GC(394) Old candidate collection set empty.
+[2024-10-12T10:37:49.402+0800][debug][gc,ergo,cset] GC(394) Finish choosing collection set old regions. Initial: 3, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.58
+[2024-10-12T10:37:49.713+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 52 (Pred 0) Free 4 Alloc 1
+[2024-10-12T10:37:49.723+0800][debug][gc,ergo,cset] GC(398) Pruned 26 regions out of 46, leaving 18082648 bytes waste (allowed 18790481)
+[2024-10-12T10:37:49.826+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 3. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 54 (Pred 0) Free 3 Alloc 1
+[2024-10-12T10:37:49.869+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 55 (Pred 1) Free 2 Alloc 1
+[2024-10-12T10:37:49.869+0800][debug][gc,ergo,cset] GC(400) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.20ms, optional threshold 9.84ms
+[2024-10-12T10:37:49.869+0800][debug][gc,ergo,cset] GC(400) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:49.869+0800][debug][gc,ergo,cset] GC(400) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.73
+[2024-10-12T10:37:49.932+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 55 (Pred 2) Free 2 Alloc 1
+[2024-10-12T10:37:49.932+0800][debug][gc,ergo,cset] GC(401) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.17ms, optional threshold 9.83ms
+[2024-10-12T10:37:49.932+0800][debug][gc,ergo,cset] GC(401) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:49.932+0800][debug][gc,ergo,cset] GC(401) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.09
+[2024-10-12T10:37:49.975+0800][debug][gc,ergo,cset] GC(402) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.18ms, optional threshold 9.84ms
+[2024-10-12T10:37:49.975+0800][debug][gc,ergo,cset] GC(402) Old candidate collection set empty.
+[2024-10-12T10:37:49.975+0800][debug][gc,ergo,cset] GC(402) Finish choosing collection set old regions. Initial: 6, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.27
+[2024-10-12T10:37:50.582+0800][debug][gc,ergo,cset] GC(409) Pruned 26 regions out of 37, leaving 18179816 bytes waste (allowed 18790481)
+[2024-10-12T10:37:50.830+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 51 (Pred 1) Free 5 Alloc 1
+[2024-10-12T10:37:50.830+0800][debug][gc,ergo,cset] GC(411) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 49.03ms, optional threshold 9.81ms
+[2024-10-12T10:37:50.830+0800][debug][gc,ergo,cset] GC(411) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:50.830+0800][debug][gc,ergo,cset] GC(411) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.40
+[2024-10-12T10:37:50.934+0800][debug][gc,ergo,cset] GC(412) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.97ms, optional threshold 9.79ms
+[2024-10-12T10:37:50.934+0800][debug][gc,ergo,cset] GC(412) Old candidate collection set empty.
+[2024-10-12T10:37:50.934+0800][debug][gc,ergo,cset] GC(412) Finish choosing collection set old regions. Initial: 4, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.37
+[2024-10-12T10:37:51.255+0800][debug][gc,ergo,cset] GC(416) Pruned 23 regions out of 42, leaving 18025032 bytes waste (allowed 18790481)
+[2024-10-12T10:37:51.399+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 53 (Pred 0) Free 3 Alloc 1
+[2024-10-12T10:37:51.462+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 55 (Pred 1) Free 2 Alloc 1
+[2024-10-12T10:37:51.462+0800][debug][gc,ergo,cset] GC(418) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.25ms, optional threshold 9.85ms
+[2024-10-12T10:37:51.462+0800][debug][gc,ergo,cset] GC(418) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:51.462+0800][debug][gc,ergo,cset] GC(418) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.73
+[2024-10-12T10:37:51.504+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 52 (Pred 2) Free 5 Alloc 1
+[2024-10-12T10:37:51.505+0800][debug][gc,ergo,cset] GC(419) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.23ms, optional threshold 9.85ms
+[2024-10-12T10:37:51.505+0800][debug][gc,ergo,cset] GC(419) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:51.505+0800][debug][gc,ergo,cset] GC(419) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.35
+[2024-10-12T10:37:51.609+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 6. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 51 (Pred 2) Free 5 Alloc 1
+[2024-10-12T10:37:51.609+0800][debug][gc,ergo,cset] GC(420) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.04ms, optional threshold 9.81ms
+[2024-10-12T10:37:51.609+0800][debug][gc,ergo,cset] GC(420) Old candidate collection set empty.
+[2024-10-12T10:37:51.609+0800][debug][gc,ergo,cset] GC(420) Finish choosing collection set old regions. Initial: 5, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.34
+[2024-10-12T10:37:51.662+0800][debug][gc,ergo,cset] GC(422) Pruned 25 regions out of 43, leaving 18248672 bytes waste (allowed 18790481)
+[2024-10-12T10:37:51.766+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 3. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 53 (Pred 0) Free 3 Alloc 1
+[2024-10-12T10:37:51.828+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 54 (Pred 1) Free 3 Alloc 1
+[2024-10-12T10:37:51.829+0800][debug][gc,ergo,cset] GC(424) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.22ms, optional threshold 9.84ms
+[2024-10-12T10:37:51.829+0800][debug][gc,ergo,cset] GC(424) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:51.829+0800][debug][gc,ergo,cset] GC(424) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.75
+[2024-10-12T10:37:51.932+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 6. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 51 (Pred 2) Free 5 Alloc 1
+[2024-10-12T10:37:51.933+0800][debug][gc,ergo,cset] GC(425) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.01ms, optional threshold 9.80ms
+[2024-10-12T10:37:51.933+0800][debug][gc,ergo,cset] GC(425) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:51.933+0800][debug][gc,ergo,cset] GC(425) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.21
+[2024-10-12T10:37:51.996+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 53 (Pred 2) Free 4 Alloc 1
+[2024-10-12T10:37:51.996+0800][debug][gc,ergo,cset] GC(426) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.22ms, optional threshold 9.84ms
+[2024-10-12T10:37:51.996+0800][debug][gc,ergo,cset] GC(426) Old candidate collection set empty.
+[2024-10-12T10:37:51.996+0800][debug][gc,ergo,cset] GC(426) Finish choosing collection set old regions. Initial: 4, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.62
+[2024-10-12T10:37:52.038+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 3. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 55 (Pred 0) Free 2 Alloc 1
+[2024-10-12T10:37:52.049+0800][debug][gc,ergo,cset] GC(428) Pruned 25 regions out of 46, leaving 18149968 bytes waste (allowed 18790481)
+[2024-10-12T10:37:52.152+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 3. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 56 (Pred 0) Free 1 Alloc 1
+[2024-10-12T10:37:52.195+0800][debug][gc,ergo,cset] GC(430) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.21ms, optional threshold 9.84ms
+[2024-10-12T10:37:52.195+0800][debug][gc,ergo,cset] GC(430) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:52.195+0800][debug][gc,ergo,cset] GC(430) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.79
+[2024-10-12T10:37:52.803+0800][debug][gc,ergo,cset] GC(437) Pruned 30 regions out of 38, leaving 22432984 bytes waste (allowed 22817013)
+[2024-10-12T10:37:53.051+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 51 (Pred 1) Free 5 Alloc 1
+[2024-10-12T10:37:53.051+0800][debug][gc,ergo,cset] GC(439) Start adding old regions to collection set. Min 1 regions, max 7 regions, time remaining 49.03ms, optional threshold 9.81ms
+[2024-10-12T10:37:53.051+0800][debug][gc,ergo,cset] GC(439) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:53.051+0800][debug][gc,ergo,cset] GC(439) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.29
+[2024-10-12T10:37:53.155+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 51 (Pred 1) Free 5 Alloc 1
+[2024-10-12T10:37:53.156+0800][debug][gc,ergo,cset] GC(440) Start adding old regions to collection set. Min 1 regions, max 7 regions, time remaining 49.04ms, optional threshold 9.81ms
+[2024-10-12T10:37:53.156+0800][debug][gc,ergo,cset] GC(440) Old candidate collection set empty.
+[2024-10-12T10:37:53.156+0800][debug][gc,ergo,cset] GC(440) Finish choosing collection set old regions. Initial: 1, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.92
+[2024-10-12T10:37:53.259+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 53 (Pred 0) Free 3 Alloc 1
+[2024-10-12T10:37:53.270+0800][debug][gc,ergo,cset] GC(442) Pruned 27 regions out of 44, leaving 18494000 bytes waste (allowed 18790481)
+[2024-10-12T10:37:53.414+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 53 (Pred 0) Free 3 Alloc 1
+[2024-10-12T10:37:53.476+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 55 (Pred 1) Free 2 Alloc 1
+[2024-10-12T10:37:53.477+0800][debug][gc,ergo,cset] GC(444) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.22ms, optional threshold 9.84ms
+[2024-10-12T10:37:53.477+0800][debug][gc,ergo,cset] GC(444) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:53.477+0800][debug][gc,ergo,cset] GC(444) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.54
+[2024-10-12T10:37:53.519+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 54 (Pred 2) Free 3 Alloc 1
+[2024-10-12T10:37:53.519+0800][debug][gc,ergo,cset] GC(445) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.20ms, optional threshold 9.84ms
+[2024-10-12T10:37:53.519+0800][debug][gc,ergo,cset] GC(445) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:53.519+0800][debug][gc,ergo,cset] GC(445) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.21
+[2024-10-12T10:37:53.582+0800][debug][gc,ergo,cset] GC(446) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.20ms, optional threshold 9.84ms
+[2024-10-12T10:37:53.582+0800][debug][gc,ergo,cset] GC(446) Old candidate collection set empty.
+[2024-10-12T10:37:53.582+0800][debug][gc,ergo,cset] GC(446) Finish choosing collection set old regions. Initial: 3, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.68
+[2024-10-12T10:37:54.232+0800][debug][gc,ergo,cset] GC(453) Pruned 23 regions out of 33, leaving 17782448 bytes waste (allowed 18790481)
+[2024-10-12T10:37:54.478+0800][debug][gc,ergo,cset] GC(455) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 49.06ms, optional threshold 9.81ms
+[2024-10-12T10:37:54.478+0800][debug][gc,ergo,cset] GC(455) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:54.478+0800][debug][gc,ergo,cset] GC(455) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.17
+[2024-10-12T10:37:54.582+0800][debug][gc,ergo,cset] GC(456) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 49.02ms, optional threshold 9.80ms
+[2024-10-12T10:37:54.582+0800][debug][gc,ergo,cset] GC(456) Old candidate collection set empty.
+[2024-10-12T10:37:54.582+0800][debug][gc,ergo,cset] GC(456) Finish choosing collection set old regions. Initial: 3, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.60
+[2024-10-12T10:37:54.800+0800][debug][gc,ergo,cset] GC(459) Pruned 23 regions out of 41, leaving 18479176 bytes waste (allowed 18790481)
+[2024-10-12T10:37:54.944+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 52 (Pred 0) Free 4 Alloc 1
+[2024-10-12T10:37:55.006+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 54 (Pred 1) Free 3 Alloc 1
+[2024-10-12T10:37:55.007+0800][debug][gc,ergo,cset] GC(461) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.24ms, optional threshold 9.85ms
+[2024-10-12T10:37:55.007+0800][debug][gc,ergo,cset] GC(461) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:55.007+0800][debug][gc,ergo,cset] GC(461) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.54
+[2024-10-12T10:37:55.049+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 52 (Pred 2) Free 5 Alloc 1
+[2024-10-12T10:37:55.049+0800][debug][gc,ergo,cset] GC(462) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.22ms, optional threshold 9.84ms
+[2024-10-12T10:37:55.049+0800][debug][gc,ergo,cset] GC(462) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:55.049+0800][debug][gc,ergo,cset] GC(462) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.24
+[2024-10-12T10:37:55.154+0800][debug][gc,ergo,cset] GC(463) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.02ms, optional threshold 9.80ms
+[2024-10-12T10:37:55.154+0800][debug][gc,ergo,cset] GC(463) Old candidate collection set empty.
+[2024-10-12T10:37:55.154+0800][debug][gc,ergo,cset] GC(463) Finish choosing collection set old regions. Initial: 4, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.41
+[2024-10-12T10:37:55.268+0800][debug][gc,ergo,cset] GC(465) Pruned 23 regions out of 36, leaving 18251936 bytes waste (allowed 18790481)
+[2024-10-12T10:37:55.475+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 53 (Pred 1) Free 4 Alloc 1
+[2024-10-12T10:37:55.475+0800][debug][gc,ergo,cset] GC(467) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 49.20ms, optional threshold 9.84ms
+[2024-10-12T10:37:55.475+0800][debug][gc,ergo,cset] GC(467) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:55.475+0800][debug][gc,ergo,cset] GC(467) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.62
+[2024-10-12T10:37:55.579+0800][debug][gc,ergo,cset] GC(468) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.99ms, optional threshold 9.80ms
+[2024-10-12T10:37:55.579+0800][debug][gc,ergo,cset] GC(468) Old candidate collection set empty.
+[2024-10-12T10:37:55.579+0800][debug][gc,ergo,cset] GC(468) Finish choosing collection set old regions. Initial: 6, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.23
+[2024-10-12T10:37:55.797+0800][debug][gc,ergo,cset] GC(471) Pruned 22 regions out of 38, leaving 18712272 bytes waste (allowed 18790481)
+[2024-10-12T10:37:56.004+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 53 (Pred 1) Free 4 Alloc 1
+[2024-10-12T10:37:56.004+0800][debug][gc,ergo,cset] GC(473) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 49.21ms, optional threshold 9.84ms
+[2024-10-12T10:37:56.004+0800][debug][gc,ergo,cset] GC(473) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:56.004+0800][debug][gc,ergo,cset] GC(473) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.47
+[2024-10-12T10:37:56.108+0800][debug][gc,ergo,cset] GC(474) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.95ms, optional threshold 9.79ms
+[2024-10-12T10:37:56.108+0800][debug][gc,ergo,cset] GC(474) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:56.108+0800][debug][gc,ergo,cset] GC(474) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.96
+[2024-10-12T10:37:56.212+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 6. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 50 (Pred 2) Free 6 Alloc 1
+[2024-10-12T10:37:56.213+0800][debug][gc,ergo,cset] GC(475) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.95ms, optional threshold 9.79ms
+[2024-10-12T10:37:56.213+0800][debug][gc,ergo,cset] GC(475) Old candidate collection set empty.
+[2024-10-12T10:37:56.213+0800][debug][gc,ergo,cset] GC(475) Finish choosing collection set old regions. Initial: 2, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.63
+[2024-10-12T10:37:56.265+0800][debug][gc,ergo,cset] GC(477) Pruned 24 regions out of 42, leaving 18018552 bytes waste (allowed 18790481)
+[2024-10-12T10:37:56.430+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 52 (Pred 0) Free 3 Alloc 1
+[2024-10-12T10:37:56.493+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 54 (Pred 1) Free 3 Alloc 1
+[2024-10-12T10:37:56.493+0800][debug][gc,ergo,cset] GC(479) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.18ms, optional threshold 9.84ms
+[2024-10-12T10:37:56.493+0800][debug][gc,ergo,cset] GC(479) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:56.493+0800][debug][gc,ergo,cset] GC(479) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.46
+[2024-10-12T10:37:56.536+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 54 (Pred 2) Free 3 Alloc 1
+[2024-10-12T10:37:56.536+0800][debug][gc,ergo,cset] GC(480) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.15ms, optional threshold 9.83ms
+[2024-10-12T10:37:56.537+0800][debug][gc,ergo,cset] GC(480) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:56.537+0800][debug][gc,ergo,cset] GC(480) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.17
+[2024-10-12T10:37:56.599+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 56 (Pred 2) Free 1 Alloc 1
+[2024-10-12T10:37:56.599+0800][debug][gc,ergo,cset] GC(481) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.16ms, optional threshold 9.83ms
+[2024-10-12T10:37:56.599+0800][debug][gc,ergo,cset] GC(481) Old candidate collection set empty.
+[2024-10-12T10:37:56.599+0800][debug][gc,ergo,cset] GC(481) Finish choosing collection set old regions. Initial: 4, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.51
+[2024-10-12T10:37:57.208+0800][debug][gc,ergo,cset] GC(489) Pruned 28 regions out of 37, leaving 18721328 bytes waste (allowed 18790481)
+[2024-10-12T10:37:57.456+0800][debug][gc,ergo,cset] GC(491) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 49.00ms, optional threshold 9.80ms
+[2024-10-12T10:37:57.456+0800][debug][gc,ergo,cset] GC(491) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:57.456+0800][debug][gc,ergo,cset] GC(491) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.25
+[2024-10-12T10:37:57.560+0800][debug][gc,ergo,cset] GC(492) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.97ms, optional threshold 9.79ms
+[2024-10-12T10:37:57.560+0800][debug][gc,ergo,cset] GC(492) Old candidate collection set empty.
+[2024-10-12T10:37:57.560+0800][debug][gc,ergo,cset] GC(492) Finish choosing collection set old regions. Initial: 2, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.71
+[2024-10-12T10:37:57.778+0800][debug][gc,ergo,cset] GC(495) Pruned 22 regions out of 43, leaving 14526400 bytes waste (allowed 14763950)
+[2024-10-12T10:37:57.984+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 53 (Pred 1) Free 4 Alloc 1
+[2024-10-12T10:37:57.984+0800][debug][gc,ergo,cset] GC(497) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.22ms, optional threshold 9.84ms
+[2024-10-12T10:37:57.984+0800][debug][gc,ergo,cset] GC(497) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:57.984+0800][debug][gc,ergo,cset] GC(497) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.45
+[2024-10-12T10:37:58.088+0800][debug][gc,ergo,cset] GC(498) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.00ms, optional threshold 9.80ms
+[2024-10-12T10:37:58.088+0800][debug][gc,ergo,cset] GC(498) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:58.088+0800][debug][gc,ergo,cset] GC(498) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.08
+[2024-10-12T10:37:58.193+0800][debug][gc,ergo,cset] GC(499) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 48.98ms, optional threshold 9.80ms
+[2024-10-12T10:37:58.193+0800][debug][gc,ergo,cset] GC(499) Old candidate collection set empty.
+[2024-10-12T10:37:58.193+0800][debug][gc,ergo,cset] GC(499) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.94
+[2024-10-12T10:37:58.411+0800][debug][gc,ergo,cset] GC(502) Pruned 22 regions out of 40, leaving 18008760 bytes waste (allowed 18790481)
+[2024-10-12T10:37:58.556+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 53 (Pred 1) Free 4 Alloc 1
+[2024-10-12T10:37:58.556+0800][debug][gc,ergo,cset] GC(504) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.20ms, optional threshold 9.84ms
+[2024-10-12T10:37:58.556+0800][debug][gc,ergo,cset] GC(504) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:58.556+0800][debug][gc,ergo,cset] GC(504) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.47
+[2024-10-12T10:37:58.681+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 6. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 50 (Pred 2) Free 5 Alloc 1
+[2024-10-12T10:37:58.681+0800][debug][gc,ergo,cset] GC(505) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 48.99ms, optional threshold 9.80ms
+[2024-10-12T10:37:58.681+0800][debug][gc,ergo,cset] GC(505) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:58.681+0800][debug][gc,ergo,cset] GC(505) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.97
+[2024-10-12T10:37:58.785+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 6. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 51 (Pred 2) Free 5 Alloc 1
+[2024-10-12T10:37:58.786+0800][debug][gc,ergo,cset] GC(506) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 48.97ms, optional threshold 9.79ms
+[2024-10-12T10:37:58.786+0800][debug][gc,ergo,cset] GC(506) Old candidate collection set empty.
+[2024-10-12T10:37:58.786+0800][debug][gc,ergo,cset] GC(506) Finish choosing collection set old regions. Initial: 4, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.36
+[2024-10-12T10:37:58.849+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 3. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 54 (Pred 0) Free 3 Alloc 1
+[2024-10-12T10:37:58.860+0800][debug][gc,ergo,cset] GC(508) Pruned 23 regions out of 44, leaving 17787168 bytes waste (allowed 18790481)
+[2024-10-12T10:37:58.942+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 3. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 54 (Pred 0) Free 3 Alloc 1
+[2024-10-12T10:37:59.004+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 55 (Pred 1) Free 2 Alloc 1
+[2024-10-12T10:37:59.005+0800][debug][gc,ergo,cset] GC(510) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.21ms, optional threshold 9.84ms
+[2024-10-12T10:37:59.005+0800][debug][gc,ergo,cset] GC(510) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:59.005+0800][debug][gc,ergo,cset] GC(510) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.83
+[2024-10-12T10:37:59.047+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 53 (Pred 2) Free 4 Alloc 1
+[2024-10-12T10:37:59.047+0800][debug][gc,ergo,cset] GC(511) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.19ms, optional threshold 9.84ms
+[2024-10-12T10:37:59.048+0800][debug][gc,ergo,cset] GC(511) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:37:59.048+0800][debug][gc,ergo,cset] GC(511) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.31
+[2024-10-12T10:37:59.110+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 55 (Pred 2) Free 2 Alloc 1
+[2024-10-12T10:37:59.111+0800][debug][gc,ergo,cset] GC(512) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.13ms, optional threshold 9.83ms
+[2024-10-12T10:37:59.111+0800][debug][gc,ergo,cset] GC(512) Old candidate collection set empty.
+[2024-10-12T10:37:59.111+0800][debug][gc,ergo,cset] GC(512) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.80
+[2024-10-12T10:37:59.722+0800][debug][gc,ergo,cset] GC(520) Pruned 30 regions out of 36, leaving 22276344 bytes waste (allowed 22817013)
+[2024-10-12T10:37:59.969+0800][debug][gc,ergo,cset] GC(522) Start adding old regions to collection set. Min 1 regions, max 7 regions, time remaining 49.00ms, optional threshold 9.80ms
+[2024-10-12T10:37:59.969+0800][debug][gc,ergo,cset] GC(522) Old candidate collection set empty.
+[2024-10-12T10:37:59.969+0800][debug][gc,ergo,cset] GC(522) Finish choosing collection set old regions. Initial: 6, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.39
+[2024-10-12T10:38:00.187+0800][debug][gc,ergo,cset] GC(525) Pruned 26 regions out of 44, leaving 18009024 bytes waste (allowed 18790481)
+[2024-10-12T10:38:00.393+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 2). Curr Old 53 (Pred 1) Free 4 Alloc 1
+[2024-10-12T10:38:00.393+0800][debug][gc,ergo,cset] GC(527) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.22ms, optional threshold 9.84ms
+[2024-10-12T10:38:00.393+0800][debug][gc,ergo,cset] GC(527) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:00.393+0800][debug][gc,ergo,cset] GC(527) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.57
+[2024-10-12T10:38:00.498+0800][debug][gc,ergo,cset] GC(528) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.00ms, optional threshold 9.80ms
+[2024-10-12T10:38:00.498+0800][debug][gc,ergo,cset] GC(528) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:00.498+0800][debug][gc,ergo,cset] GC(528) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.12
+[2024-10-12T10:38:00.602+0800][debug][gc,ergo,cset] GC(529) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 48.97ms, optional threshold 9.79ms
+[2024-10-12T10:38:00.602+0800][debug][gc,ergo,cset] GC(529) Old candidate collection set empty.
+[2024-10-12T10:38:00.602+0800][debug][gc,ergo,cset] GC(529) Finish choosing collection set old regions. Initial: 4, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.39
+[2024-10-12T10:38:00.820+0800][debug][gc,ergo,cset] GC(532) Pruned 23 regions out of 39, leaving 17737656 bytes waste (allowed 18790481)
+[2024-10-12T10:38:00.964+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 52 (Pred 0) Free 3 Alloc 1
+[2024-10-12T10:38:01.027+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 54 (Pred 1) Free 3 Alloc 1
+[2024-10-12T10:38:01.027+0800][debug][gc,ergo,cset] GC(534) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 49.21ms, optional threshold 9.84ms
+[2024-10-12T10:38:01.027+0800][debug][gc,ergo,cset] GC(534) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:01.027+0800][debug][gc,ergo,cset] GC(534) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.62
+[2024-10-12T10:38:01.131+0800][debug][gc,ergo,cset] GC(535) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.99ms, optional threshold 9.80ms
+[2024-10-12T10:38:01.131+0800][debug][gc,ergo,cset] GC(535) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:01.131+0800][debug][gc,ergo,cset] GC(535) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.12
+[2024-10-12T10:38:01.235+0800][debug][gc,ergo,cset] GC(536) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.98ms, optional threshold 9.80ms
+[2024-10-12T10:38:01.235+0800][debug][gc,ergo,cset] GC(536) Old candidate collection set empty.
+[2024-10-12T10:38:01.235+0800][debug][gc,ergo,cset] GC(536) Finish choosing collection set old regions. Initial: 2, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.56
+[2024-10-12T10:38:01.350+0800][debug][gc,ergo,cset] GC(538) Pruned 24 regions out of 39, leaving 17776624 bytes waste (allowed 18790481)
+[2024-10-12T10:38:01.494+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 52 (Pred 0) Free 4 Alloc 1
+[2024-10-12T10:38:01.557+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 54 (Pred 1) Free 3 Alloc 1
+[2024-10-12T10:38:01.557+0800][debug][gc,ergo,cset] GC(540) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 49.15ms, optional threshold 9.83ms
+[2024-10-12T10:38:01.557+0800][debug][gc,ergo,cset] GC(540) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:01.557+0800][debug][gc,ergo,cset] GC(540) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.57
+[2024-10-12T10:38:01.661+0800][debug][gc,ergo,cset] GC(541) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.94ms, optional threshold 9.79ms
+[2024-10-12T10:38:01.661+0800][debug][gc,ergo,cset] GC(541) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:01.661+0800][debug][gc,ergo,cset] GC(541) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.00
+[2024-10-12T10:38:01.765+0800][debug][gc,ergo,cset] GC(542) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.95ms, optional threshold 9.79ms
+[2024-10-12T10:38:01.765+0800][debug][gc,ergo,cset] GC(542) Old candidate collection set empty.
+[2024-10-12T10:38:01.765+0800][debug][gc,ergo,cset] GC(542) Finish choosing collection set old regions. Initial: 1, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.80
+[2024-10-12T10:38:01.983+0800][debug][gc,ergo,cset] GC(545) Pruned 24 regions out of 41, leaving 18520216 bytes waste (allowed 18790481)
+[2024-10-12T10:38:02.127+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 52 (Pred 0) Free 4 Alloc 1
+[2024-10-12T10:38:02.189+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 54 (Pred 1) Free 3 Alloc 1
+[2024-10-12T10:38:02.190+0800][debug][gc,ergo,cset] GC(547) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.22ms, optional threshold 9.84ms
+[2024-10-12T10:38:02.190+0800][debug][gc,ergo,cset] GC(547) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:02.190+0800][debug][gc,ergo,cset] GC(547) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.53
+[2024-10-12T10:38:02.232+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 54 (Pred 2) Free 3 Alloc 1
+[2024-10-12T10:38:02.232+0800][debug][gc,ergo,cset] GC(548) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.21ms, optional threshold 9.84ms
+[2024-10-12T10:38:02.232+0800][debug][gc,ergo,cset] GC(548) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:02.232+0800][debug][gc,ergo,cset] GC(548) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.21
+[2024-10-12T10:38:02.295+0800][debug][gc,ergo,cset] GC(549) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.21ms, optional threshold 9.84ms
+[2024-10-12T10:38:02.295+0800][debug][gc,ergo,cset] GC(549) Old candidate collection set empty.
+[2024-10-12T10:38:02.295+0800][debug][gc,ergo,cset] GC(549) Finish choosing collection set old regions. Initial: 3, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.71
+[2024-10-12T10:38:03.010+0800][debug][gc,ergo,cset] GC(556) Pruned 24 regions out of 33, leaving 17639776 bytes waste (allowed 18790481)
+[2024-10-12T10:38:03.258+0800][debug][gc,ergo,cset] GC(558) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 49.05ms, optional threshold 9.81ms
+[2024-10-12T10:38:03.258+0800][debug][gc,ergo,cset] GC(558) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:03.258+0800][debug][gc,ergo,cset] GC(558) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.40
+[2024-10-12T10:38:03.362+0800][debug][gc,ergo,cset] GC(559) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 49.04ms, optional threshold 9.81ms
+[2024-10-12T10:38:03.362+0800][debug][gc,ergo,cset] GC(559) Old candidate collection set empty.
+[2024-10-12T10:38:03.362+0800][debug][gc,ergo,cset] GC(559) Finish choosing collection set old regions. Initial: 2, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.77
+[2024-10-12T10:38:03.682+0800][debug][gc,ergo,cset] GC(563) Pruned 20 regions out of 38, leaving 14357992 bytes waste (allowed 14763950)
+[2024-10-12T10:38:03.838+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 52 (Pred 0) Free 4 Alloc 1
+[2024-10-12T10:38:03.905+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 54 (Pred 1) Free 3 Alloc 1
+[2024-10-12T10:38:03.906+0800][debug][gc,ergo,cset] GC(565) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 48.03ms, optional threshold 9.61ms
+[2024-10-12T10:38:03.906+0800][debug][gc,ergo,cset] GC(565) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:03.906+0800][debug][gc,ergo,cset] GC(565) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 46.46
+[2024-10-12T10:38:04.012+0800][debug][gc,ergo,cset] GC(566) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 47.01ms, optional threshold 9.40ms
+[2024-10-12T10:38:04.012+0800][debug][gc,ergo,cset] GC(566) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:04.012+0800][debug][gc,ergo,cset] GC(566) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 43.94
+[2024-10-12T10:38:04.123+0800][debug][gc,ergo,cset] GC(567) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 46.59ms, optional threshold 9.32ms
+[2024-10-12T10:38:04.123+0800][debug][gc,ergo,cset] GC(567) Old candidate collection set empty.
+[2024-10-12T10:38:04.123+0800][debug][gc,ergo,cset] GC(567) Finish choosing collection set old regions. Initial: 4, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 44.06
+[2024-10-12T10:38:04.347+0800][debug][gc,ergo,cset] GC(570) Pruned 22 regions out of 38, leaving 13828184 bytes waste (allowed 14763950)
+[2024-10-12T10:38:04.594+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 52 (Pred 1) Free 4 Alloc 1
+[2024-10-12T10:38:04.594+0800][debug][gc,ergo,cset] GC(572) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 47.49ms, optional threshold 9.50ms
+[2024-10-12T10:38:04.594+0800][debug][gc,ergo,cset] GC(572) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:04.594+0800][debug][gc,ergo,cset] GC(572) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 45.57
+[2024-10-12T10:38:04.659+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 53 (Pred 1) Free 4 Alloc 1
+[2024-10-12T10:38:04.659+0800][debug][gc,ergo,cset] GC(573) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.21ms, optional threshold 9.64ms
+[2024-10-12T10:38:04.659+0800][debug][gc,ergo,cset] GC(573) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:04.659+0800][debug][gc,ergo,cset] GC(573) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 45.22
+[2024-10-12T10:38:04.705+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 55 (Pred 1) Free 2 Alloc 1
+[2024-10-12T10:38:04.706+0800][debug][gc,ergo,cset] GC(574) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.13ms, optional threshold 9.63ms
+[2024-10-12T10:38:04.706+0800][debug][gc,ergo,cset] GC(574) Old candidate collection set empty.
+[2024-10-12T10:38:04.706+0800][debug][gc,ergo,cset] GC(574) Finish choosing collection set old regions. Initial: 2, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 46.99
+[2024-10-12T10:38:05.387+0800][debug][gc,ergo,cset] GC(583) Pruned 21 regions out of 34, leaving 14171016 bytes waste (allowed 14763950)
+[2024-10-12T10:38:05.657+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 2 (Pred 4). Curr Survivor 1 (Pred 1). Curr Old 51 (Pred 1) Free 5 Alloc 1
+[2024-10-12T10:38:05.658+0800][debug][gc,ergo,cset] GC(585) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.45ms, optional threshold 9.69ms
+[2024-10-12T10:38:05.658+0800][debug][gc,ergo,cset] GC(585) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:05.658+0800][debug][gc,ergo,cset] GC(585) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.40
+[2024-10-12T10:38:05.762+0800][debug][gc,ergo,cset] GC(586) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.45ms, optional threshold 9.69ms
+[2024-10-12T10:38:05.762+0800][debug][gc,ergo,cset] GC(586) Old candidate collection set empty.
+[2024-10-12T10:38:05.762+0800][debug][gc,ergo,cset] GC(586) Finish choosing collection set old regions. Initial: 6, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.14
+[2024-10-12T10:38:06.084+0800][debug][gc,ergo,cset] GC(590) Pruned 20 regions out of 42, leaving 14609488 bytes waste (allowed 14763950)
+[2024-10-12T10:38:06.227+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 52 (Pred 0) Free 4 Alloc 1
+[2024-10-12T10:38:06.290+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 54 (Pred 1) Free 3 Alloc 1
+[2024-10-12T10:38:06.290+0800][debug][gc,ergo,cset] GC(592) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.15ms, optional threshold 9.83ms
+[2024-10-12T10:38:06.290+0800][debug][gc,ergo,cset] GC(592) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:06.290+0800][debug][gc,ergo,cset] GC(592) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.45
+[2024-10-12T10:38:06.333+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 52 (Pred 2) Free 5 Alloc 1
+[2024-10-12T10:38:06.333+0800][debug][gc,ergo,cset] GC(593) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.15ms, optional threshold 9.83ms
+[2024-10-12T10:38:06.333+0800][debug][gc,ergo,cset] GC(593) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:06.333+0800][debug][gc,ergo,cset] GC(593) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.00
+[2024-10-12T10:38:06.396+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 52 (Pred 2) Free 5 Alloc 1
+[2024-10-12T10:38:06.396+0800][debug][gc,ergo,cset] GC(594) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.15ms, optional threshold 9.83ms
+[2024-10-12T10:38:06.396+0800][debug][gc,ergo,cset] GC(594) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:06.396+0800][debug][gc,ergo,cset] GC(594) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.89
+[2024-10-12T10:38:06.439+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 53 (Pred 1) Free 4 Alloc 1
+[2024-10-12T10:38:06.439+0800][debug][gc,ergo,cset] GC(595) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.15ms, optional threshold 9.83ms
+[2024-10-12T10:38:06.439+0800][debug][gc,ergo,cset] GC(595) Old candidate collection set empty.
+[2024-10-12T10:38:06.439+0800][debug][gc,ergo,cset] GC(595) Finish choosing collection set old regions. Initial: 1, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.96
+[2024-10-12T10:38:06.501+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 3. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 54 (Pred 0) Free 3 Alloc 1
+[2024-10-12T10:38:06.512+0800][debug][gc,ergo,cset] GC(597) Pruned 24 regions out of 37, leaving 18358360 bytes waste (allowed 18790481)
+[2024-10-12T10:38:06.719+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 53 (Pred 1) Free 4 Alloc 1
+[2024-10-12T10:38:06.719+0800][debug][gc,ergo,cset] GC(599) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 49.16ms, optional threshold 9.83ms
+[2024-10-12T10:38:06.719+0800][debug][gc,ergo,cset] GC(599) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:06.719+0800][debug][gc,ergo,cset] GC(599) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.56
+[2024-10-12T10:38:06.823+0800][debug][gc,ergo,cset] GC(600) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.94ms, optional threshold 9.79ms
+[2024-10-12T10:38:06.823+0800][debug][gc,ergo,cset] GC(600) Old candidate collection set empty.
+[2024-10-12T10:38:06.823+0800][debug][gc,ergo,cset] GC(600) Finish choosing collection set old regions. Initial: 6, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.91
+[2024-10-12T10:38:07.041+0800][debug][gc,ergo,cset] GC(603) Pruned 25 regions out of 43, leaving 18580800 bytes waste (allowed 18790481)
+[2024-10-12T10:38:07.185+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 52 (Pred 0) Free 4 Alloc 1
+[2024-10-12T10:38:07.248+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 54 (Pred 1) Free 3 Alloc 1
+[2024-10-12T10:38:07.248+0800][debug][gc,ergo,cset] GC(605) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.17ms, optional threshold 9.83ms
+[2024-10-12T10:38:07.248+0800][debug][gc,ergo,cset] GC(605) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:07.248+0800][debug][gc,ergo,cset] GC(605) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.29
+[2024-10-12T10:38:07.291+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 54 (Pred 2) Free 3 Alloc 1
+[2024-10-12T10:38:07.291+0800][debug][gc,ergo,cset] GC(606) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.15ms, optional threshold 9.83ms
+[2024-10-12T10:38:07.291+0800][debug][gc,ergo,cset] GC(606) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:07.291+0800][debug][gc,ergo,cset] GC(606) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.02
+[2024-10-12T10:38:07.354+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 56 (Pred 2) Free 1 Alloc 1
+[2024-10-12T10:38:07.354+0800][debug][gc,ergo,cset] GC(607) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.12ms, optional threshold 9.82ms
+[2024-10-12T10:38:07.354+0800][debug][gc,ergo,cset] GC(607) Old candidate collection set empty.
+[2024-10-12T10:38:07.354+0800][debug][gc,ergo,cset] GC(607) Finish choosing collection set old regions. Initial: 4, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.22
+[2024-10-12T10:38:07.968+0800][debug][gc,ergo,cset] GC(615) Pruned 26 regions out of 35, leaving 18078432 bytes waste (allowed 18790481)
+[2024-10-12T10:38:08.217+0800][debug][gc,ergo,cset] GC(617) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.58ms, optional threshold 9.72ms
+[2024-10-12T10:38:08.217+0800][debug][gc,ergo,cset] GC(617) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:08.217+0800][debug][gc,ergo,cset] GC(617) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.72
+[2024-10-12T10:38:08.321+0800][debug][gc,ergo,cset] GC(618) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.66ms, optional threshold 9.73ms
+[2024-10-12T10:38:08.321+0800][debug][gc,ergo,cset] GC(618) Old candidate collection set empty.
+[2024-10-12T10:38:08.321+0800][debug][gc,ergo,cset] GC(618) Finish choosing collection set old regions. Initial: 2, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.23
+[2024-10-12T10:38:08.540+0800][debug][gc,ergo,cset] GC(621) Pruned 21 regions out of 43, leaving 14327072 bytes waste (allowed 14763950)
+[2024-10-12T10:38:08.683+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 52 (Pred 0) Free 4 Alloc 1
+[2024-10-12T10:38:08.746+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 54 (Pred 1) Free 3 Alloc 1
+[2024-10-12T10:38:08.746+0800][debug][gc,ergo,cset] GC(623) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.11ms, optional threshold 9.82ms
+[2024-10-12T10:38:08.746+0800][debug][gc,ergo,cset] GC(623) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:08.746+0800][debug][gc,ergo,cset] GC(623) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.23
+[2024-10-12T10:38:08.850+0800][debug][gc,ergo,cset] GC(624) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 48.86ms, optional threshold 9.77ms
+[2024-10-12T10:38:08.850+0800][debug][gc,ergo,cset] GC(624) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:08.850+0800][debug][gc,ergo,cset] GC(624) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.75
+[2024-10-12T10:38:08.955+0800][debug][gc,ergo,cset] GC(625) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 48.86ms, optional threshold 9.77ms
+[2024-10-12T10:38:08.955+0800][debug][gc,ergo,cset] GC(625) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:08.955+0800][debug][gc,ergo,cset] GC(625) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.66
+[2024-10-12T10:38:09.060+0800][debug][gc,ergo,cset] GC(626) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 48.88ms, optional threshold 9.78ms
+[2024-10-12T10:38:09.060+0800][debug][gc,ergo,cset] GC(626) Old candidate collection set empty.
+[2024-10-12T10:38:09.060+0800][debug][gc,ergo,cset] GC(626) Finish choosing collection set old regions. Initial: 1, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.70
+[2024-10-12T10:38:09.174+0800][debug][gc,ergo,cset] GC(628) Pruned 24 regions out of 39, leaving 18578992 bytes waste (allowed 18790481)
+[2024-10-12T10:38:09.421+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 52 (Pred 1) Free 4 Alloc 1
+[2024-10-12T10:38:09.422+0800][debug][gc,ergo,cset] GC(630) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.92ms, optional threshold 9.78ms
+[2024-10-12T10:38:09.422+0800][debug][gc,ergo,cset] GC(630) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:09.422+0800][debug][gc,ergo,cset] GC(630) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.90
+[2024-10-12T10:38:09.484+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 54 (Pred 1) Free 3 Alloc 1
+[2024-10-12T10:38:09.484+0800][debug][gc,ergo,cset] GC(631) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 49.13ms, optional threshold 9.83ms
+[2024-10-12T10:38:09.485+0800][debug][gc,ergo,cset] GC(631) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:09.485+0800][debug][gc,ergo,cset] GC(631) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.62
+[2024-10-12T10:38:09.528+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 56 (Pred 1) Free 1 Alloc 1
+[2024-10-12T10:38:09.528+0800][debug][gc,ergo,cset] GC(632) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 49.09ms, optional threshold 9.82ms
+[2024-10-12T10:38:09.528+0800][debug][gc,ergo,cset] GC(632) Old candidate collection set empty.
+[2024-10-12T10:38:09.528+0800][debug][gc,ergo,cset] GC(632) Finish choosing collection set old regions. Initial: 1, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.90
+[2024-10-12T10:38:10.140+0800][debug][gc,ergo,cset] GC(640) Pruned 24 regions out of 33, leaving 18155776 bytes waste (allowed 18790481)
+[2024-10-12T10:38:10.388+0800][debug][gc,ergo,cset] GC(642) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.94ms, optional threshold 9.79ms
+[2024-10-12T10:38:10.388+0800][debug][gc,ergo,cset] GC(642) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:10.388+0800][debug][gc,ergo,cset] GC(642) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.11
+[2024-10-12T10:38:10.492+0800][debug][gc,ergo,cset] GC(643) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.88ms, optional threshold 9.78ms
+[2024-10-12T10:38:10.492+0800][debug][gc,ergo,cset] GC(643) Old candidate collection set empty.
+[2024-10-12T10:38:10.492+0800][debug][gc,ergo,cset] GC(643) Finish choosing collection set old regions. Initial: 2, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.55
+[2024-10-12T10:38:10.710+0800][debug][gc,ergo,cset] GC(646) Pruned 19 regions out of 38, leaving 14343592 bytes waste (allowed 14763950)
+[2024-10-12T10:38:10.917+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 53 (Pred 1) Free 4 Alloc 1
+[2024-10-12T10:38:10.917+0800][debug][gc,ergo,cset] GC(648) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.16ms, optional threshold 9.83ms
+[2024-10-12T10:38:10.917+0800][debug][gc,ergo,cset] GC(648) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:10.917+0800][debug][gc,ergo,cset] GC(648) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.38
+[2024-10-12T10:38:11.021+0800][debug][gc,ergo,cset] GC(649) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 48.93ms, optional threshold 9.79ms
+[2024-10-12T10:38:11.021+0800][debug][gc,ergo,cset] GC(649) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:11.021+0800][debug][gc,ergo,cset] GC(649) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.88
+[2024-10-12T10:38:11.126+0800][debug][gc,ergo,cset] GC(650) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 48.94ms, optional threshold 9.79ms
+[2024-10-12T10:38:11.126+0800][debug][gc,ergo,cset] GC(650) Old candidate collection set empty.
+[2024-10-12T10:38:11.126+0800][debug][gc,ergo,cset] GC(650) Finish choosing collection set old regions. Initial: 5, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.12
+[2024-10-12T10:38:11.345+0800][debug][gc,ergo,cset] GC(653) Pruned 21 regions out of 41, leaving 13678744 bytes waste (allowed 14763950)
+[2024-10-12T10:38:11.551+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 53 (Pred 1) Free 4 Alloc 1
+[2024-10-12T10:38:11.552+0800][debug][gc,ergo,cset] GC(655) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.16ms, optional threshold 9.83ms
+[2024-10-12T10:38:11.552+0800][debug][gc,ergo,cset] GC(655) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:11.552+0800][debug][gc,ergo,cset] GC(655) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.44
+[2024-10-12T10:38:11.656+0800][debug][gc,ergo,cset] GC(656) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 48.90ms, optional threshold 9.78ms
+[2024-10-12T10:38:11.656+0800][debug][gc,ergo,cset] GC(656) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:11.656+0800][debug][gc,ergo,cset] GC(656) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.02
+[2024-10-12T10:38:11.761+0800][debug][gc,ergo,cset] GC(657) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 48.88ms, optional threshold 9.78ms
+[2024-10-12T10:38:11.761+0800][debug][gc,ergo,cset] GC(657) Old candidate collection set empty.
+[2024-10-12T10:38:11.761+0800][debug][gc,ergo,cset] GC(657) Finish choosing collection set old regions. Initial: 6, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.72
+[2024-10-12T10:38:11.980+0800][debug][gc,ergo,cset] GC(660) Pruned 20 regions out of 40, leaving 14398072 bytes waste (allowed 14763950)
+[2024-10-12T10:38:12.227+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 52 (Pred 1) Free 4 Alloc 1
+[2024-10-12T10:38:12.227+0800][debug][gc,ergo,cset] GC(662) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 48.95ms, optional threshold 9.79ms
+[2024-10-12T10:38:12.227+0800][debug][gc,ergo,cset] GC(662) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:12.227+0800][debug][gc,ergo,cset] GC(662) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.22
+[2024-10-12T10:38:12.291+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 51 (Pred 2) Free 5 Alloc 1
+[2024-10-12T10:38:12.291+0800][debug][gc,ergo,cset] GC(663) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.16ms, optional threshold 9.83ms
+[2024-10-12T10:38:12.292+0800][debug][gc,ergo,cset] GC(663) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:12.292+0800][debug][gc,ergo,cset] GC(663) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.17
+[2024-10-12T10:38:12.334+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 53 (Pred 2) Free 4 Alloc 1
+[2024-10-12T10:38:12.335+0800][debug][gc,ergo,cset] GC(664) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.15ms, optional threshold 9.83ms
+[2024-10-12T10:38:12.335+0800][debug][gc,ergo,cset] GC(664) Old candidate collection set empty.
+[2024-10-12T10:38:12.335+0800][debug][gc,ergo,cset] GC(664) Finish choosing collection set old regions. Initial: 6, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.23
+[2024-10-12T10:38:12.399+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 3. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 56 (Pred 0) Free 1 Alloc 1
+[2024-10-12T10:38:12.410+0800][debug][gc,ergo,cset] GC(666) Pruned 19 regions out of 48, leaving 14566608 bytes waste (allowed 14763950)
+[2024-10-12T10:38:13.163+0800][debug][gc,ergo,cset] GC(674) Pruned 28 regions out of 33, leaving 22503744 bytes waste (allowed 22817013)
+[2024-10-12T10:38:13.410+0800][debug][gc,ergo,cset] GC(676) Start adding old regions to collection set. Min 1 regions, max 7 regions, time remaining 48.98ms, optional threshold 9.80ms
+[2024-10-12T10:38:13.411+0800][debug][gc,ergo,cset] GC(676) Old candidate collection set empty.
+[2024-10-12T10:38:13.411+0800][debug][gc,ergo,cset] GC(676) Finish choosing collection set old regions. Initial: 5, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.62
+[2024-10-12T10:38:13.629+0800][debug][gc,ergo,cset] GC(679) Pruned 25 regions out of 40, leaving 18476720 bytes waste (allowed 18790481)
+[2024-10-12T10:38:13.835+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 53 (Pred 1) Free 4 Alloc 1
+[2024-10-12T10:38:13.835+0800][debug][gc,ergo,cset] GC(681) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 49.16ms, optional threshold 9.83ms
+[2024-10-12T10:38:13.835+0800][debug][gc,ergo,cset] GC(681) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:13.835+0800][debug][gc,ergo,cset] GC(681) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.56
+[2024-10-12T10:38:13.939+0800][debug][gc,ergo,cset] GC(682) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.93ms, optional threshold 9.79ms
+[2024-10-12T10:38:13.939+0800][debug][gc,ergo,cset] GC(682) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:13.939+0800][debug][gc,ergo,cset] GC(682) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.03
+[2024-10-12T10:38:14.044+0800][debug][gc,ergo,cset] GC(683) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.94ms, optional threshold 9.79ms
+[2024-10-12T10:38:14.044+0800][debug][gc,ergo,cset] GC(683) Old candidate collection set empty.
+[2024-10-12T10:38:14.044+0800][debug][gc,ergo,cset] GC(683) Finish choosing collection set old regions. Initial: 1, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.80
+[2024-10-12T10:38:14.159+0800][debug][gc,ergo,cset] GC(685) Pruned 25 regions out of 41, leaving 18081088 bytes waste (allowed 18790481)
+[2024-10-12T10:38:14.366+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 53 (Pred 1) Free 4 Alloc 1
+[2024-10-12T10:38:14.366+0800][debug][gc,ergo,cset] GC(687) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 49.10ms, optional threshold 9.82ms
+[2024-10-12T10:38:14.366+0800][debug][gc,ergo,cset] GC(687) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:14.366+0800][debug][gc,ergo,cset] GC(687) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.01
+[2024-10-12T10:38:14.471+0800][debug][gc,ergo,cset] GC(688) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.83ms, optional threshold 9.77ms
+[2024-10-12T10:38:14.471+0800][debug][gc,ergo,cset] GC(688) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:14.471+0800][debug][gc,ergo,cset] GC(688) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.66
+[2024-10-12T10:38:14.575+0800][debug][gc,ergo,cset] GC(689) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.87ms, optional threshold 9.77ms
+[2024-10-12T10:38:14.575+0800][debug][gc,ergo,cset] GC(689) Old candidate collection set empty.
+[2024-10-12T10:38:14.575+0800][debug][gc,ergo,cset] GC(689) Finish choosing collection set old regions. Initial: 2, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.50
+[2024-10-12T10:38:14.689+0800][debug][gc,ergo,cset] GC(691) Pruned 25 regions out of 41, leaving 18252768 bytes waste (allowed 18790481)
+[2024-10-12T10:38:14.896+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 53 (Pred 1) Free 4 Alloc 1
+[2024-10-12T10:38:14.896+0800][debug][gc,ergo,cset] GC(693) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 49.12ms, optional threshold 9.82ms
+[2024-10-12T10:38:14.896+0800][debug][gc,ergo,cset] GC(693) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:14.896+0800][debug][gc,ergo,cset] GC(693) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.29
+[2024-10-12T10:38:15.002+0800][debug][gc,ergo,cset] GC(694) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.41ms, optional threshold 9.68ms
+[2024-10-12T10:38:15.002+0800][debug][gc,ergo,cset] GC(694) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:15.002+0800][debug][gc,ergo,cset] GC(694) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 46.91
+[2024-10-12T10:38:15.108+0800][debug][gc,ergo,cset] GC(695) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.49ms, optional threshold 9.70ms
+[2024-10-12T10:38:15.108+0800][debug][gc,ergo,cset] GC(695) Old candidate collection set empty.
+[2024-10-12T10:38:15.108+0800][debug][gc,ergo,cset] GC(695) Finish choosing collection set old regions. Initial: 2, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.04
+[2024-10-12T10:38:15.225+0800][debug][gc,ergo,cset] GC(697) Pruned 24 regions out of 42, leaving 18111528 bytes waste (allowed 18790481)
+[2024-10-12T10:38:15.367+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 52 (Pred 0) Free 4 Alloc 1
+[2024-10-12T10:38:15.430+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 54 (Pred 1) Free 3 Alloc 1
+[2024-10-12T10:38:15.430+0800][debug][gc,ergo,cset] GC(699) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 48.68ms, optional threshold 9.74ms
+[2024-10-12T10:38:15.430+0800][debug][gc,ergo,cset] GC(699) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:15.430+0800][debug][gc,ergo,cset] GC(699) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.69
+[2024-10-12T10:38:15.472+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 53 (Pred 2) Free 4 Alloc 1
+[2024-10-12T10:38:15.473+0800][debug][gc,ergo,cset] GC(700) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 48.64ms, optional threshold 9.73ms
+[2024-10-12T10:38:15.473+0800][debug][gc,ergo,cset] GC(700) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:15.473+0800][debug][gc,ergo,cset] GC(700) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.00
+[2024-10-12T10:38:15.536+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 56 (Pred 2) Free 1 Alloc 1
+[2024-10-12T10:38:15.536+0800][debug][gc,ergo,cset] GC(701) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 48.67ms, optional threshold 9.73ms
+[2024-10-12T10:38:15.536+0800][debug][gc,ergo,cset] GC(701) Old candidate collection set empty.
+[2024-10-12T10:38:15.536+0800][debug][gc,ergo,cset] GC(701) Finish choosing collection set old regions. Initial: 4, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.95
+[2024-10-12T10:38:16.253+0800][debug][gc,ergo,cset] GC(710) Pruned 26 regions out of 37, leaving 18078048 bytes waste (allowed 18790481)
+[2024-10-12T10:38:16.500+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 51 (Pred 1) Free 5 Alloc 1
+[2024-10-12T10:38:16.500+0800][debug][gc,ergo,cset] GC(712) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.86ms, optional threshold 9.77ms
+[2024-10-12T10:38:16.500+0800][debug][gc,ergo,cset] GC(712) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:16.500+0800][debug][gc,ergo,cset] GC(712) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.24
+[2024-10-12T10:38:16.604+0800][debug][gc,ergo,cset] GC(713) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.86ms, optional threshold 9.77ms
+[2024-10-12T10:38:16.604+0800][debug][gc,ergo,cset] GC(713) Old candidate collection set empty.
+[2024-10-12T10:38:16.604+0800][debug][gc,ergo,cset] GC(713) Finish choosing collection set old regions. Initial: 4, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.36
+[2024-10-12T10:38:16.802+0800][debug][gc,ergo,cset] GC(716) Pruned 24 regions out of 39, leaving 18338328 bytes waste (allowed 18790481)
+[2024-10-12T10:38:16.967+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 51 (Pred 0) Free 4 Alloc 1
+[2024-10-12T10:38:17.029+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 53 (Pred 1) Free 4 Alloc 1
+[2024-10-12T10:38:17.030+0800][debug][gc,ergo,cset] GC(718) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 49.11ms, optional threshold 9.82ms
+[2024-10-12T10:38:17.030+0800][debug][gc,ergo,cset] GC(718) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:17.030+0800][debug][gc,ergo,cset] GC(718) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.39
+[2024-10-12T10:38:17.134+0800][debug][gc,ergo,cset] GC(719) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.87ms, optional threshold 9.77ms
+[2024-10-12T10:38:17.134+0800][debug][gc,ergo,cset] GC(719) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:17.134+0800][debug][gc,ergo,cset] GC(719) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.78
+[2024-10-12T10:38:17.238+0800][debug][gc,ergo,cset] GC(720) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.88ms, optional threshold 9.78ms
+[2024-10-12T10:38:17.238+0800][debug][gc,ergo,cset] GC(720) Old candidate collection set empty.
+[2024-10-12T10:38:17.238+0800][debug][gc,ergo,cset] GC(720) Finish choosing collection set old regions. Initial: 1, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.72
+[2024-10-12T10:38:17.353+0800][debug][gc,ergo,cset] GC(722) Pruned 26 regions out of 42, leaving 18058144 bytes waste (allowed 18790481)
+[2024-10-12T10:38:17.559+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 53 (Pred 1) Free 4 Alloc 1
+[2024-10-12T10:38:17.559+0800][debug][gc,ergo,cset] GC(724) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 49.14ms, optional threshold 9.83ms
+[2024-10-12T10:38:17.559+0800][debug][gc,ergo,cset] GC(724) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:17.559+0800][debug][gc,ergo,cset] GC(724) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.26
+[2024-10-12T10:38:17.663+0800][debug][gc,ergo,cset] GC(725) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.91ms, optional threshold 9.78ms
+[2024-10-12T10:38:17.663+0800][debug][gc,ergo,cset] GC(725) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:17.663+0800][debug][gc,ergo,cset] GC(725) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.67
+[2024-10-12T10:38:17.767+0800][debug][gc,ergo,cset] GC(726) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.91ms, optional threshold 9.78ms
+[2024-10-12T10:38:17.767+0800][debug][gc,ergo,cset] GC(726) Old candidate collection set empty.
+[2024-10-12T10:38:17.768+0800][debug][gc,ergo,cset] GC(726) Finish choosing collection set old regions. Initial: 2, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.57
+[2024-10-12T10:38:17.882+0800][debug][gc,ergo,cset] GC(728) Pruned 26 regions out of 43, leaving 18289680 bytes waste (allowed 18790481)
+[2024-10-12T10:38:18.088+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 53 (Pred 1) Free 4 Alloc 1
+[2024-10-12T10:38:18.088+0800][debug][gc,ergo,cset] GC(730) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.12ms, optional threshold 9.82ms
+[2024-10-12T10:38:18.088+0800][debug][gc,ergo,cset] GC(730) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:18.088+0800][debug][gc,ergo,cset] GC(730) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.35
+[2024-10-12T10:38:18.192+0800][debug][gc,ergo,cset] GC(731) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 48.91ms, optional threshold 9.78ms
+[2024-10-12T10:38:18.192+0800][debug][gc,ergo,cset] GC(731) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:18.192+0800][debug][gc,ergo,cset] GC(731) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.74
+[2024-10-12T10:38:18.296+0800][debug][gc,ergo,cset] GC(732) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 48.89ms, optional threshold 9.78ms
+[2024-10-12T10:38:18.296+0800][debug][gc,ergo,cset] GC(732) Old candidate collection set empty.
+[2024-10-12T10:38:18.297+0800][debug][gc,ergo,cset] GC(732) Finish choosing collection set old regions. Initial: 3, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.34
+[2024-10-12T10:38:18.514+0800][debug][gc,ergo,cset] GC(735) Pruned 24 regions out of 44, leaving 18491000 bytes waste (allowed 18790481)
+[2024-10-12T10:38:18.658+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 53 (Pred 0) Free 3 Alloc 1
+[2024-10-12T10:38:18.721+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 55 (Pred 1) Free 2 Alloc 1
+[2024-10-12T10:38:18.721+0800][debug][gc,ergo,cset] GC(737) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.16ms, optional threshold 9.83ms
+[2024-10-12T10:38:18.721+0800][debug][gc,ergo,cset] GC(737) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:18.721+0800][debug][gc,ergo,cset] GC(737) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.48
+[2024-10-12T10:38:18.763+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 55 (Pred 2) Free 2 Alloc 1
+[2024-10-12T10:38:18.763+0800][debug][gc,ergo,cset] GC(738) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.13ms, optional threshold 9.83ms
+[2024-10-12T10:38:18.763+0800][debug][gc,ergo,cset] GC(738) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:18.763+0800][debug][gc,ergo,cset] GC(738) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.21
+[2024-10-12T10:38:18.826+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 5. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 56 (Pred 2) Free 1 Alloc 1
+[2024-10-12T10:38:18.826+0800][debug][gc,ergo,cset] GC(739) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.13ms, optional threshold 9.83ms
+[2024-10-12T10:38:18.826+0800][debug][gc,ergo,cset] GC(739) Old candidate collection set empty.
+[2024-10-12T10:38:18.826+0800][debug][gc,ergo,cset] GC(739) Finish choosing collection set old regions. Initial: 6, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.18
+[2024-10-12T10:38:19.436+0800][debug][gc,ergo,cset] GC(747) Pruned 27 regions out of 37, leaving 18025504 bytes waste (allowed 18790481)
+[2024-10-12T10:38:19.683+0800][debug][gc,ergo,cset] GC(749) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.95ms, optional threshold 9.79ms
+[2024-10-12T10:38:19.683+0800][debug][gc,ergo,cset] GC(749) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:19.683+0800][debug][gc,ergo,cset] GC(749) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.18
+[2024-10-12T10:38:19.788+0800][debug][gc,ergo,cset] GC(750) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.91ms, optional threshold 9.78ms
+[2024-10-12T10:38:19.788+0800][debug][gc,ergo,cset] GC(750) Old candidate collection set empty.
+[2024-10-12T10:38:19.788+0800][debug][gc,ergo,cset] GC(750) Finish choosing collection set old regions. Initial: 3, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.49
+[2024-10-12T10:38:20.005+0800][debug][gc,ergo,cset] GC(753) Pruned 25 regions out of 41, leaving 18482480 bytes waste (allowed 18790481)
+[2024-10-12T10:38:20.211+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 53 (Pred 1) Free 4 Alloc 1
+[2024-10-12T10:38:20.212+0800][debug][gc,ergo,cset] GC(755) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 49.18ms, optional threshold 9.84ms
+[2024-10-12T10:38:20.212+0800][debug][gc,ergo,cset] GC(755) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:20.212+0800][debug][gc,ergo,cset] GC(755) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.57
+[2024-10-12T10:38:20.315+0800][debug][gc,ergo,cset] GC(756) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.98ms, optional threshold 9.80ms
+[2024-10-12T10:38:20.315+0800][debug][gc,ergo,cset] GC(756) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:20.315+0800][debug][gc,ergo,cset] GC(756) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.02
+[2024-10-12T10:38:20.419+0800][debug][gc,ergo,cset] GC(757) Start adding old regions to collection set. Min 2 regions, max 7 regions, time remaining 48.95ms, optional threshold 9.79ms
+[2024-10-12T10:38:20.419+0800][debug][gc,ergo,cset] GC(757) Old candidate collection set empty.
+[2024-10-12T10:38:20.419+0800][debug][gc,ergo,cset] GC(757) Finish choosing collection set old regions. Initial: 2, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.64
+[2024-10-12T10:38:20.534+0800][debug][gc,ergo,cset] GC(759) Pruned 24 regions out of 41, leaving 18038848 bytes waste (allowed 18790481)
+[2024-10-12T10:38:20.740+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 1 (Pred 2). Curr Survivor 1 (Pred 1). Curr Old 53 (Pred 1) Free 4 Alloc 1
+[2024-10-12T10:38:20.741+0800][debug][gc,ergo,cset] GC(761) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 49.15ms, optional threshold 9.83ms
+[2024-10-12T10:38:20.741+0800][debug][gc,ergo,cset] GC(761) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:20.741+0800][debug][gc,ergo,cset] GC(761) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.41
+[2024-10-12T10:38:20.844+0800][debug][gc,ergo,cset] GC(762) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 48.92ms, optional threshold 9.78ms
+[2024-10-12T10:38:20.844+0800][debug][gc,ergo,cset] GC(762) Finish adding old regions to collection set (Maximum number of regions). Initial 7 regions, optional 0 regions
+[2024-10-12T10:38:20.844+0800][debug][gc,ergo,cset] GC(762) Finish choosing collection set old regions. Initial: 7, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.98
+[2024-10-12T10:38:20.949+0800][debug][gc,ergo,cset] GC(763) Start adding old regions to collection set. Min 3 regions, max 7 regions, time remaining 48.92ms, optional threshold 9.78ms
+[2024-10-12T10:38:20.949+0800][debug][gc,ergo,cset] GC(763) Old candidate collection set empty.
+[2024-10-12T10:38:20.949+0800][debug][gc,ergo,cset] GC(763) Finish choosing collection set old regions. Initial: 3, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.45
+[2024-10-12T10:38:21.167+0800][debug][gc,ergo,cset] GC(766) Pruned 23 regions out of 43, leaving 17629456 bytes waste (allowed 18790481)
+[2024-10-12T10:38:21.310+0800][debug][gc,ergo,cset] Preventive GC, insufficient free regions. Predicted need 4. Curr Eden 2 (Pred 3). Curr Survivor 1 (Pred 1). Curr Old 52 (Pred 0) Free 4 Alloc 1

@@ -1,0 +1,209 @@
+[2024-10-12T10:17:41.018+0800][debug][gc,ergo,cset] GC(11) Pruned 17 regions out of 47, leaving 12280880 bytes waste (allowed 13421772)
+[2024-10-12T10:17:42.019+0800][debug][gc,ergo,cset] GC(13) Start adding old regions to collection set. Min 4 regions, max 13 regions, time remaining 40.53ms, optional threshold 8.11ms
+[2024-10-12T10:17:42.019+0800][debug][gc,ergo,cset] GC(13) Finish adding old regions to collection set (Maximum number of regions). Initial 13 regions, optional 0 regions
+[2024-10-12T10:17:42.019+0800][debug][gc,ergo,cset] GC(13) Finish choosing collection set old regions. Initial: 13, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 30.11
+[2024-10-12T10:17:42.292+0800][debug][gc,ergo,cset] GC(14) Start adding old regions to collection set. Min 4 regions, max 13 regions, time remaining 40.44ms, optional threshold 8.09ms
+[2024-10-12T10:17:42.292+0800][debug][gc,ergo,cset] GC(14) Finish adding old regions to collection set (Maximum number of regions). Initial 13 regions, optional 0 regions
+[2024-10-12T10:17:42.292+0800][debug][gc,ergo,cset] GC(14) Finish choosing collection set old regions. Initial: 13, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 29.73
+[2024-10-12T10:17:42.562+0800][debug][gc,ergo,cset] GC(15) Start adding old regions to collection set. Min 4 regions, max 13 regions, time remaining 42.08ms, optional threshold 8.42ms
+[2024-10-12T10:17:42.562+0800][debug][gc,ergo,cset] GC(15) Old candidate collection set empty.
+[2024-10-12T10:17:42.562+0800][debug][gc,ergo,cset] GC(15) Finish choosing collection set old regions. Initial: 4, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 38.21
+[2024-10-12T10:17:43.148+0800][debug][gc,ergo,cset] GC(17) Pruned 17 regions out of 42, leaving 12948472 bytes waste (allowed 13421772)
+[2024-10-12T10:17:44.080+0800][debug][gc,ergo,cset] GC(19) Start adding old regions to collection set. Min 4 regions, max 13 regions, time remaining 45.99ms, optional threshold 9.20ms
+[2024-10-12T10:17:44.080+0800][debug][gc,ergo,cset] GC(19) Finish adding old regions to collection set (Maximum number of regions). Initial 13 regions, optional 0 regions
+[2024-10-12T10:17:44.080+0800][debug][gc,ergo,cset] GC(19) Finish choosing collection set old regions. Initial: 13, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 42.12
+[2024-10-12T10:17:44.348+0800][debug][gc,ergo,cset] GC(20) Start adding old regions to collection set. Min 4 regions, max 13 regions, time remaining 45.98ms, optional threshold 9.20ms
+[2024-10-12T10:17:44.348+0800][debug][gc,ergo,cset] GC(20) Old candidate collection set empty.
+[2024-10-12T10:17:44.348+0800][debug][gc,ergo,cset] GC(20) Finish choosing collection set old regions. Initial: 12, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 40.76
+[2024-10-12T10:17:45.269+0800][debug][gc,ergo,cset] GC(22) Pruned 15 regions out of 46, leaving 12937168 bytes waste (allowed 13421772)
+[2024-10-12T10:17:46.159+0800][debug][gc,ergo,cset] GC(24) Start adding old regions to collection set. Min 4 regions, max 13 regions, time remaining 47.47ms, optional threshold 9.49ms
+[2024-10-12T10:17:46.159+0800][debug][gc,ergo,cset] GC(24) Finish adding old regions to collection set (Maximum number of regions). Initial 13 regions, optional 0 regions
+[2024-10-12T10:17:46.159+0800][debug][gc,ergo,cset] GC(24) Finish choosing collection set old regions. Initial: 13, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 45.32
+[2024-10-12T10:17:46.429+0800][debug][gc,ergo,cset] GC(25) Start adding old regions to collection set. Min 4 regions, max 13 regions, time remaining 47.04ms, optional threshold 9.41ms
+[2024-10-12T10:17:46.429+0800][debug][gc,ergo,cset] GC(25) Finish adding old regions to collection set (Maximum number of regions). Initial 13 regions, optional 0 regions
+[2024-10-12T10:17:46.429+0800][debug][gc,ergo,cset] GC(25) Finish choosing collection set old regions. Initial: 13, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 44.06
+[2024-10-12T10:17:46.698+0800][debug][gc,ergo,cset] GC(26) Start adding old regions to collection set. Min 4 regions, max 13 regions, time remaining 47.37ms, optional threshold 9.47ms
+[2024-10-12T10:17:46.698+0800][debug][gc,ergo,cset] GC(26) Old candidate collection set empty.
+[2024-10-12T10:17:46.698+0800][debug][gc,ergo,cset] GC(26) Finish choosing collection set old regions. Initial: 5, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 46.12
+[2024-10-12T10:17:48.634+0800][debug][gc,ergo,cset] GC(31) Pruned 17 regions out of 54, leaving 13021560 bytes waste (allowed 13421772)
+[2024-10-12T10:17:49.214+0800][debug][gc,ergo,cset] GC(33) Start adding old regions to collection set. Min 5 regions, max 13 regions, time remaining 47.12ms, optional threshold 9.42ms
+[2024-10-12T10:17:49.214+0800][debug][gc,ergo,cset] GC(33) Finish adding old regions to collection set (Maximum number of regions). Initial 13 regions, optional 0 regions
+[2024-10-12T10:17:49.214+0800][debug][gc,ergo,cset] GC(33) Finish choosing collection set old regions. Initial: 13, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 45.51
+[2024-10-12T10:17:49.482+0800][debug][gc,ergo,cset] GC(34) Start adding old regions to collection set. Min 5 regions, max 13 regions, time remaining 47.47ms, optional threshold 9.49ms
+[2024-10-12T10:17:49.482+0800][debug][gc,ergo,cset] GC(34) Finish adding old regions to collection set (Maximum number of regions). Initial 13 regions, optional 0 regions
+[2024-10-12T10:17:49.482+0800][debug][gc,ergo,cset] GC(34) Finish choosing collection set old regions. Initial: 13, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 45.30
+[2024-10-12T10:17:49.751+0800][debug][gc,ergo,cset] GC(35) Start adding old regions to collection set. Min 5 regions, max 13 regions, time remaining 47.74ms, optional threshold 9.55ms
+[2024-10-12T10:17:49.751+0800][debug][gc,ergo,cset] GC(35) Old candidate collection set empty.
+[2024-10-12T10:17:49.751+0800][debug][gc,ergo,cset] GC(35) Finish choosing collection set old regions. Initial: 11, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 45.32
+[2024-10-12T10:17:52.279+0800][debug][gc,ergo,cset] GC(41) Pruned 16 regions out of 56, leaving 12895304 bytes waste (allowed 13421772)
+[2024-10-12T10:17:52.856+0800][debug][gc,ergo,cset] GC(43) Start adding old regions to collection set. Min 5 regions, max 13 regions, time remaining 48.01ms, optional threshold 9.60ms
+[2024-10-12T10:17:52.856+0800][debug][gc,ergo,cset] GC(43) Finish adding old regions to collection set (Maximum number of regions). Initial 13 regions, optional 0 regions
+[2024-10-12T10:17:52.856+0800][debug][gc,ergo,cset] GC(43) Finish choosing collection set old regions. Initial: 13, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.31
+[2024-10-12T10:17:53.124+0800][debug][gc,ergo,cset] GC(44) Start adding old regions to collection set. Min 5 regions, max 13 regions, time remaining 48.17ms, optional threshold 9.63ms
+[2024-10-12T10:17:53.125+0800][debug][gc,ergo,cset] GC(44) Finish adding old regions to collection set (Maximum number of regions). Initial 13 regions, optional 0 regions
+[2024-10-12T10:17:53.125+0800][debug][gc,ergo,cset] GC(44) Finish choosing collection set old regions. Initial: 13, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 46.95
+[2024-10-12T10:17:53.393+0800][debug][gc,ergo,cset] GC(45) Start adding old regions to collection set. Min 5 regions, max 13 regions, time remaining 48.27ms, optional threshold 9.65ms
+[2024-10-12T10:17:53.393+0800][debug][gc,ergo,cset] GC(45) Finish adding old regions to collection set (Maximum number of regions). Initial 13 regions, optional 0 regions
+[2024-10-12T10:17:53.393+0800][debug][gc,ergo,cset] GC(45) Finish choosing collection set old regions. Initial: 13, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 46.58
+[2024-10-12T10:17:53.661+0800][debug][gc,ergo,cset] GC(46) Start adding old regions to collection set. Min 5 regions, max 13 regions, time remaining 48.38ms, optional threshold 9.68ms
+[2024-10-12T10:17:53.661+0800][debug][gc,ergo,cset] GC(46) Old candidate collection set empty.
+[2024-10-12T10:17:53.661+0800][debug][gc,ergo,cset] GC(46) Finish choosing collection set old regions. Initial: 1, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.24
+[2024-10-12T10:17:55.753+0800][debug][gc,ergo,cset] GC(52) Pruned 16 regions out of 60, leaving 13135488 bytes waste (allowed 13421772)
+[2024-10-12T10:17:56.351+0800][debug][gc,ergo,cset] GC(54) Start adding old regions to collection set. Min 6 regions, max 13 regions, time remaining 48.72ms, optional threshold 9.74ms
+[2024-10-12T10:17:56.351+0800][debug][gc,ergo,cset] GC(54) Finish adding old regions to collection set (Maximum number of regions). Initial 13 regions, optional 0 regions
+[2024-10-12T10:17:56.351+0800][debug][gc,ergo,cset] GC(54) Finish choosing collection set old regions. Initial: 13, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.18
+[2024-10-12T10:17:56.619+0800][debug][gc,ergo,cset] GC(55) Start adding old regions to collection set. Min 6 regions, max 13 regions, time remaining 48.75ms, optional threshold 9.75ms
+[2024-10-12T10:17:56.619+0800][debug][gc,ergo,cset] GC(55) Finish adding old regions to collection set (Maximum number of regions). Initial 13 regions, optional 0 regions
+[2024-10-12T10:17:56.619+0800][debug][gc,ergo,cset] GC(55) Finish choosing collection set old regions. Initial: 13, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.93
+[2024-10-12T10:17:56.887+0800][debug][gc,ergo,cset] GC(56) Start adding old regions to collection set. Min 6 regions, max 13 regions, time remaining 48.74ms, optional threshold 9.75ms
+[2024-10-12T10:17:56.887+0800][debug][gc,ergo,cset] GC(56) Finish adding old regions to collection set (Maximum number of regions). Initial 13 regions, optional 0 regions
+[2024-10-12T10:17:56.887+0800][debug][gc,ergo,cset] GC(56) Finish choosing collection set old regions. Initial: 13, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.46
+[2024-10-12T10:17:57.155+0800][debug][gc,ergo,cset] GC(57) Start adding old regions to collection set. Min 6 regions, max 13 regions, time remaining 48.72ms, optional threshold 9.74ms
+[2024-10-12T10:17:57.155+0800][debug][gc,ergo,cset] GC(57) Old candidate collection set empty.
+[2024-10-12T10:17:57.155+0800][debug][gc,ergo,cset] GC(57) Finish choosing collection set old regions. Initial: 5, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.11
+[2024-10-12T10:17:59.410+0800][debug][gc,ergo,cset] GC(63) Pruned 15 regions out of 64, leaving 12434496 bytes waste (allowed 13421772)
+[2024-10-12T10:17:59.987+0800][debug][gc,ergo,cset] GC(65) Start adding old regions to collection set. Min 7 regions, max 13 regions, time remaining 48.61ms, optional threshold 9.72ms
+[2024-10-12T10:17:59.987+0800][debug][gc,ergo,cset] GC(65) Finish adding old regions to collection set (Maximum number of regions). Initial 13 regions, optional 0 regions
+[2024-10-12T10:17:59.987+0800][debug][gc,ergo,cset] GC(65) Finish choosing collection set old regions. Initial: 13, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.29
+[2024-10-12T10:18:00.255+0800][debug][gc,ergo,cset] GC(66) Start adding old regions to collection set. Min 7 regions, max 13 regions, time remaining 48.65ms, optional threshold 9.73ms
+[2024-10-12T10:18:00.255+0800][debug][gc,ergo,cset] GC(66) Finish adding old regions to collection set (Maximum number of regions). Initial 13 regions, optional 0 regions
+[2024-10-12T10:18:00.255+0800][debug][gc,ergo,cset] GC(66) Finish choosing collection set old regions. Initial: 13, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.03
+[2024-10-12T10:18:00.523+0800][debug][gc,ergo,cset] GC(67) Start adding old regions to collection set. Min 7 regions, max 13 regions, time remaining 48.63ms, optional threshold 9.73ms
+[2024-10-12T10:18:00.523+0800][debug][gc,ergo,cset] GC(67) Finish adding old regions to collection set (Maximum number of regions). Initial 13 regions, optional 0 regions
+[2024-10-12T10:18:00.523+0800][debug][gc,ergo,cset] GC(67) Finish choosing collection set old regions. Initial: 13, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.69
+[2024-10-12T10:18:00.790+0800][debug][gc,ergo,cset] GC(68) Start adding old regions to collection set. Min 7 regions, max 13 regions, time remaining 48.67ms, optional threshold 9.73ms
+[2024-10-12T10:18:00.790+0800][debug][gc,ergo,cset] GC(68) Old candidate collection set empty.
+[2024-10-12T10:18:00.790+0800][debug][gc,ergo,cset] GC(68) Finish choosing collection set old regions. Initial: 10, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.65
+[2024-10-12T10:18:03.356+0800][debug][gc,ergo,cset] GC(75) Pruned 15 regions out of 66, leaving 13247768 bytes waste (allowed 13421772)
+[2024-10-12T10:18:03.929+0800][debug][gc,ergo,cset] GC(77) Start adding old regions to collection set. Min 7 regions, max 13 regions, time remaining 48.82ms, optional threshold 9.76ms
+[2024-10-12T10:18:03.929+0800][debug][gc,ergo,cset] GC(77) Finish adding old regions to collection set (Maximum number of regions). Initial 13 regions, optional 0 regions
+[2024-10-12T10:18:03.929+0800][debug][gc,ergo,cset] GC(77) Finish choosing collection set old regions. Initial: 13, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.63
+[2024-10-12T10:18:04.198+0800][debug][gc,ergo,cset] GC(78) Start adding old regions to collection set. Min 7 regions, max 13 regions, time remaining 48.76ms, optional threshold 9.75ms
+[2024-10-12T10:18:04.198+0800][debug][gc,ergo,cset] GC(78) Finish adding old regions to collection set (Maximum number of regions). Initial 13 regions, optional 0 regions
+[2024-10-12T10:18:04.198+0800][debug][gc,ergo,cset] GC(78) Finish choosing collection set old regions. Initial: 13, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.26
+[2024-10-12T10:18:04.465+0800][debug][gc,ergo,cset] GC(79) Start adding old regions to collection set. Min 7 regions, max 13 regions, time remaining 48.75ms, optional threshold 9.75ms
+[2024-10-12T10:18:04.465+0800][debug][gc,ergo,cset] GC(79) Finish adding old regions to collection set (Maximum number of regions). Initial 13 regions, optional 0 regions
+[2024-10-12T10:18:04.465+0800][debug][gc,ergo,cset] GC(79) Finish choosing collection set old regions. Initial: 13, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.01
+[2024-10-12T10:18:04.733+0800][debug][gc,ergo,cset] GC(80) Start adding old regions to collection set. Min 7 regions, max 13 regions, time remaining 48.72ms, optional threshold 9.74ms
+[2024-10-12T10:18:04.733+0800][debug][gc,ergo,cset] GC(80) Old candidate collection set empty.
+[2024-10-12T10:18:04.733+0800][debug][gc,ergo,cset] GC(80) Finish choosing collection set old regions. Initial: 12, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.69
+[2024-10-12T10:18:07.028+0800][debug][gc,ergo,cset] GC(86) Pruned 13 regions out of 63, leaving 12787792 bytes waste (allowed 13421772)
+[2024-10-12T10:18:07.604+0800][debug][gc,ergo,cset] GC(88) Start adding old regions to collection set. Min 7 regions, max 13 regions, time remaining 48.80ms, optional threshold 9.76ms
+[2024-10-12T10:18:07.604+0800][debug][gc,ergo,cset] GC(88) Finish adding old regions to collection set (Maximum number of regions). Initial 13 regions, optional 0 regions
+[2024-10-12T10:18:07.604+0800][debug][gc,ergo,cset] GC(88) Finish choosing collection set old regions. Initial: 13, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.63
+[2024-10-12T10:18:07.871+0800][debug][gc,ergo,cset] GC(89) Start adding old regions to collection set. Min 7 regions, max 13 regions, time remaining 48.74ms, optional threshold 9.75ms
+[2024-10-12T10:18:07.871+0800][debug][gc,ergo,cset] GC(89) Finish adding old regions to collection set (Maximum number of regions). Initial 13 regions, optional 0 regions
+[2024-10-12T10:18:07.871+0800][debug][gc,ergo,cset] GC(89) Finish choosing collection set old regions. Initial: 13, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.26
+[2024-10-12T10:18:08.139+0800][debug][gc,ergo,cset] GC(90) Start adding old regions to collection set. Min 7 regions, max 13 regions, time remaining 48.76ms, optional threshold 9.75ms
+[2024-10-12T10:18:08.139+0800][debug][gc,ergo,cset] GC(90) Finish adding old regions to collection set (Maximum number of regions). Initial 13 regions, optional 0 regions
+[2024-10-12T10:18:08.139+0800][debug][gc,ergo,cset] GC(90) Finish choosing collection set old regions. Initial: 13, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.07
+[2024-10-12T10:18:08.407+0800][debug][gc,ergo,cset] GC(91) Start adding old regions to collection set. Min 7 regions, max 13 regions, time remaining 48.75ms, optional threshold 9.75ms
+[2024-10-12T10:18:08.407+0800][debug][gc,ergo,cset] GC(91) Old candidate collection set empty.
+[2024-10-12T10:18:08.407+0800][debug][gc,ergo,cset] GC(91) Finish choosing collection set old regions. Initial: 11, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.92
+[2024-10-12T10:18:10.909+0800][debug][gc,ergo,cset] GC(98) Pruned 13 regions out of 55, leaving 13281800 bytes waste (allowed 13421772)
+[2024-10-12T10:18:11.484+0800][debug][gc,ergo,cset] GC(100) Start adding old regions to collection set. Min 6 regions, max 13 regions, time remaining 48.82ms, optional threshold 9.76ms
+[2024-10-12T10:18:11.484+0800][debug][gc,ergo,cset] GC(100) Finish adding old regions to collection set (Maximum number of regions). Initial 13 regions, optional 0 regions
+[2024-10-12T10:18:11.484+0800][debug][gc,ergo,cset] GC(100) Finish choosing collection set old regions. Initial: 13, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.68
+[2024-10-12T10:18:11.752+0800][debug][gc,ergo,cset] GC(101) Start adding old regions to collection set. Min 6 regions, max 13 regions, time remaining 48.77ms, optional threshold 9.75ms
+[2024-10-12T10:18:11.752+0800][debug][gc,ergo,cset] GC(101) Finish adding old regions to collection set (Maximum number of regions). Initial 13 regions, optional 0 regions
+[2024-10-12T10:18:11.752+0800][debug][gc,ergo,cset] GC(101) Finish choosing collection set old regions. Initial: 13, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.31
+[2024-10-12T10:18:12.019+0800][debug][gc,ergo,cset] GC(102) Start adding old regions to collection set. Min 6 regions, max 13 regions, time remaining 48.76ms, optional threshold 9.75ms
+[2024-10-12T10:18:12.019+0800][debug][gc,ergo,cset] GC(102) Finish adding old regions to collection set (Maximum number of regions). Initial 13 regions, optional 0 regions
+[2024-10-12T10:18:12.019+0800][debug][gc,ergo,cset] GC(102) Finish choosing collection set old regions. Initial: 13, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.85
+[2024-10-12T10:18:12.287+0800][debug][gc,ergo,cset] GC(103) Start adding old regions to collection set. Min 6 regions, max 13 regions, time remaining 48.76ms, optional threshold 9.75ms
+[2024-10-12T10:18:12.287+0800][debug][gc,ergo,cset] GC(103) Old candidate collection set empty.
+[2024-10-12T10:18:12.287+0800][debug][gc,ergo,cset] GC(103) Finish choosing collection set old regions. Initial: 3, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.49
+[2024-10-12T10:18:14.542+0800][debug][gc,ergo,cset] GC(109) Pruned 16 regions out of 68, leaving 12698096 bytes waste (allowed 13421772)
+[2024-10-12T10:18:15.136+0800][debug][gc,ergo,cset] GC(111) Start adding old regions to collection set. Min 7 regions, max 13 regions, time remaining 48.81ms, optional threshold 9.76ms
+[2024-10-12T10:18:15.136+0800][debug][gc,ergo,cset] GC(111) Finish adding old regions to collection set (Maximum number of regions). Initial 13 regions, optional 0 regions
+[2024-10-12T10:18:15.136+0800][debug][gc,ergo,cset] GC(111) Finish choosing collection set old regions. Initial: 13, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.62
+[2024-10-12T10:18:15.404+0800][debug][gc,ergo,cset] GC(112) Start adding old regions to collection set. Min 7 regions, max 13 regions, time remaining 48.80ms, optional threshold 9.76ms
+[2024-10-12T10:18:15.404+0800][debug][gc,ergo,cset] GC(112) Finish adding old regions to collection set (Maximum number of regions). Initial 13 regions, optional 0 regions
+[2024-10-12T10:18:15.404+0800][debug][gc,ergo,cset] GC(112) Finish choosing collection set old regions. Initial: 13, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.33
+[2024-10-12T10:18:15.672+0800][debug][gc,ergo,cset] GC(113) Start adding old regions to collection set. Min 7 regions, max 13 regions, time remaining 48.76ms, optional threshold 9.75ms
+[2024-10-12T10:18:15.672+0800][debug][gc,ergo,cset] GC(113) Finish adding old regions to collection set (Maximum number of regions). Initial 13 regions, optional 0 regions
+[2024-10-12T10:18:15.672+0800][debug][gc,ergo,cset] GC(113) Finish choosing collection set old regions. Initial: 13, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.09
+[2024-10-12T10:18:15.940+0800][debug][gc,ergo,cset] GC(114) Start adding old regions to collection set. Min 7 regions, max 13 regions, time remaining 48.54ms, optional threshold 9.71ms
+[2024-10-12T10:18:15.940+0800][debug][gc,ergo,cset] GC(114) Old candidate collection set empty.
+[2024-10-12T10:18:15.940+0800][debug][gc,ergo,cset] GC(114) Finish choosing collection set old regions. Initial: 13, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.30
+[2024-10-12T10:18:18.501+0800][debug][gc,ergo,cset] GC(121) Pruned 16 regions out of 69, leaving 12930216 bytes waste (allowed 13421772)
+[2024-10-12T10:18:19.077+0800][debug][gc,ergo,cset] GC(123) Start adding old regions to collection set. Min 7 regions, max 13 regions, time remaining 48.82ms, optional threshold 9.76ms
+[2024-10-12T10:18:19.077+0800][debug][gc,ergo,cset] GC(123) Finish adding old regions to collection set (Maximum number of regions). Initial 13 regions, optional 0 regions
+[2024-10-12T10:18:19.077+0800][debug][gc,ergo,cset] GC(123) Finish choosing collection set old regions. Initial: 13, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.41
+[2024-10-12T10:18:19.344+0800][debug][gc,ergo,cset] GC(124) Start adding old regions to collection set. Min 7 regions, max 13 regions, time remaining 48.79ms, optional threshold 9.76ms
+[2024-10-12T10:18:19.345+0800][debug][gc,ergo,cset] GC(124) Finish adding old regions to collection set (Maximum number of regions). Initial 13 regions, optional 0 regions
+[2024-10-12T10:18:19.345+0800][debug][gc,ergo,cset] GC(124) Finish choosing collection set old regions. Initial: 13, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.16
+[2024-10-12T10:18:19.613+0800][debug][gc,ergo,cset] GC(125) Start adding old regions to collection set. Min 7 regions, max 13 regions, time remaining 48.78ms, optional threshold 9.76ms
+[2024-10-12T10:18:19.613+0800][debug][gc,ergo,cset] GC(125) Finish adding old regions to collection set (Maximum number of regions). Initial 13 regions, optional 0 regions
+[2024-10-12T10:18:19.613+0800][debug][gc,ergo,cset] GC(125) Finish choosing collection set old regions. Initial: 13, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.93
+[2024-10-12T10:18:19.880+0800][debug][gc,ergo,cset] GC(126) Start adding old regions to collection set. Min 7 regions, max 13 regions, time remaining 48.75ms, optional threshold 9.75ms
+[2024-10-12T10:18:19.880+0800][debug][gc,ergo,cset] GC(126) Finish adding old regions to collection set (Maximum number of regions). Initial 13 regions, optional 0 regions
+[2024-10-12T10:18:19.880+0800][debug][gc,ergo,cset] GC(126) Finish choosing collection set old regions. Initial: 13, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.47
+[2024-10-12T10:18:20.149+0800][debug][gc,ergo,cset] GC(127) Start adding old regions to collection set. Min 7 regions, max 13 regions, time remaining 48.77ms, optional threshold 9.75ms
+[2024-10-12T10:18:20.149+0800][debug][gc,ergo,cset] GC(127) Old candidate collection set empty.
+[2024-10-12T10:18:20.149+0800][debug][gc,ergo,cset] GC(127) Finish choosing collection set old regions. Initial: 1, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.66
+[2024-10-12T10:18:22.301+0800][debug][gc,ergo,cset] GC(133) Pruned 15 regions out of 58, leaving 12803800 bytes waste (allowed 13421772)
+[2024-10-12T10:18:22.878+0800][debug][gc,ergo,cset] GC(135) Start adding old regions to collection set. Min 6 regions, max 13 regions, time remaining 46.92ms, optional threshold 9.38ms
+[2024-10-12T10:18:22.878+0800][debug][gc,ergo,cset] GC(135) Finish adding old regions to collection set (Maximum number of regions). Initial 13 regions, optional 0 regions
+[2024-10-12T10:18:22.878+0800][debug][gc,ergo,cset] GC(135) Finish choosing collection set old regions. Initial: 13, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 46.37
+[2024-10-12T10:18:23.150+0800][debug][gc,ergo,cset] GC(136) Start adding old regions to collection set. Min 6 regions, max 13 regions, time remaining 46.89ms, optional threshold 9.38ms
+[2024-10-12T10:18:23.150+0800][debug][gc,ergo,cset] GC(136) Finish adding old regions to collection set (Maximum number of regions). Initial 13 regions, optional 0 regions
+[2024-10-12T10:18:23.150+0800][debug][gc,ergo,cset] GC(136) Finish choosing collection set old regions. Initial: 13, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 45.43
+[2024-10-12T10:18:23.421+0800][debug][gc,ergo,cset] GC(137) Start adding old regions to collection set. Min 6 regions, max 13 regions, time remaining 46.68ms, optional threshold 9.34ms
+[2024-10-12T10:18:23.421+0800][debug][gc,ergo,cset] GC(137) Finish adding old regions to collection set (Maximum number of regions). Initial 13 regions, optional 0 regions
+[2024-10-12T10:18:23.421+0800][debug][gc,ergo,cset] GC(137) Finish choosing collection set old regions. Initial: 13, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 44.28
+[2024-10-12T10:18:23.691+0800][debug][gc,ergo,cset] GC(138) Start adding old regions to collection set. Min 6 regions, max 13 regions, time remaining 46.64ms, optional threshold 9.33ms
+[2024-10-12T10:18:23.691+0800][debug][gc,ergo,cset] GC(138) Old candidate collection set empty.
+[2024-10-12T10:18:23.692+0800][debug][gc,ergo,cset] GC(138) Finish choosing collection set old regions. Initial: 4, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 45.59
+[2024-10-12T10:18:26.086+0800][debug][gc,ergo,cset] GC(144) Pruned 16 regions out of 59, leaving 13040040 bytes waste (allowed 13421772)
+[2024-10-12T10:18:26.661+0800][debug][gc,ergo,cset] GC(146) Start adding old regions to collection set. Min 6 regions, max 13 regions, time remaining 47.28ms, optional threshold 9.46ms
+[2024-10-12T10:18:26.661+0800][debug][gc,ergo,cset] GC(146) Finish adding old regions to collection set (Maximum number of regions). Initial 13 regions, optional 0 regions
+[2024-10-12T10:18:26.661+0800][debug][gc,ergo,cset] GC(146) Finish choosing collection set old regions. Initial: 13, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 46.95
+[2024-10-12T10:18:26.929+0800][debug][gc,ergo,cset] GC(147) Start adding old regions to collection set. Min 6 regions, max 13 regions, time remaining 47.39ms, optional threshold 9.48ms
+[2024-10-12T10:18:26.930+0800][debug][gc,ergo,cset] GC(147) Finish adding old regions to collection set (Maximum number of regions). Initial 13 regions, optional 0 regions
+[2024-10-12T10:18:26.930+0800][debug][gc,ergo,cset] GC(147) Finish choosing collection set old regions. Initial: 13, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 46.27
+[2024-10-12T10:18:27.199+0800][debug][gc,ergo,cset] GC(148) Start adding old regions to collection set. Min 6 regions, max 13 regions, time remaining 47.59ms, optional threshold 9.52ms
+[2024-10-12T10:18:27.199+0800][debug][gc,ergo,cset] GC(148) Finish adding old regions to collection set (Maximum number of regions). Initial 13 regions, optional 0 regions
+[2024-10-12T10:18:27.199+0800][debug][gc,ergo,cset] GC(148) Finish choosing collection set old regions. Initial: 13, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 45.81
+[2024-10-12T10:18:27.467+0800][debug][gc,ergo,cset] GC(149) Start adding old regions to collection set. Min 6 regions, max 13 regions, time remaining 47.86ms, optional threshold 9.57ms
+[2024-10-12T10:18:27.467+0800][debug][gc,ergo,cset] GC(149) Old candidate collection set empty.
+[2024-10-12T10:18:27.467+0800][debug][gc,ergo,cset] GC(149) Finish choosing collection set old regions. Initial: 4, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.21
+[2024-10-12T10:18:30.038+0800][debug][gc,ergo,cset] GC(156) Pruned 14 regions out of 58, leaving 12898704 bytes waste (allowed 13421772)
+[2024-10-12T10:18:30.614+0800][debug][gc,ergo,cset] GC(158) Start adding old regions to collection set. Min 6 regions, max 13 regions, time remaining 48.13ms, optional threshold 9.63ms
+[2024-10-12T10:18:30.614+0800][debug][gc,ergo,cset] GC(158) Finish adding old regions to collection set (Maximum number of regions). Initial 13 regions, optional 0 regions
+[2024-10-12T10:18:30.614+0800][debug][gc,ergo,cset] GC(158) Finish choosing collection set old regions. Initial: 13, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.93
+[2024-10-12T10:18:30.881+0800][debug][gc,ergo,cset] GC(159) Start adding old regions to collection set. Min 6 regions, max 13 regions, time remaining 48.27ms, optional threshold 9.65ms
+[2024-10-12T10:18:30.881+0800][debug][gc,ergo,cset] GC(159) Finish adding old regions to collection set (Maximum number of regions). Initial 13 regions, optional 0 regions
+[2024-10-12T10:18:30.881+0800][debug][gc,ergo,cset] GC(159) Finish choosing collection set old regions. Initial: 13, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.71
+[2024-10-12T10:18:31.149+0800][debug][gc,ergo,cset] GC(160) Start adding old regions to collection set. Min 6 regions, max 13 regions, time remaining 48.39ms, optional threshold 9.68ms
+[2024-10-12T10:18:31.149+0800][debug][gc,ergo,cset] GC(160) Finish adding old regions to collection set (Maximum number of regions). Initial 13 regions, optional 0 regions
+[2024-10-12T10:18:31.149+0800][debug][gc,ergo,cset] GC(160) Finish choosing collection set old regions. Initial: 13, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.21
+[2024-10-12T10:18:31.417+0800][debug][gc,ergo,cset] GC(161) Start adding old regions to collection set. Min 6 regions, max 13 regions, time remaining 48.49ms, optional threshold 9.70ms
+[2024-10-12T10:18:31.417+0800][debug][gc,ergo,cset] GC(161) Old candidate collection set empty.
+[2024-10-12T10:18:31.417+0800][debug][gc,ergo,cset] GC(161) Finish choosing collection set old regions. Initial: 5, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.95
+[2024-10-12T10:18:33.938+0800][debug][gc,ergo,cset] GC(168) Pruned 17 regions out of 64, leaving 13364216 bytes waste (allowed 13421772)
+[2024-10-12T10:18:34.513+0800][debug][gc,ergo,cset] GC(170) Start adding old regions to collection set. Min 6 regions, max 13 regions, time remaining 48.76ms, optional threshold 9.75ms
+[2024-10-12T10:18:34.513+0800][debug][gc,ergo,cset] GC(170) Finish adding old regions to collection set (Maximum number of regions). Initial 13 regions, optional 0 regions
+[2024-10-12T10:18:34.513+0800][debug][gc,ergo,cset] GC(170) Finish choosing collection set old regions. Initial: 13, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.51
+[2024-10-12T10:18:34.780+0800][debug][gc,ergo,cset] GC(171) Start adding old regions to collection set. Min 6 regions, max 13 regions, time remaining 48.71ms, optional threshold 9.74ms
+[2024-10-12T10:18:34.780+0800][debug][gc,ergo,cset] GC(171) Finish adding old regions to collection set (Maximum number of regions). Initial 13 regions, optional 0 regions
+[2024-10-12T10:18:34.780+0800][debug][gc,ergo,cset] GC(171) Finish choosing collection set old regions. Initial: 13, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.16
+[2024-10-12T10:18:35.046+0800][debug][gc,ergo,cset] GC(172) Start adding old regions to collection set. Min 6 regions, max 13 regions, time remaining 48.72ms, optional threshold 9.74ms
+[2024-10-12T10:18:35.046+0800][debug][gc,ergo,cset] GC(172) Finish adding old regions to collection set (Maximum number of regions). Initial 13 regions, optional 0 regions
+[2024-10-12T10:18:35.046+0800][debug][gc,ergo,cset] GC(172) Finish choosing collection set old regions. Initial: 13, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.92
+[2024-10-12T10:18:35.314+0800][debug][gc,ergo,cset] GC(173) Start adding old regions to collection set. Min 6 regions, max 13 regions, time remaining 48.75ms, optional threshold 9.75ms
+[2024-10-12T10:18:35.314+0800][debug][gc,ergo,cset] GC(173) Old candidate collection set empty.
+[2024-10-12T10:18:35.314+0800][debug][gc,ergo,cset] GC(173) Finish choosing collection set old regions. Initial: 8, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.04
+[2024-10-12T10:18:37.561+0800][debug][gc,ergo,cset] GC(179) Pruned 15 regions out of 57, leaving 12894616 bytes waste (allowed 13421772)
+[2024-10-12T10:18:38.157+0800][debug][gc,ergo,cset] GC(181) Start adding old regions to collection set. Min 6 regions, max 13 regions, time remaining 48.82ms, optional threshold 9.76ms
+[2024-10-12T10:18:38.157+0800][debug][gc,ergo,cset] GC(181) Finish adding old regions to collection set (Maximum number of regions). Initial 13 regions, optional 0 regions
+[2024-10-12T10:18:38.157+0800][debug][gc,ergo,cset] GC(181) Finish choosing collection set old regions. Initial: 13, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.64
+[2024-10-12T10:18:38.423+0800][debug][gc,ergo,cset] GC(182) Start adding old regions to collection set. Min 6 regions, max 13 regions, time remaining 48.77ms, optional threshold 9.75ms
+[2024-10-12T10:18:38.423+0800][debug][gc,ergo,cset] GC(182) Finish adding old regions to collection set (Maximum number of regions). Initial 13 regions, optional 0 regions
+[2024-10-12T10:18:38.424+0800][debug][gc,ergo,cset] GC(182) Finish choosing collection set old regions. Initial: 13, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.27
+[2024-10-12T10:18:38.691+0800][debug][gc,ergo,cset] GC(183) Start adding old regions to collection set. Min 6 regions, max 13 regions, time remaining 48.75ms, optional threshold 9.75ms
+[2024-10-12T10:18:38.691+0800][debug][gc,ergo,cset] GC(183) Finish adding old regions to collection set (Maximum number of regions). Initial 13 regions, optional 0 regions
+[2024-10-12T10:18:38.691+0800][debug][gc,ergo,cset] GC(183) Finish choosing collection set old regions. Initial: 13, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 47.86
+[2024-10-12T10:18:38.958+0800][debug][gc,ergo,cset] GC(184) Start adding old regions to collection set. Min 6 regions, max 13 regions, time remaining 48.76ms, optional threshold 9.75ms
+[2024-10-12T10:18:38.958+0800][debug][gc,ergo,cset] GC(184) Old candidate collection set empty.
+[2024-10-12T10:18:38.958+0800][debug][gc,ergo,cset] GC(184) Finish choosing collection set old regions. Initial: 3, optional: 0, predicted old time: 0.00ms, predicted optional time: 0.00ms, time remaining: 48.47
